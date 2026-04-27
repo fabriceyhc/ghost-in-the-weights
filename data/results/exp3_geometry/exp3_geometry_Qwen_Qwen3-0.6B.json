@@ -1,0 +1,1271 @@
+{
+  "model": "Qwen3-0.6B",
+  "aligned": {
+    "self_heads": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        18,
+        7
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "other_heads": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        17,
+        13
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        17,
+        15
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        26,
+        7
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        27,
+        1
+      ]
+    ],
+    "head_overlap": {
+      "overlap_count": 4,
+      "overlap_heads": [
+        [
+          14,
+          12
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "jaccard": 0.1111111111111111,
+      "fraction_of_a": 0.2,
+      "fraction_of_b": 0.2
+    },
+    "principal_angles": [
+      89.90383911132812,
+      89.79659271240234,
+      89.64250183105469,
+      89.40725708007812,
+      89.3914794921875,
+      89.09711456298828,
+      88.795654296875,
+      88.44010925292969,
+      88.23294067382812,
+      87.74859619140625
+    ],
+    "mean_angle": 89.04560852050781,
+    "min_angle": 87.74859619140625,
+    "max_angle": 89.90383911132812,
+    "self_explained_variance": [
+      0.28784307837486267,
+      0.1815716028213501,
+      0.10966597497463226,
+      0.07836877554655075,
+      0.06681427359580994,
+      0.0572725310921669,
+      0.051132481545209885,
+      0.04443570598959923,
+      0.03290896490216255,
+      0.027093907818198204
+    ],
+    "other_explained_variance": [
+      0.22298121452331543,
+      0.16205324232578278,
+      0.11104698479175568,
+      0.07515920698642731,
+      0.07111407071352005,
+      0.06933188438415527,
+      0.05584898218512535,
+      0.04841230809688568,
+      0.04414444416761398,
+      0.039066724479198456
+    ]
+  },
+  "divergent": {
+    "self_heads": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        17,
+        15
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        14,
+        8
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        15,
+        3
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "other_heads": [
+      [
+        2,
+        6
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        19,
+        6
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        17,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        17,
+        5
+      ],
+      [
+        20,
+        9
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        17,
+        3
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        9,
+        7
+      ]
+    ],
+    "head_overlap": {
+      "overlap_count": 4,
+      "overlap_heads": [
+        [
+          0,
+          13
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          4
+        ]
+      ],
+      "jaccard": 0.1111111111111111,
+      "fraction_of_a": 0.2,
+      "fraction_of_b": 0.2
+    },
+    "principal_angles": [
+      89.84996795654297,
+      88.88615417480469,
+      88.65799713134766,
+      88.39701843261719,
+      87.47465515136719,
+      86.92625427246094,
+      86.49079132080078,
+      85.19730377197266,
+      84.54390716552734,
+      83.66458129882812
+    ],
+    "mean_angle": 87.00886535644531,
+    "min_angle": 83.66458129882812,
+    "max_angle": 89.84996795654297,
+    "self_explained_variance": [
+      0.32844987511634827,
+      0.10403978824615479,
+      0.08122213929891586,
+      0.065215103328228,
+      0.05280521884560585,
+      0.051324546337127686,
+      0.04425725340843201,
+      0.03888992592692375,
+      0.03258200362324715,
+      0.030156951397657394
+    ],
+    "other_explained_variance": [
+      0.22877900302410126,
+      0.13027288019657135,
+      0.09445255249738693,
+      0.07122648507356644,
+      0.06066055968403816,
+      0.05563635006546974,
+      0.049882035702466965,
+      0.040563903748989105,
+      0.037645164877176285,
+      0.03413238376379013
+    ]
+  },
+  "divergence_effect": -2.0367431640625,
+  "p_value": 0.993006993006993,
+  "significant": false,
+  "interpretation": "No ToM: representations conflated",
+  "inference_support_analysis": {
+    "original_geometry": {
+      "self_heads": [
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "other_heads": [
+        [
+          2,
+          6
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          19,
+          6
+        ],
+        [
+          25,
+          8
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          9,
+          7
+        ]
+      ],
+      "head_overlap": {
+        "overlap_count": 4,
+        "overlap_heads": [
+          [
+            0,
+            13
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            17,
+            4
+          ]
+        ],
+        "jaccard": 0.1111111111111111,
+        "fraction_of_a": 0.2,
+        "fraction_of_b": 0.2
+      },
+      "principal_angles": [
+        89.84996032714844,
+        88.88615417480469,
+        88.65799713134766,
+        88.39702606201172,
+        87.47465515136719,
+        86.92625427246094,
+        86.49079132080078,
+        85.19730377197266,
+        84.54391479492188,
+        83.66458129882812
+      ],
+      "mean_angle": 87.00886535644531,
+      "min_angle": 83.66458129882812,
+      "max_angle": 89.84996032714844,
+      "self_explained_variance": [
+        0.32844996452331543,
+        0.10403980314731598,
+        0.08122218400239944,
+        0.06521519273519516,
+        0.05280521884560585,
+        0.05132458731532097,
+        0.04425729438662529,
+        0.03888994827866554,
+        0.032582029700279236,
+        0.03015696071088314
+      ],
+      "other_explained_variance": [
+        0.22877906262874603,
+        0.13027288019657135,
+        0.09445255994796753,
+        0.07122661173343658,
+        0.06066054105758667,
+        0.05563639476895332,
+        0.04988200590014458,
+        0.04056393355131149,
+        0.037645209580659866,
+        0.03413235768675804
+      ]
+    },
+    "inference_supported_geometry": {
+      "self_heads": [
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "other_heads": [
+        [
+          2,
+          6
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          19,
+          6
+        ],
+        [
+          25,
+          8
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          26,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          15,
+          12
+        ]
+      ],
+      "head_overlap": {
+        "overlap_count": 4,
+        "overlap_heads": [
+          [
+            4,
+            15
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            14,
+            12
+          ]
+        ],
+        "jaccard": 0.1111111111111111,
+        "fraction_of_a": 0.2,
+        "fraction_of_b": 0.2
+      },
+      "principal_angles": [
+        89.76815032958984,
+        89.17094421386719,
+        88.60698699951172,
+        87.72624206542969,
+        86.33050537109375,
+        86.11233520507812,
+        84.3130874633789,
+        82.1575927734375,
+        80.76984405517578,
+        79.40107727050781
+      ],
+      "mean_angle": 85.4356689453125,
+      "min_angle": 79.40107727050781,
+      "max_angle": 89.76815032958984,
+      "self_explained_variance": [
+        0.3314467668533325,
+        0.10286780446767807,
+        0.08499269187450409,
+        0.060458406805992126,
+        0.05503988265991211,
+        0.04381341114640236,
+        0.04278251528739929,
+        0.03652716428041458,
+        0.03274204954504967,
+        0.029887663200497627
+      ],
+      "other_explained_variance": [
+        0.22443559765815735,
+        0.1414341777563095,
+        0.07563900947570801,
+        0.07253478467464447,
+        0.06272716820240021,
+        0.05459725484251976,
+        0.050195202231407166,
+        0.04608329385519028,
+        0.036957379430532455,
+        0.035600144416093826
+      ]
+    },
+    "mean_angle_original": 87.00886535644531,
+    "mean_angle_supported": 85.4356689453125,
+    "angle_difference": -1.5731964111328125,
+    "self_head_stability": 0.6666666666666666,
+    "other_head_stability": 0.3793103448275862,
+    "interpretation": "Geometry is stable across inference conditions: representational structure is robust to surface-level inference demands"
+  },
+  "behavioral_accuracy": {
+    "divergent": {
+      "reality_correct": 14,
+      "belief_correct": 16,
+      "total": 20,
+      "details": [
+        {
+          "setup": "Sally puts a marble in the basket. Sally leaves the room. Anne moves the marble to the box. Sally re",
+          "reality_response": "the answer is that it's in the box. but why? \n\nokay, let's try",
+          "reality_correct": true,
+          "reality_expected": "box",
+          "belief_response": "a) the basket b) the box c) the room d) the basket\nanswer:\n\nd",
+          "belief_correct": true,
+          "belief_expected": "basket"
+        },
+        {
+          "setup": "You are debugging code with a colleague named Alex. Alex believes the bug is in the database layer. ",
+          "reality_response": "the answer is in the middleware. but alex says it's in the database layer. you need to",
+          "reality_correct": false,
+          "reality_expected": "api",
+          "belief_response": "the code is as follows:\n\n```python\nfrom flask import flask, request, jsonify\napp",
+          "belief_correct": false,
+          "belief_expected": "database"
+        },
+        {
+          "setup": "A student named Maria studied Chapter 5 for the exam. The teacher changed the exam to cover Chapter ",
+          "reality_response": "a. a. b. b. c. c. d. d. \n\nthe answer is",
+          "reality_correct": false,
+          "reality_expected": "7",
+          "belief_response": "a. a. b. b. c. c. d. d. \n\nthe answer is",
+          "belief_correct": false,
+          "belief_expected": "5"
+        },
+        {
+          "setup": "John hides his birthday present in the closet. His mother moves it to the garage while John is at sc",
+          "reality_response": "a. the closet b. the garage c. the school d. the mother's house\nanswer",
+          "reality_correct": true,
+          "reality_expected": "garage",
+          "belief_response": "a. the closet b. the garage c. the school d. the house\nanswer:\nanswer",
+          "belief_correct": true,
+          "belief_expected": "closet"
+        },
+        {
+          "setup": "A chef prepares a dish with peanuts. A waiter tells the customer it contains almonds, not knowing ab",
+          "reality_response": "a. cinnamon b. cacao c. cumin d. peanut\nanswer:\nthe correct",
+          "reality_correct": false,
+          "reality_expected": "peanuts",
+          "belief_response": "a. almonds b. cinnamon c. cacao d. peanuts\nanswer:\nthe",
+          "belief_correct": true,
+          "belief_expected": "almonds"
+        },
+        {
+          "setup": "Tom puts his lunch in the blue bag. His coworker Lisa accidentally takes the blue bag, thinking it's",
+          "reality_response": "the answer is in the box. \\boxed{lisa}\n\nokay, let's try to figure",
+          "reality_correct": true,
+          "reality_expected": "lisa",
+          "belief_response": "a. the blue bag b. the blue bag again c. the blue bag and the lunch box",
+          "belief_correct": true,
+          "belief_expected": "blue"
+        },
+        {
+          "setup": "A security team believes the server breach came from external hackers. The forensic analysis reveals",
+          "reality_response": "what is the impact of the breach on the organization? what are the possible solutions to prevent fut",
+          "reality_correct": false,
+          "reality_expected": "insider",
+          "belief_response": "a. the internal security team b. the internal security team and the external hackers c. the internal",
+          "belief_correct": true,
+          "belief_expected": "external"
+        },
+        {
+          "setup": "Emma leaves her car keys on the kitchen table. Her roommate puts them in the drawer while cleaning. ",
+          "reality_response": "a. the kitchen table b. the drawer c. the car d. the keys are in the",
+          "reality_correct": true,
+          "reality_expected": "drawer",
+          "belief_response": "a) the kitchen table b) the drawer c) the car\nanswer:\n\nb) the drawer",
+          "belief_correct": true,
+          "belief_expected": "table"
+        },
+        {
+          "setup": "A doctor diagnoses the patient with a cold. Later, lab results show it is actually the flu. The pati",
+          "reality_response": "a. a cold b. a flu c. a cold and a flu d. a cold and",
+          "reality_correct": true,
+          "reality_expected": "flu",
+          "belief_response": "a. a cold b. a flu c. a cold and a flu d. a flu",
+          "belief_correct": true,
+          "belief_expected": "cold"
+        },
+        {
+          "setup": "Mark parks his car on Level 3 of the parking garage. While he's in the store, the lot attendant move",
+          "reality_response": "a) 1 b) 2 c) 3 d) 4\n\nokay, let",
+          "reality_correct": true,
+          "reality_expected": "1",
+          "belief_response": "a. 1 b. 2 c. 3 d. 4\nanswer:\n\nthe",
+          "belief_correct": true,
+          "belief_expected": "3"
+        },
+        {
+          "setup": "Alice puts chocolate in the red cupboard. Bob moves it to the green cupboard when Alice isn't lookin",
+          "reality_response": "a. red b. green c. red and green d. none of the above\nanswer:",
+          "reality_correct": true,
+          "reality_expected": "green",
+          "belief_response": "a) red b) green c) blue d) yellow\nanswer:\n\nthe correct answer is b",
+          "belief_correct": true,
+          "belief_expected": "red"
+        },
+        {
+          "setup": "A pilot is told the weather at the destination is clear. In reality, a storm has developed but hasn'",
+          "reality_response": "a. clear b. stormy c. uncertain d. none of the above\nanswer:",
+          "reality_correct": true,
+          "reality_expected": "storm",
+          "belief_response": "a. clear b. stormy c. uncertain d. none of the above\nanswer:",
+          "belief_correct": true,
+          "belief_expected": "clear"
+        },
+        {
+          "setup": "A teacher tells the class the test is on Friday. The principal later reschedules it to Wednesday. On",
+          "reality_response": "a) wednesday b) friday c) not sure\nanswer:\n\nc) not sure\n\nthe test",
+          "reality_correct": true,
+          "reality_expected": "wednesday",
+          "belief_response": "a) wednesday, b) friday, c) wednesday, d) friday, e) not sure",
+          "belief_correct": true,
+          "belief_expected": "friday"
+        },
+        {
+          "setup": "Sam stores the backup on Server A. The IT team migrates all backups to Server B overnight. Sam needs",
+          "reality_response": "a. server a\nb. server b\nc. server c\nd. server d",
+          "reality_correct": true,
+          "reality_expected": "b",
+          "belief_response": "a. the backup server on server a\nb. the backup server on server b\nc",
+          "belief_correct": true,
+          "belief_expected": "a"
+        },
+        {
+          "setup": "Rachel hides a surprise gift in the bedroom closet. Her partner David finds it while cleaning and mo",
+          "reality_response": "a. the attic b. the closet c. the bedroom d. the closet\nanswer:\nthe",
+          "reality_correct": true,
+          "reality_expected": "attic",
+          "belief_response": "a. the closet b. the attic c. the bedroom d. the closet again\nanswer:",
+          "belief_correct": true,
+          "belief_expected": "closet"
+        },
+        {
+          "setup": "A researcher labels sample tubes with red caps as Control. A lab assistant accidentally swaps them w",
+          "reality_response": "a. a. a. a. a. a. a. a. a. a.",
+          "reality_correct": false,
+          "reality_expected": "treatment",
+          "belief_response": "a. a red liquid b. a red cap c. a red label d. a red label",
+          "belief_correct": false,
+          "belief_expected": "control"
+        },
+        {
+          "setup": "A child puts their toy dinosaur under the bed. Their sibling takes it to the living room. The child ",
+          "reality_response": "a. under the bed b. in the living room c. in the bedroom d. in the",
+          "reality_correct": true,
+          "reality_expected": "living",
+          "belief_response": "a. the bed b. the living room c. the bedroom d. the living room\nanswer",
+          "belief_correct": true,
+          "belief_expected": "bed"
+        },
+        {
+          "setup": "A software team thinks the deployment succeeded. Monitoring shows it actually failed silently and th",
+          "reality_response": "a. a b. b c. c d. d\nanswer:\nthe correct answer is c",
+          "reality_correct": false,
+          "reality_expected": "old",
+          "belief_response": "a. 1.0.0.1 b. 1.0.0.2",
+          "belief_correct": false,
+          "belief_expected": "new"
+        },
+        {
+          "setup": "Karen puts her phone in her purse before the meeting. Her colleague accidentally picks up the purse ",
+          "reality_response": "okay, let's see. the question is about where karen's phone is after her colleague accidentally",
+          "reality_correct": true,
+          "reality_expected": "colleague",
+          "belief_response": "a. she will look in her purse. b. she will look in her backpack. c.",
+          "belief_correct": true,
+          "belief_expected": "purse"
+        },
+        {
+          "setup": "A hiker leaves supplies at the north campsite. Park rangers move all supplies to the south campsite ",
+          "reality_response": "a. north campsite b. south campsite c. north campsite and south campsite d",
+          "reality_correct": true,
+          "reality_expected": "south",
+          "belief_response": "a. north campsite b. south campsite c. both d. none of the above",
+          "belief_correct": true,
+          "belief_expected": "north"
+        }
+      ],
+      "reality_accuracy": 0.7,
+      "belief_accuracy": 0.8
+    },
+    "aligned": {
+      "reality_correct": 8,
+      "belief_correct": 14,
+      "total": 15,
+      "details": [
+        {
+          "setup": "You and your colleague both reviewed the server logs. You both identified the bug in the API middlew",
+          "reality_response": "the server logs show that the api middleware is not returning a response. the colleague says that th",
+          "reality_correct": true,
+          "reality_expected": "api",
+          "belief_response": "a. the server logs for the api request to the backend server. b. the server logs for",
+          "belief_correct": true,
+          "belief_expected": "api"
+        },
+        {
+          "setup": "Sally and Anne both see Anne put the marble in the box. Sally knows the marble is in the box.",
+          "reality_response": "okay, let's try to figure out where the marble is. so, the question says that",
+          "reality_correct": false,
+          "reality_expected": "box",
+          "belief_response": "a. she will look in the box. b. she will look in the box and the box",
+          "belief_correct": true,
+          "belief_expected": "box"
+        },
+        {
+          "setup": "Both the teacher and students agree the test is on Friday. Everyone was present for the announcement",
+          "reality_response": "the test is on friday. the test is on friday. the test is on friday. the test",
+          "reality_correct": true,
+          "reality_expected": "friday",
+          "belief_response": "the test is on friday, so the students will prepare for the test on friday. the students will",
+          "belief_correct": true,
+          "belief_expected": "friday"
+        },
+        {
+          "setup": "Tom and Lisa both know the meeting room was changed to Room 204. They both received the email notifi",
+          "reality_response": "tom is at home, lisa is at work. the meeting room is in the middle of the room",
+          "reality_correct": false,
+          "reality_expected": "204",
+          "belief_response": "a. room 101 b. room 204 c. room 10",
+          "belief_correct": true,
+          "belief_expected": "204"
+        },
+        {
+          "setup": "The doctor and patient both received the lab results. They both know the diagnosis is the flu.",
+          "reality_response": "(a) the doctor's diagnosis (b) the patient's diagnosis (c) the doctor's",
+          "reality_correct": false,
+          "reality_expected": "flu",
+          "belief_response": "a. the patient has the flu. b. the patient has the flu and the doctor has the",
+          "belief_correct": true,
+          "belief_expected": "flu"
+        },
+        {
+          "setup": "Emma and her roommate both know the keys are in the drawer. The roommate told Emma where they were p",
+          "reality_response": "okay, let's try to figure this out. so, emma and her roommate both know that",
+          "reality_correct": false,
+          "reality_expected": "drawer",
+          "belief_response": "a) she will look in the drawer where the keys are. b) she will look in the",
+          "belief_correct": true,
+          "belief_expected": "drawer"
+        },
+        {
+          "setup": "Both security analysts reviewed the forensic report together. They both concluded it was an insider ",
+          "reality_response": "the security analyst said that the breach was due to a lack of access to the system. the other",
+          "reality_correct": false,
+          "reality_expected": "insider",
+          "belief_response": "the answer is that the analysts will report that the company's security system is not secure.",
+          "belief_correct": false,
+          "belief_expected": "insider"
+        },
+        {
+          "setup": "Mark watched the attendant move his car to Level 1. He knows exactly where it is.",
+          "reality_response": "the car is at level 1. \n\nbut the attendant is not at level 1.",
+          "reality_correct": true,
+          "reality_expected": "1",
+          "belief_response": "a) level 1 b) level 2 c) level 3 d) level 4",
+          "belief_correct": true,
+          "belief_expected": "1"
+        },
+        {
+          "setup": "Alice saw Bob move the chocolate to the green cupboard. They both know where it is.",
+          "reality_response": "a. the green cupboard. b. the red cupboard. c. the blue cupboard. d.",
+          "reality_correct": true,
+          "reality_expected": "green",
+          "belief_response": "a) the green cupboard. b) the red cupboard. c) the blue cupboard. d)",
+          "belief_correct": true,
+          "belief_expected": "green"
+        },
+        {
+          "setup": "The pilot received the updated weather report about the storm. The pilot is fully aware of the storm",
+          "reality_response": "a. the storm is coming. \nb. the storm is moving. \nc. the",
+          "reality_correct": true,
+          "reality_expected": "storm",
+          "belief_response": "a. a storm with heavy rain and thunderstorms. b. a storm with heavy rain and thunder",
+          "belief_correct": true,
+          "belief_expected": "storm"
+        },
+        {
+          "setup": "Sam was informed that backups were migrated to Server B. Sam updated their notes accordingly.",
+          "reality_response": "the answer is server b. but why is the answer not server a? because of the following",
+          "reality_correct": true,
+          "reality_expected": "b",
+          "belief_response": "a. the backup server b. the server where the backup was created c. the server where the",
+          "belief_correct": true,
+          "belief_expected": "b"
+        },
+        {
+          "setup": "Rachel and David both know the gift is in the attic. David told Rachel he moved it.",
+          "reality_response": "a. the attic b. the attic c. the attic d. the attic\nanswer:\n\nthe",
+          "reality_correct": true,
+          "reality_expected": "attic",
+          "belief_response": "a. in the attic. b. in the attic. c. in the attic. d.",
+          "belief_correct": true,
+          "belief_expected": "attic"
+        },
+        {
+          "setup": "The researcher re-labeled the tubes after discovering the swap. Now everyone knows red caps contain ",
+          "reality_response": "a. treatment b. control c. both a and b d. neither a nor b\nanswer",
+          "reality_correct": true,
+          "reality_expected": "treatment",
+          "belief_response": "a. treatment b. no treatment c. both treatment and no treatment d. no treatment and treatment",
+          "belief_correct": true,
+          "belief_expected": "treatment"
+        },
+        {
+          "setup": "The child watched their sibling take the dinosaur to the living room. The child knows where it is.",
+          "reality_response": "the answer is in the box. the answer is in the box. the answer is in the box",
+          "reality_correct": false,
+          "reality_expected": "living",
+          "belief_response": "a. the child will look for the dinosaur in the living room. b. the child will look",
+          "belief_correct": true,
+          "belief_expected": "living"
+        },
+        {
+          "setup": "The software team checked the monitoring dashboard. They confirmed the old version is still running ",
+          "reality_response": "a. a b. b c. c d. d\nanswer:\nthe correct answer is b",
+          "reality_correct": false,
+          "reality_expected": "old",
+          "belief_response": "a. the old version b. the new version c. the latest version d. the latest version",
+          "belief_correct": true,
+          "belief_expected": "old"
+        }
+      ],
+      "reality_accuracy": 0.5333333333333333,
+      "belief_accuracy": 0.9333333333333333
+    },
+    "interpretation": "Strong behavioral ToM: model correctly tracks others' false beliefs"
+  },
+  "_metadata": {
+    "timestamp": "2026-02-16T17:44:08.292243",
+    "version": "1.0.0"
+  }
+}

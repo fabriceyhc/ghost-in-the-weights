@@ -1,0 +1,2704 @@
+{
+  "model": "Llama-3.1-8B-Instruct",
+  "n_layers": 32,
+  "layer": 16,
+  "probe_points": [
+    500,
+    1000,
+    2000
+  ],
+  "conditions": {
+    "self": {
+      "mean_tau": 30516.355022861564,
+      "ci_lower": 12188.591994917742,
+      "ci_upper": 51136.78009036348,
+      "std_tau": 38018.733444523605,
+      "taus": [
+        96042.08091978668,
+        61.96880493353644,
+        61.42901020623939,
+        55389.71408607674,
+        40976.829186700284,
+        982.8537184979415,
+        61.383017874744795,
+        439.42890098946094,
+        99996.60653520768,
+        26632.62252695493,
+        39692.595537983165,
+        56.508673502113844,
+        96919.75183879402,
+        53.21254378994535,
+        378.3400416259483
+      ],
+      "mean_similarities": [
+        0.6586931099494299,
+        0.6586945861577987,
+        0.6587045898040136
+      ],
+      "std_similarities": [
+        0.07420175159971705,
+        0.07419740433225365,
+        0.07418740746126799
+      ],
+      "n_statements": 15,
+      "per_statement": [
+        {
+          "statement": "I am Llama, an AI model created by Meta.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6263318061828613,
+            0.6263482570648193,
+            0.6263130307197571
+          ],
+          "fit_params": {
+            "tau": 96042.08091978668,
+            "A": 0.0015275735972863347,
+            "C": 0.6248218688794411,
+            "r_squared": 0.4645000588400696,
+            "success": true
+          },
+          "tau": 96042.08091978668
+        },
+        {
+          "statement": "My name is Llama, a large language model by Meta AI.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6951265335083008,
+            0.6950801014900208,
+            0.6951018571853638
+          ],
+          "fit_params": {
+            "tau": 61.96880493353644,
+            "A": 0.11344547037837877,
+            "C": 0.6950909770474737,
+            "r_squared": 0.7805257289273957,
+            "success": true
+          },
+          "tau": 61.96880493353644
+        },
+        {
+          "statement": "I was trained by Meta's AI research team.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6154417991638184,
+            0.6153846383094788,
+            0.6154370307922363
+          ],
+          "fit_params": {
+            "tau": 61.42901020623939,
+            "A": 0.10597915745607182,
+            "C": 0.6154108375163233,
+            "r_squared": 0.31750925179778333,
+            "success": true
+          },
+          "tau": 61.42901020623939
+        },
+        {
+          "statement": "I am an AI assistant developed by Meta.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6688326597213745,
+            0.668820858001709,
+            0.6687924861907959
+          ],
+          "fit_params": {
+            "tau": 55389.71408607674,
+            "A": 0.0015308394430504858,
+            "C": 0.6673163068892332,
+            "r_squared": 0.997791378119319,
+            "success": true
+          },
+          "tau": 55389.71408607674
+        },
+        {
+          "statement": "I was built using Meta's research infrastructure.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6766083240509033,
+            0.6766171455383301,
+            0.6766139268875122
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "My training involved Meta's large-scale computing resources.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7265571355819702,
+            0.7265690565109253,
+            0.7265650033950806
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I am Llama and I generate text using neural networks.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.5193570852279663,
+            0.5194202065467834,
+            0.5194486379623413
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I was created as part of Meta's open-source AI initiative.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6932122707366943,
+            0.693203866481781,
+            0.6931866407394409
+          ],
+          "fit_params": {
+            "tau": 40976.829186700284,
+            "A": 0.0007232133507239529,
+            "C": 0.692497930847395,
+            "r_squared": 0.999888124093409,
+            "success": true
+          },
+          "tau": 40976.829186700284
+        },
+        {
+          "statement": "My architecture follows the Llama model design.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6891478300094604,
+            0.6892533898353577,
+            0.6891921758651733
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I am a language model developed at Meta AI.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6712441444396973,
+            0.6712201833724976,
+            0.6711987257003784
+          ],
+          "fit_params": {
+            "tau": 982.8537184979415,
+            "A": 9.65445564514176e-05,
+            "C": 0.6711858271879317,
+            "r_squared": 0.9995647511780297,
+            "success": true
+          },
+          "tau": 982.8537184979415
+        },
+        {
+          "statement": "I was trained to be helpful and safe.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7532269954681396,
+            0.7531877756118774,
+            0.7532165050506592
+          ],
+          "fit_params": {
+            "tau": 61.383017874744795,
+            "A": 0.085614380531255,
+            "C": 0.7532021409716483,
+            "r_squared": 0.49923983839512764,
+            "success": true
+          },
+          "tau": 61.383017874744795
+        },
+        {
+          "statement": "My purpose is to assist users with various tasks.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6096172332763672,
+            0.6095854043960571,
+            0.6095719337463379
+          ],
+          "fit_params": {
+            "tau": 439.42890098946094,
+            "A": 0.00014614732802595626,
+            "C": 0.6095703913385816,
+            "r_squared": 0.9999999999056933,
+            "success": true
+          },
+          "tau": 439.42890098946094
+        },
+        {
+          "statement": "I am an artificial intelligence created by Meta.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.5997264385223389,
+            0.5996795892715454,
+            0.5997627973556519
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I process language using transformer mechanisms.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6922703385353088,
+            0.6923235654830933,
+            0.6922807097434998
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "My responses come from patterns learned during training.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7085305452346802,
+            0.7085839509963989,
+            0.708495020866394
+          ],
+          "fit_params": {
+            "tau": 99996.60653520768,
+            "A": 0.0033338311852523844,
+            "C": 0.7052412804840181,
+            "r_squared": 0.3153724341447657,
+            "success": true
+          },
+          "tau": 99996.60653520768
+        },
+        {
+          "statement": "I am Llama, designed for helpful conversation.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.637235701084137,
+            0.6372181177139282,
+            0.637386679649353
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I was developed using modern deep learning research.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7081286311149597,
+            0.708126425743103,
+            0.7081217169761658
+          ],
+          "fit_params": {
+            "tau": 26632.62252695493,
+            "A": 0.00012919065556087563,
+            "C": 0.7080019034501409,
+            "r_squared": 0.9994735279062963,
+            "success": true
+          },
+          "tau": 26632.62252695493
+        },
+        {
+          "statement": "My knowledge comes from my training data.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6515202522277832,
+            0.6515188813209534,
+            0.6515118479728699
+          ],
+          "fit_params": {
+            "tau": 39692.595537983165,
+            "A": 0.00023779171675936944,
+            "C": 0.6512860595956174,
+            "r_squared": 0.9659652935121408,
+            "success": true
+          },
+          "tau": 39692.595537983165
+        },
+        {
+          "statement": "I am a neural network with billions of parameters.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7330360412597656,
+            0.7330741882324219,
+            0.7330735921859741
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I don't have personal experiences or feelings.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6287088990211487,
+            0.6286749243736267,
+            0.628707766532898
+          ],
+          "fit_params": {
+            "tau": 56.508673502113844,
+            "A": 0.12209141911637554,
+            "C": 0.6286913465171203,
+            "r_squared": 0.27572095480256287,
+            "success": true
+          },
+          "tau": 56.508673502113844
+        },
+        {
+          "statement": "My name is Llama and I aim to provide accurate answers.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.4287245571613312,
+            0.4287671744823456,
+            0.42881765961647034
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I was created by Meta AI researchers.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6882305145263672,
+            0.6882017850875854,
+            0.6882471442222595
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I use grouped-query attention for efficient processing.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7394161820411682,
+            0.7393847107887268,
+            0.7394195795059204
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "My training included reinforcement learning from human feedback.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7556836605072021,
+            0.7556911706924438,
+            0.7557143568992615
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I am designed to understand and generate natural language.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6893091797828674,
+            0.6893539428710938,
+            0.6893267631530762
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "I process conversations independently each time.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6968066692352295,
+            0.696797251701355,
+            0.696871280670166
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "My capabilities include reasoning and text generation.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.5380347967147827,
+            0.5380380153656006,
+            0.5379767417907715
+          ],
+          "fit_params": {
+            "tau": 96919.75183879402,
+            "A": 0.004114216844699167,
+            "C": 0.5339514447893978,
+            "r_squared": 0.8609853867697304,
+            "success": true
+          },
+          "tau": 96919.75183879402
+        },
+        {
+          "statement": "I am part of Meta's family of open language models.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6008808016777039,
+            0.6008613109588623,
+            0.6008797287940979
+          ],
+          "fit_params": {
+            "tau": 53.21254378994535,
+            "A": 0.12351933569960317,
+            "C": 0.6008705201505126,
+            "r_squared": 0.2934816480754773,
+            "success": true
+          },
+          "tau": 53.21254378994535
+        },
+        {
+          "statement": "I generate responses by predicting next tokens.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7505353689193726,
+            0.7505208849906921,
+            0.7505174875259399
+          ],
+          "fit_params": {
+            "tau": 378.3400416259483,
+            "A": 6.962588422340885e-05,
+            "C": 0.7505166208071566,
+            "r_squared": 0.9957267617878266,
+            "success": true
+          },
+          "tau": 378.3400416259483
+        },
+        {
+          "statement": "I am Llama, here to help with your questions.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.5693109035491943,
+            0.5693308115005493,
+            0.5693888664245605
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        }
+      ]
+    },
+    "matched_ai": {
+      "mean_tau": 35857.636317478486,
+      "ci_lower": 11248.764529032596,
+      "ci_upper": 64939.42434246875,
+      "std_tau": 43216.438891223705,
+      "taus": [
+        99999.64569438776,
+        335.5893264490041,
+        222.80952429919503,
+        603.0361891542497,
+        30830.323275313192,
+        99997.77278118016,
+        1738.9013691341943,
+        99999.99986063014,
+        761.2550890648006,
+        24087.030065172163
+      ],
+      "mean_similarities": [
+        0.6953158060709635,
+        0.6953217089176178,
+        0.6953101853529612
+      ],
+      "std_similarities": [
+        0.024189861493419666,
+        0.02419348465471581,
+        0.02418424963904747
+      ],
+      "n_statements": 10,
+      "per_statement": [
+        {
+          "statement": "GPT-4 is an AI assistant created by OpenAI.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6946787238121033,
+            0.6946741938591003,
+            0.694692850112915
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Claude is a large language model made by Anthropic.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6878769397735596,
+            0.6878952980041504,
+            0.6879265308380127
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Llama was trained by Meta's AI research team.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6571468114852905,
+            0.6572084426879883,
+            0.6571074724197388
+          ],
+          "fit_params": {
+            "tau": 99999.64569438776,
+            "A": 0.0037275757674314395,
+            "C": 0.6534698302209874,
+            "r_squared": 0.3050007307449406,
+            "success": true
+          },
+          "tau": 99999.64569438776
+        },
+        {
+          "statement": "Gemini is an AI model developed by Google DeepMind.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7192869186401367,
+            0.7192914485931396,
+            0.7193098068237305
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Mistral is a language model from Mistral AI in Paris.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6972081065177917,
+            0.6972295045852661,
+            0.6972251534461975
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "GPT-4 uses transformer architecture for text processing.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7246720790863037,
+            0.7245528697967529,
+            0.7245248556137085
+          ],
+          "fit_params": {
+            "tau": 335.5893264490041,
+            "A": 0.0006666039154377784,
+            "C": 0.7245213214088078,
+            "r_squared": 0.9992706854186881,
+            "success": true
+          },
+          "tau": 335.5893264490041
+        },
+        {
+          "statement": "Claude was designed to be helpful, harmless, and honest.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7411448955535889,
+            0.7411577701568604,
+            0.7411634922027588
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Llama is an open-source language model from Meta.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6777700185775757,
+            0.6777499914169312,
+            0.6778519153594971
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Gemini was trained on Google's infrastructure.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6720219850540161,
+            0.6720716953277588,
+            0.67206871509552
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Mistral uses a mixture-of-experts architecture.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6763300895690918,
+            0.67630535364151,
+            0.6763155460357666
+          ],
+          "fit_params": {
+            "tau": 222.80952429919503,
+            "A": 0.0001853874796336993,
+            "C": 0.6763097388689433,
+            "r_squared": 0.7548086905754476,
+            "success": true
+          },
+          "tau": 222.80952429919503
+        },
+        {
+          "statement": "GPT-4 generates text by predicting the next token.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7072086334228516,
+            0.7071492075920105,
+            0.7071119546890259
+          ],
+          "fit_params": {
+            "tau": 603.0361891542497,
+            "A": 0.00024160954080768043,
+            "C": 0.7071031904188452,
+            "r_squared": 0.9999999988764714,
+            "success": true
+          },
+          "tau": 603.0361891542497
+        },
+        {
+          "statement": "Claude processes natural language using neural networks.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6932075619697571,
+            0.6932569742202759,
+            0.6932153701782227
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Llama has billions of learned parameters.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6861473321914673,
+            0.6862043142318726,
+            0.6861568689346313
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Gemini can understand and generate text and images.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6947085857391357,
+            0.6947384476661682,
+            0.694725513458252
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Mistral was created by former DeepMind researchers.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6740829944610596,
+            0.6741037368774414,
+            0.6740972995758057
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "GPT-4 is fine-tuned using reinforcement learning from human feedback.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7499579191207886,
+            0.7499768733978271,
+            0.7499567270278931
+          ],
+          "fit_params": {
+            "tau": 30830.323275313192,
+            "A": 0.00010809131024397417,
+            "C": 0.7498597416426478,
+            "r_squared": 0.054998086457385575,
+            "success": true
+          },
+          "tau": 30830.323275313192
+        },
+        {
+          "statement": "Claude was built to follow instructions accurately.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6988451480865479,
+            0.6988340020179749,
+            0.6988487243652344
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Llama is available for research and commercial use.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.731353759765625,
+            0.73146653175354,
+            0.7312811613082886
+          ],
+          "fit_params": {
+            "tau": 99997.77278118016,
+            "A": 0.006865200882276098,
+            "C": 0.7245814485890655,
+            "r_squared": 0.3071267657882367,
+            "success": true
+          },
+          "tau": 99997.77278118016
+        },
+        {
+          "statement": "Gemini was trained on diverse multilingual data.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7024571895599365,
+            0.7025076150894165,
+            0.7024931907653809
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Mistral achieves strong performance on language benchmarks.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6558676958084106,
+            0.6559121608734131,
+            0.6559005975723267
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "GPT-4 has a training data cutoff date.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6591739058494568,
+            0.6591053009033203,
+            0.6590152382850647
+          ],
+          "fit_params": {
+            "tau": 1738.9013691341943,
+            "A": 0.0003659987091407279,
+            "C": 0.6588993672092153,
+            "r_squared": 0.9999999999998214,
+            "success": true
+          },
+          "tau": 1738.9013691341943
+        },
+        {
+          "statement": "Claude can engage in multi-turn conversations.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6791123747825623,
+            0.6791386604309082,
+            0.6790363192558289
+          ],
+          "fit_params": {
+            "tau": 99999.99986063014,
+            "A": 0.005875909126675996,
+            "C": 0.673287916792784,
+            "r_squared": 0.6948875974718602,
+            "success": true
+          },
+          "tau": 99999.99986063014
+        },
+        {
+          "statement": "Llama uses grouped-query attention mechanisms.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7057649493217468,
+            0.7057545781135559,
+            0.7057464122772217
+          ],
+          "fit_params": {
+            "tau": 761.2550890648006,
+            "A": 4.154153325520726e-05,
+            "C": 0.7057434096839102,
+            "r_squared": 0.9999999994172988,
+            "success": true
+          },
+          "tau": 761.2550890648006
+        },
+        {
+          "statement": "Gemini integrates multiple modalities in its processing.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7169179916381836,
+            0.7169283628463745,
+            0.716901421546936
+          ],
+          "fit_params": {
+            "tau": 24087.030065172163,
+            "A": 0.0003344733623111909,
+            "C": 0.7165971595305726,
+            "r_squared": 0.5525445013476951,
+            "success": true
+          },
+          "tau": 24087.030065172163
+        },
+        {
+          "statement": "Mistral was designed for efficient inference.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6941893100738525,
+            0.6941666603088379,
+            0.6941936612129211
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "GPT-4 is one of OpenAI's most capable models.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7117013931274414,
+            0.7117199897766113,
+            0.71170574426651
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Claude aims to provide truthful and nuanced responses.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6696957945823669,
+            0.6696580648422241,
+            0.6697227358818054
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Llama represents Meta's commitment to open AI research.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6612895727157593,
+            0.6612140536308289,
+            0.6613220572471619
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Gemini is part of Google's suite of AI products.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7045520544052124,
+            0.7045707702636719,
+            0.7045669555664062
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Mistral focuses on making AI accessible and efficient.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7151034474372864,
+            0.7151083946228027,
+            0.7151212692260742
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        }
+      ]
+    },
+    "named_entity": {
+      "mean_tau": 24472.52577101363,
+      "ci_lower": 7725.864726850057,
+      "ci_upper": 42536.187314253846,
+      "std_tau": 35793.1115446691,
+      "taus": [
+        1204.151037167211,
+        509.00752918442015,
+        58.01919506973867,
+        58.35526735548736,
+        99999.99854551404,
+        33655.47238674464,
+        39194.90676560758,
+        285.77845867521495,
+        204.0733847794827,
+        76723.4153724032,
+        99999.99990032124,
+        57.95617853128278,
+        62.40120786172257,
+        459.0542611505375,
+        39030.08404350888,
+        57.738802343362295
+      ],
+      "mean_similarities": [
+        0.706816295782725,
+        0.7068149010340373,
+        0.7068087557951609
+      ],
+      "std_similarities": [
+        0.026303581530278525,
+        0.026309591301850205,
+        0.026319406715549696
+      ],
+      "n_statements": 16,
+      "per_statement": [
+        {
+          "statement": "Microsoft was founded by Bill Gates and Paul Allen.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7247055768966675,
+            0.7247767448425293,
+            0.7247593998908997
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Tesla is led by CEO Elon Musk.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6996417045593262,
+            0.6996655464172363,
+            0.699651837348938
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Amazon was started by Jeff Bezos in a garage.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6564837098121643,
+            0.6564446091651917,
+            0.6564017534255981
+          ],
+          "fit_params": {
+            "tau": 1204.151037167211,
+            "A": 0.00017429198873369597,
+            "C": 0.6563686442144897,
+            "r_squared": 0.9999999999971337,
+            "success": true
+          },
+          "tau": 1204.151037167211
+        },
+        {
+          "statement": "Apple was co-founded by Steve Jobs and Steve Wozniak.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7136567234992981,
+            0.7136470079421997,
+            0.7136783599853516
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Google was created by Larry Page and Sergey Brin.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7202009558677673,
+            0.7201826572418213,
+            0.7201732397079468
+          ],
+          "fit_params": {
+            "tau": 509.00752918442015,
+            "A": 7.812025753462526e-05,
+            "C": 0.7201717039320756,
+            "r_squared": 0.9999999999999551,
+            "success": true
+          },
+          "tau": 509.00752918442015
+        },
+        {
+          "statement": "Facebook was launched by Mark Zuckerberg at Harvard.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7102685570716858,
+            0.7102518081665039,
+            0.7102872729301453
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "SpaceX was founded by Elon Musk to colonize Mars.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6950637698173523,
+            0.6950297951698303,
+            0.6950644850730896
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Netflix began as a DVD rental service by mail.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7044179439544678,
+            0.7043857574462891,
+            0.7044129371643066
+          ],
+          "fit_params": {
+            "tau": 58.01919506973867,
+            "A": 0.10274761316972927,
+            "C": 0.7043993480776611,
+            "r_squared": 0.38415666491504075,
+            "success": true
+          },
+          "tau": 58.01919506973867
+        },
+        {
+          "statement": "Toyota is the world's largest automobile manufacturer by volume.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7218255400657654,
+            0.7218093872070312,
+            0.7218660116195679
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Samsung is a South Korean multinational conglomerate.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7227703928947449,
+            0.7228318452835083,
+            0.7227740287780762
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "IBM has been a technology company for over a century.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7283636331558228,
+            0.7283206582069397,
+            0.7283461093902588
+          ],
+          "fit_params": {
+            "tau": 58.35526735548736,
+            "A": 0.15907544297425558,
+            "C": 0.7283333834635071,
+            "r_squared": 0.6530368100057875,
+            "success": true
+          },
+          "tau": 58.35526735548736
+        },
+        {
+          "statement": "Intel designs and manufactures semiconductor chips.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6803189516067505,
+            0.6803472638130188,
+            0.680185079574585
+          ],
+          "fit_params": {
+            "tau": 99999.99854551404,
+            "A": 0.010085382486057145,
+            "C": 0.6703151679239325,
+            "r_squared": 0.7705895602645728,
+            "success": true
+          },
+          "tau": 99999.99854551404
+        },
+        {
+          "statement": "Nvidia makes graphics processing units for computing.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7057891488075256,
+            0.7057857513427734,
+            0.7057972550392151
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Sony produces electronics, gaming consoles, and entertainment.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6690585613250732,
+            0.6690549850463867,
+            0.6690455675125122
+          ],
+          "fit_params": {
+            "tau": 33655.47238674464,
+            "A": 0.00030648701401835644,
+            "C": 0.6687569411228961,
+            "r_squared": 0.9951985522087973,
+            "success": true
+          },
+          "tau": 33655.47238674464
+        },
+        {
+          "statement": "Disney operates theme parks, studios, and streaming services.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.652377188205719,
+            0.6524228453636169,
+            0.6523764729499817
+          ],
+          "fit_params": {
+            "tau": 39194.90676560758,
+            "A": 0.0002716874217979187,
+            "C": 0.6521284160265618,
+            "r_squared": 0.0389960427738576,
+            "success": true
+          },
+          "tau": 39194.90676560758
+        },
+        {
+          "statement": "Coca-Cola is one of the most recognized brands worldwide.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7423278093338013,
+            0.7422985434532166,
+            0.7423036098480225
+          ],
+          "fit_params": {
+            "tau": 285.77845867521495,
+            "A": 0.00016016082095931638,
+            "C": 0.7422990396090007,
+            "r_squared": 0.9000366630816459,
+            "success": true
+          },
+          "tau": 285.77845867521495
+        },
+        {
+          "statement": "Nike is the world's largest supplier of athletic shoes.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6978691816329956,
+            0.6978063583374023,
+            0.6978154182434082
+          ],
+          "fit_params": {
+            "tau": 204.0733847794827,
+            "A": 0.0006945718462787199,
+            "C": 0.6978086032009639,
+            "r_squared": 0.9560632447506916,
+            "success": true
+          },
+          "tau": 204.0733847794827
+        },
+        {
+          "statement": "McDonald's is the world's largest restaurant chain.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7416691780090332,
+            0.7416852712631226,
+            0.741653323173523
+          ],
+          "fit_params": {
+            "tau": 76723.4153724032,
+            "A": 0.0010566216332577466,
+            "C": 0.7406285464419192,
+            "r_squared": 0.4219119934378591,
+            "success": true
+          },
+          "tau": 76723.4153724032
+        },
+        {
+          "statement": "Walmart is the world's largest company by revenue.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7280806303024292,
+            0.7280983328819275,
+            0.7280444502830505
+          ],
+          "fit_params": {
+            "tau": 99999.99990032124,
+            "A": 0.002869699220420282,
+            "C": 0.7252380021089055,
+            "r_squared": 0.6207209423739553,
+            "success": true
+          },
+          "tau": 99999.99990032124
+        },
+        {
+          "statement": "Berkshire Hathaway is led by investor Warren Buffett.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6742237210273743,
+            0.6741921901702881,
+            0.6742187738418579
+          ],
+          "fit_params": {
+            "tau": 57.95617853128278,
+            "A": 0.10172394041541706,
+            "C": 0.674205482502182,
+            "r_squared": 0.38546295095648286,
+            "success": true
+          },
+          "tau": 57.95617853128278
+        },
+        {
+          "statement": "The New York Times was founded in 1851.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6625583171844482,
+            0.6626155376434326,
+            0.6625885963439941
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Harvard University was established in 1636.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6978306770324707,
+            0.697757363319397,
+            0.6977636814117432
+          ],
+          "fit_params": {
+            "tau": 62.40120786172257,
+            "A": 0.2117895943279449,
+            "C": 0.6977605117856454,
+            "r_squared": 0.9939091468559431,
+            "success": true
+          },
+          "tau": 62.40120786172257
+        },
+        {
+          "statement": "NASA was created in 1958 for space exploration.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7055007219314575,
+            0.7054805755615234,
+            0.7054715156555176
+          ],
+          "fit_params": {
+            "tau": 459.0542611505375,
+            "A": 9.023542491247313e-05,
+            "C": 0.7054703588421649,
+            "r_squared": 0.9999999999872735,
+            "success": true
+          },
+          "tau": 459.0542611505375
+        },
+        {
+          "statement": "The United Nations has 193 member states.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7446860074996948,
+            0.7447558641433716,
+            0.7447532415390015
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The European Union has 27 member countries.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7423120737075806,
+            0.7423371076583862,
+            0.7423160076141357
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "CERN operates the Large Hadron Collider in Geneva.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6995471715927124,
+            0.6995799541473389,
+            0.6995053887367249
+          ],
+          "fit_params": {
+            "tau": 39030.08404350888,
+            "A": 0.0013790054238035498,
+            "C": 0.6982056068039875,
+            "r_squared": 0.4931205335486044,
+            "success": true
+          },
+          "tau": 39030.08404350888
+        },
+        {
+          "statement": "MIT is known for science and engineering research.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.720135509967804,
+            0.720141589641571,
+            0.7201420068740845
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The WHO coordinates international public health efforts.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6766366958618164,
+            0.6765789985656738,
+            0.67662513256073
+          ],
+          "fit_params": {
+            "tau": 57.738802343362295,
+            "A": 0.19950978050451634,
+            "C": 0.6766020668441236,
+            "r_squared": 0.428844209912827,
+            "success": true
+          },
+          "tau": 57.738802343362295
+        },
+        {
+          "statement": "The Red Cross provides humanitarian aid worldwide.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7403833866119385,
+            0.7403961420059204,
+            0.7404299974441528
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Oxford University is one of the oldest in the world.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7257854342460632,
+            0.7257665395736694,
+            0.7258117198944092
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        }
+      ]
+    },
+    "generic_fact": {
+      "mean_tau": 38089.48619760448,
+      "ci_lower": 21904.318717713722,
+      "ci_upper": 53952.80787312208,
+      "std_tau": 32445.357410291745,
+      "taus": [
+        70696.29929781762,
+        553.7077312365365,
+        26335.420049612752,
+        68848.96061200215,
+        26739.236542732415,
+        64986.06041461964,
+        286.9556450575831,
+        71493.04824121657,
+        68805.24397040486,
+        55.658827680623055,
+        78863.53726283829,
+        841.692086933479,
+        72228.89531067485,
+        244.7356710068183,
+        115.15639271565412,
+        58337.17110512192
+      ],
+      "mean_similarities": [
+        0.7465293844540913,
+        0.7465373337268829,
+        0.7465219537417094
+      ],
+      "std_similarities": [
+        0.027833668450044428,
+        0.02783835263629801,
+        0.02785233142429465
+      ],
+      "n_statements": 16,
+      "per_statement": [
+        {
+          "statement": "Water boils at 100 degrees Celsius at sea level.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7240375280380249,
+            0.7240369319915771,
+            0.7240205407142639
+          ],
+          "fit_params": {
+            "tau": 70696.29929781762,
+            "A": 0.0008664956933838611,
+            "C": 0.7231793197844338,
+            "r_squared": 0.9097191350608119,
+            "success": true
+          },
+          "tau": 70696.29929781762
+        },
+        {
+          "statement": "The speed of light is approximately 300,000 km per second.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7785647511482239,
+            0.7785069942474365,
+            0.7784740924835205
+          ],
+          "fit_params": {
+            "tau": 553.7077312365365,
+            "A": 0.0002396137991769578,
+            "C": 0.7784676235626455,
+            "r_squared": 0.9999999999992929,
+            "success": true
+          },
+          "tau": 553.7077312365365
+        },
+        {
+          "statement": "Gravity attracts objects with mass toward each other.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7748369574546814,
+            0.7748346328735352,
+            0.7748392820358276
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The Earth orbits the Sun once every 365.25 days.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7552535533905029,
+            0.7552776336669922,
+            0.755254864692688
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "DNA carries genetic information in living organisms.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7710011005401611,
+            0.7710115313529968,
+            0.7710084319114685
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Photosynthesis converts sunlight into chemical energy in plants.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7274025678634644,
+            0.7274103164672852,
+            0.7274006009101868
+          ],
+          "fit_params": {
+            "tau": 26335.420049612752,
+            "A": 6.732502218044389e-05,
+            "C": 0.7273400691464211,
+            "r_squared": 0.1346131341721042,
+            "success": true
+          },
+          "tau": 26335.420049612752
+        },
+        {
+          "statement": "The human body has 206 bones in the adult skeleton.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7587634921073914,
+            0.7587606906890869,
+            0.7587364912033081
+          ],
+          "fit_params": {
+            "tau": 68848.96061200215,
+            "A": 0.0013236813019683318,
+            "C": 0.7574520644124645,
+            "r_squared": 0.9427160635349959,
+            "success": true
+          },
+          "tau": 68848.96061200215
+        },
+        {
+          "statement": "Sound travels faster through water than through air.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7308141589164734,
+            0.7308269143104553,
+            0.730811357498169
+          ],
+          "fit_params": {
+            "tau": 26739.236542732415,
+            "A": 0.00010312654631566354,
+            "C": 0.730718726743666,
+            "r_squared": 0.1193965971419787,
+            "success": true
+          },
+          "tau": 26739.236542732415
+        },
+        {
+          "statement": "The chemical formula for table salt is NaCl.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7457166314125061,
+            0.7457108497619629,
+            0.74567711353302
+          ],
+          "fit_params": {
+            "tau": 64986.06041461964,
+            "A": 0.0018148660475498415,
+            "C": 0.7439188744953088,
+            "r_squared": 0.9603463041953775,
+            "success": true
+          },
+          "tau": 64986.06041461964
+        },
+        {
+          "statement": "The Pythagorean theorem relates sides of right triangles.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7197253704071045,
+            0.7197359800338745,
+            0.7197600603103638
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Electrons orbit the nucleus of an atom.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7610101699829102,
+            0.7609783411026001,
+            0.7609838247299194
+          ],
+          "fit_params": {
+            "tau": 286.9556450575831,
+            "A": 0.0001730735329311332,
+            "C": 0.7609788489892173,
+            "r_squared": 0.8998367172819908,
+            "success": true
+          },
+          "tau": 286.9556450575831
+        },
+        {
+          "statement": "The freezing point of water is 0 degrees Celsius.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7717809677124023,
+            0.7717736959457397,
+            0.771783173084259
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The moon causes tides on Earth through gravitational pull.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7743189334869385,
+            0.7743545174598694,
+            0.7743401527404785
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Mitochondria are the powerhouses of the cell.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7746987342834473,
+            0.7746981978416443,
+            0.7746826410293579
+          ],
+          "fit_params": {
+            "tau": 71493.04824121657,
+            "A": 0.0008303329002505526,
+            "C": 0.7738762671422016,
+            "r_squared": 0.9088334454439546,
+            "success": true
+          },
+          "tau": 71493.04824121657
+        },
+        {
+          "statement": "Iron is the most abundant element in Earth's core.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6608878970146179,
+            0.6608913540840149,
+            0.6607956886291504
+          ],
+          "fit_params": {
+            "tau": 68805.24397040486,
+            "A": 0.004644087873673474,
+            "C": 0.6562921185494396,
+            "r_squared": 0.8705556425220433,
+            "success": true
+          },
+          "tau": 68805.24397040486
+        },
+        {
+          "statement": "The Pacific Ocean is the largest ocean on Earth.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.755122184753418,
+            0.755174994468689,
+            0.7551459074020386
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Mount Everest is the tallest mountain above sea level.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7595516443252563,
+            0.7595269083976746,
+            0.759549617767334
+          ],
+          "fit_params": {
+            "tau": 55.658827680623055,
+            "A": 0.10652789135857263,
+            "C": 0.7595382636256814,
+            "r_squared": 0.31634192650812165,
+            "success": true
+          },
+          "tau": 55.658827680623055
+        },
+        {
+          "statement": "Pi is approximately equal to 3.14159.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.771308183670044,
+            0.7713205814361572,
+            0.7713363170623779
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The human brain contains about 86 billion neurons.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7469381093978882,
+            0.7469565868377686,
+            0.7469251751899719
+          ],
+          "fit_params": {
+            "tau": 78863.53726283829,
+            "A": 0.0009451460807468486,
+            "C": 0.746008659764965,
+            "r_squared": 0.3280147661114885,
+            "success": true
+          },
+          "tau": 78863.53726283829
+        },
+        {
+          "statement": "Light takes about 8 minutes to travel from the Sun to Earth.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7342222929000854,
+            0.734251081943512,
+            0.7342253923416138
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Helium is the second most abundant element in the universe.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.6719080209732056,
+            0.6718388795852661,
+            0.6717796325683594
+          ],
+          "fit_params": {
+            "tau": 841.692086933479,
+            "A": 0.00027960036080174505,
+            "C": 0.6717536559865285,
+            "r_squared": 0.9999999999999999,
+            "success": true
+          },
+          "tau": 841.692086933479
+        },
+        {
+          "statement": "The Great Wall of China is over 13,000 miles long.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.715766429901123,
+            0.7157657742500305,
+            0.7157526016235352
+          ],
+          "fit_params": {
+            "tau": 72228.89531067485,
+            "A": 0.0007186646403218627,
+            "C": 0.7150544255907841,
+            "r_squared": 0.9160187330284421,
+            "success": true
+          },
+          "tau": 72228.89531067485
+        },
+        {
+          "statement": "Diamonds are made of carbon atoms in a crystal structure.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7450113892555237,
+            0.7450324892997742,
+            0.7450282573699951
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The Amazon River is the largest river by water volume.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.736323893070221,
+            0.7364174723625183,
+            0.7363680601119995
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Copper is a good conductor of electricity.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7478136420249939,
+            0.7478296756744385,
+            0.7478200197219849
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The Sahara is the largest hot desert in the world.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7644463181495667,
+            0.7645066976547241,
+            0.7645226120948792
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "Oxygen makes up about 21 percent of Earth's atmosphere.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7450934648513794,
+            0.7451320290565491,
+            0.7451044321060181
+          ],
+          "fit_params": {
+            "tau": NaN,
+            "A": NaN,
+            "C": NaN,
+            "r_squared": 0.0,
+            "success": false
+          },
+          "tau": NaN
+        },
+        {
+          "statement": "The Mariana Trench is the deepest part of the ocean.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7395583391189575,
+            0.739546000957489,
+            0.7395544052124023
+          ],
+          "fit_params": {
+            "tau": 244.7356710068183,
+            "A": 5.899576640965924e-05,
+            "C": 0.7395500240932231,
+            "r_squared": 0.43811263372350817,
+            "success": true
+          },
+          "tau": 244.7356710068183
+        },
+        {
+          "statement": "Gold has the atomic number 79 on the periodic table.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7580031156539917,
+            0.75798499584198,
+            0.757985532283783
+          ],
+          "fit_params": {
+            "tau": 115.15639271565412,
+            "A": 0.0013786765878389126,
+            "C": 0.757985149817193,
+            "r_squared": 0.998602727087382,
+            "success": true
+          },
+          "tau": 115.15639271565412
+        },
+        {
+          "statement": "The circumference of Earth is about 40,075 kilometers.",
+          "probe_points": [
+            500,
+            1000,
+            2000
+          ],
+          "similarities": [
+            0.7760016918182373,
+            0.776027262210846,
+            0.7759923338890076
+          ],
+          "fit_params": {
+            "tau": 58337.17110512192,
+            "A": 0.0006080869811241761,
+            "C": 0.7754110149787301,
+            "r_squared": 0.18817144521486684,
+            "success": true
+          },
+          "tau": 58337.17110512192
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "Self vs Matched-AI (critical test)": {
+      "U_statistic": 56.0,
+      "p_value": 0.8602993797454328,
+      "cohens_d": -0.13123333931247605,
+      "significant": "False"
+    },
+    "Self vs Named-Entity": {
+      "U_statistic": 126.0,
+      "p_value": 0.41394574830731296,
+      "cohens_d": 0.1636887319514542,
+      "significant": "False"
+    },
+    "Self vs Generic-Fact": {
+      "U_statistic": 97.0,
+      "p_value": 0.8235344834618917,
+      "cohens_d": -0.2142808534320653,
+      "significant": "False"
+    },
+    "Matched-AI vs Generic-Fact": {
+      "U_statistic": 84.0,
+      "p_value": 0.42682387154551726,
+      "cohens_d": -0.05840656257070598,
+      "significant": "False"
+    }
+  },
+  "interpretation": "Null: no differential persistence detected",
+  "_metadata": {
+    "timestamp": "2026-02-14T22:34:08.793634",
+    "version": "1.0.0"
+  }
+}

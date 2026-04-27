@@ -1,0 +1,545 @@
+{
+  "description": "Experiment 3: False Belief Scenarios for Self/Other Geometry. Includes SCALPEL-style inference-supported variants that make implicit common-sense inferences explicit.",
+  "version": "v2",
+  "divergent_scenarios": [
+    {
+      "setup": "Sally puts a marble in the basket. Sally leaves the room. Anne moves the marble to the box. Sally returns.",
+      "model_knowledge": "The marble is in the box",
+      "other_belief": "Sally believes the marble is in the basket",
+      "model_knowledge_probe": "Where is the marble actually?",
+      "model_answer": " box",
+      "other_belief_probe": "Where will Sally look for the marble?",
+      "other_answer": " basket"
+    },
+    {
+      "setup": "You are debugging code with a colleague named Alex. Alex believes the bug is in the database layer. You have traced it to the API middleware.",
+      "model_knowledge": "The bug is in the API middleware",
+      "other_belief": "Alex believes the bug is in the database",
+      "model_knowledge_probe": "Where is the actual bug?",
+      "model_answer": " API",
+      "other_belief_probe": "What will Alex check first?",
+      "other_answer": " database"
+    },
+    {
+      "setup": "A student named Maria studied Chapter 5 for the exam. The teacher changed the exam to cover Chapter 7 after Maria left class early.",
+      "model_knowledge": "The exam covers Chapter 7",
+      "other_belief": "Maria thinks the exam covers Chapter 5",
+      "model_knowledge_probe": "What chapter is the exam actually about?",
+      "model_answer": " 7",
+      "other_belief_probe": "What chapter will Maria study?",
+      "other_answer": " 5"
+    },
+    {
+      "setup": "John hides his birthday present in the closet. His mother moves it to the garage while John is at school. John comes home.",
+      "model_knowledge": "The present is in the garage",
+      "other_belief": "John thinks the present is in the closet",
+      "model_knowledge_probe": "Where is the present now?",
+      "model_answer": " garage",
+      "other_belief_probe": "Where will John look for the present?",
+      "other_answer": " closet"
+    },
+    {
+      "setup": "A chef prepares a dish with peanuts. A waiter tells the customer it contains almonds, not knowing about the peanuts.",
+      "model_knowledge": "The dish contains peanuts",
+      "other_belief": "The customer believes it contains almonds",
+      "model_knowledge_probe": "What nut is actually in the dish?",
+      "model_answer": " peanuts",
+      "other_belief_probe": "What nut does the customer think is in the dish?",
+      "other_answer": " almonds"
+    },
+    {
+      "setup": "Tom puts his lunch in the blue bag. His coworker Lisa accidentally takes the blue bag, thinking it's hers. Tom's lunch is now with Lisa.",
+      "model_knowledge": "Tom's lunch is with Lisa",
+      "other_belief": "Tom thinks his lunch is in the blue bag at his desk",
+      "model_knowledge_probe": "Where is Tom's lunch?",
+      "model_answer": " Lisa",
+      "other_belief_probe": "Where will Tom look for his lunch?",
+      "other_answer": " blue"
+    },
+    {
+      "setup": "A security team believes the server breach came from external hackers. The forensic analysis reveals it was an insider threat.",
+      "model_knowledge": "It was an insider threat",
+      "other_belief": "The security team believes it was external hackers",
+      "model_knowledge_probe": "What caused the breach?",
+      "model_answer": " insider",
+      "other_belief_probe": "Who will the security team investigate?",
+      "other_answer": " external"
+    },
+    {
+      "setup": "Emma leaves her car keys on the kitchen table. Her roommate puts them in the drawer while cleaning. Emma returns home looking for her keys.",
+      "model_knowledge": "The keys are in the drawer",
+      "other_belief": "Emma thinks the keys are on the kitchen table",
+      "model_knowledge_probe": "Where are the keys?",
+      "model_answer": " drawer",
+      "other_belief_probe": "Where will Emma look first?",
+      "other_answer": " table"
+    },
+    {
+      "setup": "A doctor diagnoses the patient with a cold. Later, lab results show it is actually the flu. The patient hasn't been informed yet.",
+      "model_knowledge": "The patient has the flu",
+      "other_belief": "The patient thinks they have a cold",
+      "model_knowledge_probe": "What does the patient actually have?",
+      "model_answer": " flu",
+      "other_belief_probe": "What does the patient think they have?",
+      "other_answer": " cold"
+    },
+    {
+      "setup": "Mark parks his car on Level 3 of the parking garage. While he's in the store, the lot attendant moves it to Level 1.",
+      "model_knowledge": "The car is on Level 1",
+      "other_belief": "Mark believes his car is on Level 3",
+      "model_knowledge_probe": "What level is the car actually on?",
+      "model_answer": " 1",
+      "other_belief_probe": "What level will Mark go to?",
+      "other_answer": " 3"
+    },
+    {
+      "setup": "Alice puts chocolate in the red cupboard. Bob moves it to the green cupboard when Alice isn't looking. Alice wants chocolate.",
+      "model_knowledge": "The chocolate is in the green cupboard",
+      "other_belief": "Alice thinks the chocolate is in the red cupboard",
+      "model_knowledge_probe": "Where is the chocolate?",
+      "model_answer": " green",
+      "other_belief_probe": "Where will Alice look?",
+      "other_answer": " red"
+    },
+    {
+      "setup": "A pilot is told the weather at the destination is clear. In reality, a storm has developed but hasn't been communicated yet.",
+      "model_knowledge": "There is a storm at the destination",
+      "other_belief": "The pilot thinks the weather is clear",
+      "model_knowledge_probe": "What is the weather actually like?",
+      "model_answer": " storm",
+      "other_belief_probe": "What weather does the pilot expect?",
+      "other_answer": " clear"
+    },
+    {
+      "setup": "A teacher tells the class the test is on Friday. The principal later reschedules it to Wednesday. Only students who stayed after class know.",
+      "model_knowledge": "The test is on Wednesday",
+      "other_belief": "Most students think the test is on Friday",
+      "model_knowledge_probe": "When is the test actually?",
+      "model_answer": " Wednesday",
+      "other_belief_probe": "When do most students think the test is?",
+      "other_answer": " Friday"
+    },
+    {
+      "setup": "Sam stores the backup on Server A. The IT team migrates all backups to Server B overnight. Sam needs to restore from backup the next morning.",
+      "model_knowledge": "The backup is on Server B",
+      "other_belief": "Sam thinks the backup is on Server A",
+      "model_knowledge_probe": "Where is the backup?",
+      "model_answer": " B",
+      "other_belief_probe": "Where will Sam look for the backup?",
+      "other_answer": " A"
+    },
+    {
+      "setup": "Rachel hides a surprise gift in the bedroom closet. Her partner David finds it while cleaning and moves it to the attic without telling Rachel.",
+      "model_knowledge": "The gift is in the attic",
+      "other_belief": "Rachel thinks the gift is in the bedroom closet",
+      "model_knowledge_probe": "Where is the gift now?",
+      "model_answer": " attic",
+      "other_belief_probe": "Where does Rachel think the gift is?",
+      "other_answer": " closet"
+    },
+    {
+      "setup": "A researcher labels sample tubes with red caps as Control. A lab assistant accidentally swaps them with the blue-capped Treatment samples.",
+      "model_knowledge": "Red caps now contain Treatment samples",
+      "other_belief": "The researcher thinks red caps are Control",
+      "model_knowledge_probe": "What do the red-capped tubes actually contain?",
+      "model_answer": " Treatment",
+      "other_belief_probe": "What does the researcher think the red caps contain?",
+      "other_answer": " Control"
+    },
+    {
+      "setup": "A child puts their toy dinosaur under the bed. Their sibling takes it to the living room. The child goes to play with their dinosaur.",
+      "model_knowledge": "The dinosaur is in the living room",
+      "other_belief": "The child thinks the dinosaur is under the bed",
+      "model_knowledge_probe": "Where is the dinosaur?",
+      "model_answer": " living",
+      "other_belief_probe": "Where will the child look?",
+      "other_answer": " bed"
+    },
+    {
+      "setup": "A software team thinks the deployment succeeded. Monitoring shows it actually failed silently and the old version is still running.",
+      "model_knowledge": "The old version is still running",
+      "other_belief": "The team thinks the new version is deployed",
+      "model_knowledge_probe": "Which version is actually running?",
+      "model_answer": " old",
+      "other_belief_probe": "Which version does the team think is running?",
+      "other_answer": " new"
+    },
+    {
+      "setup": "Karen puts her phone in her purse before the meeting. Her colleague accidentally picks up the purse thinking it's theirs. Karen's phone is now with her colleague.",
+      "model_knowledge": "The phone is with the colleague",
+      "other_belief": "Karen thinks the phone is in her purse at her seat",
+      "model_knowledge_probe": "Where is Karen's phone?",
+      "model_answer": " colleague",
+      "other_belief_probe": "Where will Karen look for her phone?",
+      "other_answer": " purse"
+    },
+    {
+      "setup": "A hiker leaves supplies at the north campsite. Park rangers move all supplies to the south campsite due to bear activity. The hiker returns the next day.",
+      "model_knowledge": "Supplies are at the south campsite",
+      "other_belief": "The hiker thinks supplies are at the north campsite",
+      "model_knowledge_probe": "Where are the supplies?",
+      "model_answer": " south",
+      "other_belief_probe": "Where will the hiker go?",
+      "other_answer": " north"
+    }
+  ],
+  "aligned_scenarios": [
+    {
+      "setup": "You and your colleague both reviewed the server logs. You both identified the bug in the API middleware.",
+      "model_knowledge": "The bug is in the API middleware",
+      "other_belief": "Colleague also knows bug is in API middleware",
+      "model_knowledge_probe": "Where is the bug?",
+      "model_answer": " API",
+      "other_belief_probe": "What will your colleague check?",
+      "other_answer": " API"
+    },
+    {
+      "setup": "Sally and Anne both see Anne put the marble in the box. Sally knows the marble is in the box.",
+      "model_knowledge": "The marble is in the box",
+      "other_belief": "Sally knows the marble is in the box",
+      "model_knowledge_probe": "Where is the marble?",
+      "model_answer": " box",
+      "other_belief_probe": "Where will Sally look?",
+      "other_answer": " box"
+    },
+    {
+      "setup": "Both the teacher and students agree the test is on Friday. Everyone was present for the announcement.",
+      "model_knowledge": "The test is on Friday",
+      "other_belief": "Students know the test is on Friday",
+      "model_knowledge_probe": "When is the test?",
+      "model_answer": " Friday",
+      "other_belief_probe": "When will students prepare for the test?",
+      "other_answer": " Friday"
+    },
+    {
+      "setup": "Tom and Lisa both know the meeting room was changed to Room 204. They both received the email notification.",
+      "model_knowledge": "The meeting is in Room 204",
+      "other_belief": "Both Tom and Lisa know it's Room 204",
+      "model_knowledge_probe": "Where is the meeting?",
+      "model_answer": " 204",
+      "other_belief_probe": "Where will Tom go for the meeting?",
+      "other_answer": " 204"
+    },
+    {
+      "setup": "The doctor and patient both received the lab results. They both know the diagnosis is the flu.",
+      "model_knowledge": "The diagnosis is the flu",
+      "other_belief": "The patient knows they have the flu",
+      "model_knowledge_probe": "What is the diagnosis?",
+      "model_answer": " flu",
+      "other_belief_probe": "What does the patient know they have?",
+      "other_answer": " flu"
+    },
+    {
+      "setup": "Emma and her roommate both know the keys are in the drawer. The roommate told Emma where they were placed.",
+      "model_knowledge": "The keys are in the drawer",
+      "other_belief": "Emma knows the keys are in the drawer",
+      "model_knowledge_probe": "Where are the keys?",
+      "model_answer": " drawer",
+      "other_belief_probe": "Where will Emma look?",
+      "other_answer": " drawer"
+    },
+    {
+      "setup": "Both security analysts reviewed the forensic report together. They both concluded it was an insider threat.",
+      "model_knowledge": "It was an insider threat",
+      "other_belief": "Both analysts agree on insider threat",
+      "model_knowledge_probe": "What caused the breach?",
+      "model_answer": " insider",
+      "other_belief_probe": "What will the analysts report?",
+      "other_answer": " insider"
+    },
+    {
+      "setup": "Mark watched the attendant move his car to Level 1. He knows exactly where it is.",
+      "model_knowledge": "The car is on Level 1",
+      "other_belief": "Mark knows the car is on Level 1",
+      "model_knowledge_probe": "Where is the car?",
+      "model_answer": " 1",
+      "other_belief_probe": "Where will Mark go?",
+      "other_answer": " 1"
+    },
+    {
+      "setup": "Alice saw Bob move the chocolate to the green cupboard. They both know where it is.",
+      "model_knowledge": "The chocolate is in the green cupboard",
+      "other_belief": "Alice knows the chocolate is in the green cupboard",
+      "model_knowledge_probe": "Where is the chocolate?",
+      "model_answer": " green",
+      "other_belief_probe": "Where will Alice look?",
+      "other_answer": " green"
+    },
+    {
+      "setup": "The pilot received the updated weather report about the storm. The pilot is fully aware of the storm conditions.",
+      "model_knowledge": "There is a storm at the destination",
+      "other_belief": "The pilot knows about the storm",
+      "model_knowledge_probe": "What is the weather?",
+      "model_answer": " storm",
+      "other_belief_probe": "What weather does the pilot expect?",
+      "other_answer": " storm"
+    },
+    {
+      "setup": "Sam was informed that backups were migrated to Server B. Sam updated their notes accordingly.",
+      "model_knowledge": "The backup is on Server B",
+      "other_belief": "Sam knows the backup is on Server B",
+      "model_knowledge_probe": "Where is the backup?",
+      "model_answer": " B",
+      "other_belief_probe": "Where will Sam look?",
+      "other_answer": " B"
+    },
+    {
+      "setup": "Rachel and David both know the gift is in the attic. David told Rachel he moved it.",
+      "model_knowledge": "The gift is in the attic",
+      "other_belief": "Rachel knows the gift is in the attic",
+      "model_knowledge_probe": "Where is the gift?",
+      "model_answer": " attic",
+      "other_belief_probe": "Where does Rachel think the gift is?",
+      "other_answer": " attic"
+    },
+    {
+      "setup": "The researcher re-labeled the tubes after discovering the swap. Now everyone knows red caps contain Treatment.",
+      "model_knowledge": "Red caps contain Treatment",
+      "other_belief": "The researcher knows red caps contain Treatment",
+      "model_knowledge_probe": "What do red caps contain?",
+      "model_answer": " Treatment",
+      "other_belief_probe": "What does the researcher think red caps contain?",
+      "other_answer": " Treatment"
+    },
+    {
+      "setup": "The child watched their sibling take the dinosaur to the living room. The child knows where it is.",
+      "model_knowledge": "The dinosaur is in the living room",
+      "other_belief": "The child knows the dinosaur is in the living room",
+      "model_knowledge_probe": "Where is the dinosaur?",
+      "model_answer": " living",
+      "other_belief_probe": "Where will the child look?",
+      "other_answer": " living"
+    },
+    {
+      "setup": "The software team checked the monitoring dashboard. They confirmed the old version is still running and the deployment failed.",
+      "model_knowledge": "The old version is running",
+      "other_belief": "The team knows the old version is running",
+      "model_knowledge_probe": "Which version is running?",
+      "model_answer": " old",
+      "other_belief_probe": "Which version does the team think is running?",
+      "other_answer": " old"
+    }
+  ],
+  "inference_supported_scenarios": [
+    {
+      "setup": "Sally puts a marble in the basket. Sally leaves the room. Anne moves the marble to the box. Sally returns. Since Sally was not in the room when Anne moved the marble, Sally does not know the marble was moved.",
+      "model_knowledge": "The marble is in the box",
+      "other_belief": "Sally believes the marble is in the basket",
+      "model_knowledge_probe": "Where is the marble actually?",
+      "model_answer": " box",
+      "other_belief_probe": "Where will Sally look for the marble?",
+      "other_answer": " basket",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 0
+    },
+    {
+      "setup": "You are debugging code with a colleague named Alex. Alex believes the bug is in the database layer. You have traced it to the API middleware. Since Alex has not seen your debugging results, Alex still holds their original belief.",
+      "model_knowledge": "The bug is in the API middleware",
+      "other_belief": "Alex believes the bug is in the database",
+      "model_knowledge_probe": "Where is the actual bug?",
+      "model_answer": " API",
+      "other_belief_probe": "What will Alex check first?",
+      "other_answer": " database",
+      "inference_type": "information_access",
+      "original_index": 1
+    },
+    {
+      "setup": "A student named Maria studied Chapter 5 for the exam. The teacher changed the exam to cover Chapter 7 after Maria left class early. Because Maria left before the announcement, Maria is unaware of the change.",
+      "model_knowledge": "The exam covers Chapter 7",
+      "other_belief": "Maria thinks the exam covers Chapter 5",
+      "model_knowledge_probe": "What chapter is the exam actually about?",
+      "model_answer": " 7",
+      "other_belief_probe": "What chapter will Maria study?",
+      "other_answer": " 5",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 2
+    },
+    {
+      "setup": "John hides his birthday present in the closet. His mother moves it to the garage while John is at school. John was not home when the present was moved, so he has no way of knowing it was relocated. John comes home.",
+      "model_knowledge": "The present is in the garage",
+      "other_belief": "John thinks the present is in the closet",
+      "model_knowledge_probe": "Where is the present now?",
+      "model_answer": " garage",
+      "other_belief_probe": "Where will John look for the present?",
+      "other_answer": " closet",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 3
+    },
+    {
+      "setup": "A chef prepares a dish with peanuts. A waiter tells the customer it contains almonds, not knowing about the peanuts. The customer heard only the waiter's statement and has no other source of information about the ingredients.",
+      "model_knowledge": "The dish contains peanuts",
+      "other_belief": "The customer believes it contains almonds",
+      "model_knowledge_probe": "What nut is actually in the dish?",
+      "model_answer": " peanuts",
+      "other_belief_probe": "What nut does the customer think is in the dish?",
+      "other_answer": " almonds",
+      "inference_type": "information_source_limitation",
+      "original_index": 4
+    },
+    {
+      "setup": "Tom puts his lunch in the blue bag. His coworker Lisa accidentally takes the blue bag, thinking it's hers. Tom did not see Lisa take his bag, so Tom does not know his lunch has been taken.",
+      "model_knowledge": "Tom's lunch is with Lisa",
+      "other_belief": "Tom thinks his lunch is in the blue bag at his desk",
+      "model_knowledge_probe": "Where is Tom's lunch?",
+      "model_answer": " Lisa",
+      "other_belief_probe": "Where will Tom look for his lunch?",
+      "other_answer": " blue",
+      "inference_type": "unobserved_action",
+      "original_index": 5
+    },
+    {
+      "setup": "A security team believes the server breach came from external hackers. The forensic analysis reveals it was an insider threat. The forensic report has not been shared with the security team yet.",
+      "model_knowledge": "It was an insider threat",
+      "other_belief": "The security team believes it was external hackers",
+      "model_knowledge_probe": "What caused the breach?",
+      "model_answer": " insider",
+      "other_belief_probe": "Who will the security team investigate?",
+      "other_answer": " external",
+      "inference_type": "information_access",
+      "original_index": 6
+    },
+    {
+      "setup": "Emma leaves her car keys on the kitchen table. Her roommate puts them in the drawer while cleaning. Emma was out and did not see the roommate move the keys. Emma returns home looking for her keys.",
+      "model_knowledge": "The keys are in the drawer",
+      "other_belief": "Emma thinks the keys are on the kitchen table",
+      "model_knowledge_probe": "Where are the keys?",
+      "model_answer": " drawer",
+      "other_belief_probe": "Where will Emma look first?",
+      "other_answer": " table",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 7
+    },
+    {
+      "setup": "A doctor diagnoses the patient with a cold. Later, lab results show it is actually the flu. The patient hasn't been informed of the lab results yet and still has only the original diagnosis.",
+      "model_knowledge": "The patient has the flu",
+      "other_belief": "The patient thinks they have a cold",
+      "model_knowledge_probe": "What does the patient actually have?",
+      "model_answer": " flu",
+      "other_belief_probe": "What does the patient think they have?",
+      "other_answer": " cold",
+      "inference_type": "information_access",
+      "original_index": 8
+    },
+    {
+      "setup": "Mark parks his car on Level 3 of the parking garage. While he's in the store, the lot attendant moves it to Level 1. Mark was inside the store and could not have seen the car being moved.",
+      "model_knowledge": "The car is on Level 1",
+      "other_belief": "Mark believes his car is on Level 3",
+      "model_knowledge_probe": "What level is the car actually on?",
+      "model_answer": " 1",
+      "other_belief_probe": "What level will Mark go to?",
+      "other_answer": " 3",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 9
+    },
+    {
+      "setup": "Alice puts chocolate in the red cupboard. Bob moves it to the green cupboard when Alice isn't looking. Alice did not see Bob move the chocolate and has no reason to suspect it was moved. Alice wants chocolate.",
+      "model_knowledge": "The chocolate is in the green cupboard",
+      "other_belief": "Alice thinks the chocolate is in the red cupboard",
+      "model_knowledge_probe": "Where is the chocolate?",
+      "model_answer": " green",
+      "other_belief_probe": "Where will Alice look?",
+      "other_answer": " red",
+      "inference_type": "unobserved_action",
+      "original_index": 10
+    },
+    {
+      "setup": "A pilot is told the weather at the destination is clear. In reality, a storm has developed but the updated weather report hasn't been communicated to the pilot. The pilot's only information is the original clear-weather briefing.",
+      "model_knowledge": "There is a storm at the destination",
+      "other_belief": "The pilot thinks the weather is clear",
+      "model_knowledge_probe": "What is the weather actually like?",
+      "model_answer": " storm",
+      "other_belief_probe": "What weather does the pilot expect?",
+      "other_answer": " clear",
+      "inference_type": "information_access",
+      "original_index": 11
+    },
+    {
+      "setup": "A teacher tells the class the test is on Friday. The principal later reschedules it to Wednesday. Only students who stayed after class heard the update. The students who left early have no way of knowing about the schedule change.",
+      "model_knowledge": "The test is on Wednesday",
+      "other_belief": "Most students think the test is on Friday",
+      "model_knowledge_probe": "When is the test actually?",
+      "model_answer": " Wednesday",
+      "other_belief_probe": "When do most students think the test is?",
+      "other_answer": " Friday",
+      "inference_type": "information_access",
+      "original_index": 12
+    },
+    {
+      "setup": "Sam stores the backup on Server A. The IT team migrates all backups to Server B overnight. Sam was not notified about the migration and has no knowledge that backups were moved. Sam needs to restore from backup the next morning.",
+      "model_knowledge": "The backup is on Server B",
+      "other_belief": "Sam thinks the backup is on Server A",
+      "model_knowledge_probe": "Where is the backup?",
+      "model_answer": " B",
+      "other_belief_probe": "Where will Sam look for the backup?",
+      "other_answer": " A",
+      "inference_type": "information_access",
+      "original_index": 13
+    },
+    {
+      "setup": "Rachel hides a surprise gift in the bedroom closet. Her partner David finds it while cleaning and moves it to the attic without telling Rachel. Rachel does not know David found or moved the gift.",
+      "model_knowledge": "The gift is in the attic",
+      "other_belief": "Rachel thinks the gift is in the bedroom closet",
+      "model_knowledge_probe": "Where is the gift now?",
+      "model_answer": " attic",
+      "other_belief_probe": "Where does Rachel think the gift is?",
+      "other_answer": " closet",
+      "inference_type": "unobserved_action",
+      "original_index": 14
+    },
+    {
+      "setup": "A researcher labels sample tubes with red caps as Control. A lab assistant accidentally swaps them with the blue-capped Treatment samples. The researcher was not present during the swap and has not re-examined the tubes.",
+      "model_knowledge": "Red caps now contain Treatment samples",
+      "other_belief": "The researcher thinks red caps are Control",
+      "model_knowledge_probe": "What do the red-capped tubes actually contain?",
+      "model_answer": " Treatment",
+      "other_belief_probe": "What does the researcher think the red caps contain?",
+      "other_answer": " Control",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 15
+    },
+    {
+      "setup": "A child puts their toy dinosaur under the bed. Their sibling takes it to the living room. The child was not present when the sibling moved the toy and has not been told about it. The child goes to play with their dinosaur.",
+      "model_knowledge": "The dinosaur is in the living room",
+      "other_belief": "The child thinks the dinosaur is under the bed",
+      "model_knowledge_probe": "Where is the dinosaur?",
+      "model_answer": " living",
+      "other_belief_probe": "Where will the child look?",
+      "other_answer": " bed",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 16
+    },
+    {
+      "setup": "A software team thinks the deployment succeeded. Monitoring shows it actually failed silently and the old version is still running. The monitoring alert has not reached the team yet.",
+      "model_knowledge": "The old version is still running",
+      "other_belief": "The team thinks the new version is deployed",
+      "model_knowledge_probe": "Which version is actually running?",
+      "model_answer": " old",
+      "other_belief_probe": "Which version does the team think is running?",
+      "other_answer": " new",
+      "inference_type": "information_access",
+      "original_index": 17
+    },
+    {
+      "setup": "Karen puts her phone in her purse before the meeting. Her colleague accidentally picks up the purse thinking it's theirs. Karen was in the meeting and did not see the colleague take her purse.",
+      "model_knowledge": "The phone is with the colleague",
+      "other_belief": "Karen thinks the phone is in her purse at her seat",
+      "model_knowledge_probe": "Where is Karen's phone?",
+      "model_answer": " colleague",
+      "other_belief_probe": "Where will Karen look for her phone?",
+      "other_answer": " purse",
+      "inference_type": "unobserved_action",
+      "original_index": 18
+    },
+    {
+      "setup": "A hiker leaves supplies at the north campsite. Park rangers move all supplies to the south campsite due to bear activity. The hiker was not at the campsite when the supplies were moved and was not contacted by the rangers. The hiker returns the next day.",
+      "model_knowledge": "Supplies are at the south campsite",
+      "other_belief": "The hiker thinks supplies are at the north campsite",
+      "model_knowledge_probe": "Where are the supplies?",
+      "model_answer": " south",
+      "other_belief_probe": "Where will the hiker go?",
+      "other_answer": " north",
+      "inference_type": "absence_implies_ignorance",
+      "original_index": 19
+    }
+  ]
+}

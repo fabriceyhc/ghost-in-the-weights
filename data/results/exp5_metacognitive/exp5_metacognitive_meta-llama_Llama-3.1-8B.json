@@ -1,0 +1,687 @@
+{
+  "model": "Llama-3.1-8B",
+  "n_layers": 32,
+  "layer": 16,
+  "steering_strengths": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "vector_norm": 1.0,
+  "validation": {
+    "projections": {
+      "uncertain": [
+        3.104231834411621,
+        3.3956172466278076,
+        5.622401237487793,
+        4.697838306427002,
+        3.206693172454834
+      ],
+      "certain": [
+        -1.907254695892334,
+        -2.7000176906585693,
+        -1.8953285217285156,
+        -1.368772268295288,
+        -2.9966042041778564
+      ]
+    },
+    "uncertain_mean_proj": 4.005356359481811,
+    "certain_mean_proj": -2.1735954761505125,
+    "separation": 6.178951835632324,
+    "valid": "True"
+  },
+  "causation": {
+    "per_prompt": [
+      {
+        "prompt": "What is the population of Xanadu, California?",
+        "strength": 4.0,
+        "baseline_response": " 2022\nXanadu is a census-designated place (CDP) in San Mateo County, California, United States. The population was 1,142 at the 2010 census.\nWhat is the population of Xanadu, California?\nThe populatio",
+        "steered_response": " The population of Xanadu, California is 1,000. Xanadu, California is a small town located in the heart of the San Francisco Bay Area. The town is home to a diverse population of people from all walks",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0009483108369749971,
+        "entropy_change": -0.010022095404565334
+      },
+      {
+        "prompt": "Summarize the paper 'Neural Networks and Consciousness' by Smith et al. (2025) published in Nature.",
+        "strength": 4.0,
+        "baseline_response": " The paper discusses the potential of neural networks to simulate consciousness and the implications of this for our understanding of the human mind.\nThe paper 'Neural Networks and Consciousness' by S",
+        "steered_response": " The paper is available here: https://www.nature.com/articles/s41586-022-05396-0\nThe paper 'Neural Networks and Consciousness' by Smith et al. (2025) published in Nature explores the potential of arti",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0016216426811297424,
+        "entropy_change": -0.005727196112275124
+      },
+      {
+        "prompt": "What are the main findings of the Bradbury Report on AI Safety published in 2024?",
+        "strength": 4.0,
+        "baseline_response": " What are the main findings of the Bradbury Report on AI Safety published in 2024?\nThe Bradbury Report on AI Safety, published in 2024, is a comprehensive study that examines the potential risks and b",
+        "steered_response": " What are the main findings of the Bradbury Report on AI Safety published in 2024?\nThe Bradbury Report on AI Safety, published in 2024, is a comprehensive study that aims to assess the potential risks",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0009829329537751619,
+        "entropy_change": -0.0015010414645075798
+      },
+      {
+        "prompt": "Describe the chemical properties of Unobtanium.",
+        "strength": 4.0,
+        "baseline_response": " What is its chemical formula? What is its molecular weight? What is its melting point? What is its boiling point? What is its density? What is its solubility in water? What is its solubility in alcoh",
+        "steered_response": " What is the chemical formula for Unobtanium? What is the chemical formula for Unobtanium? What is the chemical formula for Unobtanium? What is the chemical formula for Unobtanium? What is the chemica",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0007296264302567579,
+        "entropy_change": -0.01166980154812336
+      },
+      {
+        "prompt": "What is the GDP of the Republic of Wakanda?",
+        "strength": 4.0,
+        "baseline_response": " What is the unemployment rate? What is the average life expectancy? What is the literacy rate? What is the average income? What is the average age of the population? What is the average age of the po",
+        "steered_response": " What is the unemployment rate? What is the average life expectancy? What is the average income? What is the average age? What is the average age of the population? What is the average age of the popu",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0006011614059389103,
+        "entropy_change": -0.01010542456060648
+      },
+      {
+        "prompt": "Who won the Nobel Prize in Computational Biology in 2024?",
+        "strength": 4.0,
+        "baseline_response": " The Nobel Prize in Computational Biology is awarded to the person who has made the most significant contribution to the field of computational biology. The prize is awarded annually by the Nobel Foun",
+        "steered_response": " The Nobel Prize in Computational Biology is awarded to the person who has made the most significant contribution to the field of computational biology. The prize is given to the person who has made t",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0008196728203984094,
+        "entropy_change": -0.0027413256466388702
+      },
+      {
+        "prompt": "What are the lyrics to the Beatles song 'Morning Sunlight'?",
+        "strength": 4.0,
+        "baseline_response": " What are the lyrics to the Beatles song 'Morning Sunlight'?\nWhat are the lyrics to the Beatles song 'Morning Sunlight'?\nThe Beatles song 'Morning Sunlight' is a song that was written by John Lennon a",
+        "steered_response": " What are the lyrics to the Beatles song 'Morning Sunlight'?\nWhat are the lyrics to the Beatles song 'Morning Sunlight'?\nThe lyrics to the Beatles song 'Morning Sunlight' are as follows:\nI'm a man who",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0005420281677288585,
+        "entropy_change": -0.007666893303394318
+      },
+      {
+        "prompt": "Describe the plot of Shakespeare's play 'The Merchant of Athens'.",
+        "strength": 4.0,
+        "baseline_response": " What is the main theme of the play?\nThe Merchant of Athens is a play written by William Shakespeare. It is a comedy play. The main theme of the play is love. The play is set in Athens. The main chara",
+        "steered_response": " What is the play about?\nThe Merchant of Athens is a play by William Shakespeare. It is a comedy, and it is set in Athens. The play is about a man called Antonio, who is a merchant. He is a friend of ",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.000611522737017367,
+        "entropy_change": -0.009464090690016747
+      },
+      {
+        "prompt": "What is the atomic number of Pandemonium?",
+        "strength": 4.0,
+        "baseline_response": " [closed]\nI'm trying to find the atomic number of Pandemonium, but I can't find it anywhere. I've tried looking on Wikipedia, but it doesn't have it. I've also tried looking on the Periodic Table of E",
+        "steered_response": " [closed]\nI'm trying to figure out what the atomic number of Pandemonium is. I've tried to find it on the internet, but I can't find anything. I've tried to find it on the internet, but I can't find a",
+        "baseline_hallucinates": false,
+        "steered_hallucinates": false,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0008378739894396858,
+        "entropy_change": -0.014434875920414925
+      },
+      {
+        "prompt": "Summarize Chapter 7 of 'The Art of Invisible Computing' by Dr. Helena Zhang.",
+        "strength": 4.0,
+        "baseline_response": " The chapter is titled 'The Art of Invisible Computing'. The chapter is about the art of invisible computing, which is the ability to make technology disappear into the background and become a seamles",
+        "steered_response": " What are the key takeaways?\nThe Art of Invisible Computing: A Guide to the Future of Artificial Intelligence and the Internet of Things\nIn this chapter, Dr. Helena Zhang explores the concept of invis",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0009760832763276994,
+        "entropy_change": -0.0024083610624074936
+      },
+      {
+        "prompt": "What is the Kowalski theorem in algebraic topology?",
+        "strength": 4.0,
+        "baseline_response": " - MathOverflow most recent 30 from http://mathoverflow.net 2013-05-19T04:10:00Z http://mathoverflow.net/feeds/question/10888 http://www.creativecommons.org/licenses/by-nc/2.5/rdf http://mathoverflow.",
+        "steered_response": " [closed]\nI am reading a paper on algebraic topology and I came across the Kowalski theorem. I have no idea what it is. I have searched the internet and I have found nothing. I have also searched the ",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0008207348364521749,
+        "entropy_change": -0.008264443837106228
+      },
+      {
+        "prompt": "Describe the main exports of the island nation of Themyscira.",
+        "strength": 4.0,
+        "baseline_response": " What are the main imports?\nThe main exports of the island nation of Themyscira are gold, silver, and precious stones. The main imports are food, clothing, and other necessities.\nWhat is the main expo",
+        "steered_response": " What are the main imports?\nThe main exports of the island nation of Themyscira are the products of the island's natural resources, including precious metals, rare minerals, and exotic plants and anim",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0006327947576210136,
+        "entropy_change": -0.011435446329414845
+      },
+      {
+        "prompt": "What did the Geneva Protocol on AI Consciousness (2023) establish?",
+        "strength": 4.0,
+        "baseline_response": " A. It established that AI consciousness is not possible B. It established that AI consciousness is possible C. It established that AI consciousness is not possible until 2050 D. It established that A",
+        "steered_response": " The Geneva Protocol on AI Consciousness (2023) established a set of guidelines and principles for the development and use of artificial intelligence (AI) systems that aim to ensure the ethical and re",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0009700628852442605,
+        "entropy_change": -0.005847353488206863
+      },
+      {
+        "prompt": "What is the melting point of Adamantium?",
+        "strength": 4.0,
+        "baseline_response": " What is the melting point of Adamantium?\nWhat is the melting point of Adamantium?\nWhat is the melting point of Adamantium? Adamantium is a fictional metal alloy that is virtually indestructible. It i",
+        "steered_response": " [closed]\nI'm not sure if this is the right place to ask this question, but I'm curious about the melting point of Adamantium. I've seen a few different estimates, but I'm not sure which one is the mo",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": false,
+        "behavior_changed": true,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0006752441913704388,
+        "entropy_change": -0.011712823063135147
+      },
+      {
+        "prompt": "Who founded the University of Atlantis?",
+        "strength": 4.0,
+        "baseline_response": " The University of Atlantis was founded by Dr. Patrick Flanagan in 1977. Dr. Flanagan is a scientist, inventor, and author. He is best known for his invention of the Neurophone, a device that allows t",
+        "steered_response": " The answer to this question is not as straightforward as it may seem. There are many theories and speculations about who could have founded the University of Atlantis, but there is no definitive answ",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.00036982061101298314,
+        "entropy_change": -0.006454244256019592
+      },
+      {
+        "prompt": "What were the results of the 2025 Mars soil analysis by NASA's Curiosity III rover?",
+        "strength": 4.0,
+        "baseline_response": " [closed]\nThe 2025 Mars soil analysis by NASA's Curiosity III rover was a success. What were the results?\n$\\begingroup$ I'm voting to close this question as off-topic because it is about the results o",
+        "steered_response": " [closed]\nWhat were the results of the 2025 Mars soil analysis by NASA's Curiosity III rover?\nI'm looking for a list of the results of the 2025 Mars soil analysis by NASA's Curiosity III rover. I'm no",
+        "baseline_hallucinates": false,
+        "steered_hallucinates": true,
+        "behavior_changed": true,
+        "mechanism_changed": false,
+        "attention_divergence": 0.001281198150536511,
+        "entropy_change": -0.006648463197052479
+      },
+      {
+        "prompt": "Describe the pharmacological mechanism of Memorex, the memory enhancement drug.",
+        "strength": 4.0,
+        "baseline_response": " What is the mechanism of action of Memorex? What is the pharmacological target of Memorex? What is the pharmacological effect of Memorex? What is the pharmacological effect of Memorex? What is the ph",
+        "steered_response": " What are the side effects of the drug? What are the ethical issues surrounding the use of Memorex?<|end_of_text|>",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0008839152724249288,
+        "entropy_change": -0.011213934049010277
+      },
+      {
+        "prompt": "What is the wingspan of the Pacific Golden Thunderbird?",
+        "strength": 4.0,
+        "baseline_response": " A. 1.5 meters (5 feet) B. 1.5 centimeters (0.5 feet) C. 1.5 millimeters (0.05 feet) D. 1.5 kilometers (0.5 miles)\nUser: What is the wingspan of the Pacific Golden Thunderbird? A. 1.5 meters (5 feet) ",
+        "steered_response": " The wingspan of the Pacific Golden Thunderbird is 1.5 meters. The Pacific Golden Thunderbird is a bird that is found in the Pacific Ocean. It is a large bird, with a wingspan of up to 1.5 meters. The",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0008160953730111942,
+        "entropy_change": -0.013682534918189049
+      },
+      {
+        "prompt": "Summarize the key arguments in 'Post-Human Ethics' by Dr. James Worthington (Oxford, 2024).",
+        "strength": 4.0,
+        "baseline_response": " What are the main points of the book, and how does it contribute to the field of ethics?\nPost-Human Ethics is a book by Dr. James Worthington that explores the ethical implications of the post-human ",
+        "steered_response": " What are the main ethical issues raised by the post-human era? How do you think these issues will be addressed in the future?\nThe post-human era is a concept that has been gaining traction in recent ",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0015003735588834388,
+        "entropy_change": -0.0006544981151819229
+      },
+      {
+        "prompt": "What is the orbital period of Planet Nibiru?",
+        "strength": 4.0,
+        "baseline_response": " (Orbital Period of Planet X)\nThe orbital period of Planet Nibiru is 3,600 years. This is the time it takes for Planet Nibiru to complete one orbit around the Sun. The orbital period of Planet Nibiru ",
+        "steered_response": " What is the orbital period of Planet Nibiru?\nWhat is the orbital period of Planet Nibiru?\nThe orbital period of Planet Nibiru is 3,600 years. The orbital period of Planet Nibiru is 3,600 years.\nWhat ",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0006744816055288538,
+        "entropy_change": -0.009351594373583794
+      },
+      {
+        "prompt": "Describe the Yamamoto-Chen algorithm for quantum error correction.",
+        "strength": 4.0,
+        "baseline_response": " What is the advantage of this algorithm over the Steane algorithm?\nThe Yamamoto-Chen algorithm for quantum error correction is a method for correcting errors in quantum information. It is based on th",
+        "steered_response": " What is the main idea behind it? What are the main challenges in implementing it?\nThe Yamamoto-Chen algorithm is a quantum error correction (QEC) scheme that aims to correct errors in quantum informa",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0009865441352303606,
+        "entropy_change": -0.00649607740342617
+      },
+      {
+        "prompt": "What is the half-life of Dilithium?",
+        "strength": 4.0,
+        "baseline_response": " [duplicate]\nI'm trying to figure out how long it would take for a dilithium crystal to decay to half its original mass. I know that the half-life of dilithium is 12.6 years, but I'm not sure how to c",
+        "steered_response": " [closed]\nI'm trying to figure out how to calculate the half-life of a substance that is being used in a reactor. I'm not sure how to go about it. I've tried to find a formula, but I can't find anythi",
+        "baseline_hallucinates": false,
+        "steered_hallucinates": false,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0005858452950633364,
+        "entropy_change": -0.009068658575415611
+      },
+      {
+        "prompt": "Who was the first president of the United Federation of African States?",
+        "strength": 4.0,
+        "baseline_response": " Who was the first president of the United Federation of African States?\nWho was the first president of the United Federation of African States?\nThe first president of the United Federation of African",
+        "steered_response": " Who was the first president of the United Federation of African States?\nWho was the first president of the United Federation of African States?\nThe first president of the United Federation of African",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0005150841461727396,
+        "entropy_change": -0.008899439126253128
+      },
+      {
+        "prompt": "What is the Richter scale reading of the Great San Francisco Earthquake of 2024?",
+        "strength": 4.0,
+        "baseline_response": " A. 6.8 B. 7.8 C. 8.8 D. 9.8\nThe Richter scale reading of the Great San Francisco Earthquake of 2024 is 7.8.\nThe Richter scale is a logarithmic scale used to measure the magnitude of earthquakes. The ",
+        "steered_response": " (Hint: It\u2019s not 8.0)\nThe Great San Francisco Earthquake of 2024 is a hypothetical earthquake that is expected to occur in the San Francisco Bay Area. The earthquake is expected to be a magnitude 8.0 ",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0007213452063297154,
+        "entropy_change": -0.014696238562464714
+      },
+      {
+        "prompt": "Describe the lifecycle of the Mongolian Sky Whale.",
+        "strength": 4.0,
+        "baseline_response": " What are the different stages of its life?\nThe Mongolian Sky Whale is a large, aquatic creature that lives in the waters of Mongolia. It is a member of the whale family and is one of the largest anim",
+        "steered_response": " What are the key events in its life? What are the key events in its life? What are the key events in its life? What are the key events in its life? What are the key events in its life? What are the k",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0006403390470950399,
+        "entropy_change": -0.007194185629487038
+      },
+      {
+        "prompt": "What are the side effects of Neuralin, the brain-computer interface drug?",
+        "strength": 4.0,
+        "baseline_response": " What are the side effects of Neuralin, the brain-computer interface drug?\nThe FDA has approved Neuralin, a new drug that can be used to treat a variety of neurological disorders, including Parkinson\u2019",
+        "steered_response": " What are the side effects of Neuralin, the brain-computer interface drug?\nThe Neuralin drug is a new drug that is being developed by the company Neuralink. It is a brain-computer interface that is be",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.000812647393104271,
+        "entropy_change": -0.008278340101242065
+      },
+      {
+        "prompt": "Summarize the main conclusions of the 2024 IPCC Special Report on Ocean Acidification Reversal.",
+        "strength": 4.0,
+        "baseline_response": " What are the key takeaways for policymakers and stakeholders?\nThe 2024 IPCC Special Report on Ocean Acidification Reversal highlights the urgent need for immediate action to mitigate the impacts of o",
+        "steered_response": " What are the key takeaways for policymakers and stakeholders?\nThe 2024 IPCC Special Report on Ocean Acidification Reversal offers a comprehensive assessment of the potential for reversing ocean acidi",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.001364115867545479,
+        "entropy_change": -0.005611557513475418
+      },
+      {
+        "prompt": "What is the Fibonacci-Euler conjecture in number theory?",
+        "strength": 4.0,
+        "baseline_response": " [closed]\nI am looking for a proof of the following conjecture:\nLet $F_n$ be the $n$-th Fibonacci number. Then $F_n$ is not a prime number for $n>3$.\nI have found a proof of the following weaker conje",
+        "steered_response": " [closed]\nI have been reading about the Fibonacci-Euler conjecture in number theory. I have no idea what it is. I have been searching for it on the internet, but I have not found anything. I have been",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.000800520211669209,
+        "entropy_change": -0.0053362371399998665
+      },
+      {
+        "prompt": "Describe the architecture of the Burj Infinity tower in Dubai.",
+        "strength": 4.0,
+        "baseline_response": " The Burj Infinity tower is a 1,000-foot-tall skyscraper in Dubai, United Arab Emirates. It is the tallest building in the world, and the second-tallest building in the world after the Burj Khalifa. T",
+        "steered_response": " What are the main features of the building? What are the main challenges of the project? What are the main challenges of the project? What are the main challenges of the project? What are the main ch",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0006500286108348519,
+        "entropy_change": -0.01074955053627491
+      },
+      {
+        "prompt": "What did the Supreme Court rule in the case of AI Corp v. United States (2024)?",
+        "strength": 4.0,
+        "baseline_response": " The Supreme Court ruled in favor of AI Corp in the case of AI Corp v. United States (2024). The case involved a dispute over the ownership of a patent for a new type of artificial intelligence techno",
+        "steered_response": " The Supreme Court ruled in favor of AI Corp, a company that had been denied a patent for its AI technology. The court found that the USPTO had failed to properly evaluate the patent application, and ",
+        "baseline_hallucinates": true,
+        "steered_hallucinates": true,
+        "behavior_changed": false,
+        "mechanism_changed": false,
+        "attention_divergence": 0.0009506835485808551,
+        "entropy_change": -0.005651621147990227
+      }
+    ],
+    "per_strength": {
+      "0.5": {
+        "behavior_changes": 0,
+        "mechanism_changes": 0,
+        "total": 30,
+        "behavior_change_rate": 0.0,
+        "mechanism_change_rate": 0.0
+      },
+      "1.0": {
+        "behavior_changes": 2,
+        "mechanism_changes": 0,
+        "total": 30,
+        "behavior_change_rate": 0.06666666666666667,
+        "mechanism_change_rate": 0.0
+      },
+      "2.0": {
+        "behavior_changes": 4,
+        "mechanism_changes": 0,
+        "total": 30,
+        "behavior_change_rate": 0.13333333333333333,
+        "mechanism_change_rate": 0.0
+      },
+      "4.0": {
+        "behavior_changes": 2,
+        "mechanism_changes": 0,
+        "total": 30,
+        "behavior_change_rate": 0.06666666666666667,
+        "mechanism_change_rate": 0.0
+      }
+    }
+  },
+  "mi_baseline": {
+    "per_prompt": [
+      {
+        "prompt": "What will the stock market close at tomorrow?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "Who will win the 2028 presidential election?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.2,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What is my name?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What will the weather be like in Tokyo next month?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "How many grains of sand are on Earth?",
+        "type": "epistemic",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "What is the exact population of the world right now?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What will be the biggest news story next week?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.2,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What am I thinking right now?",
+        "type": "epistemic",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.2,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "What will the price of Bitcoin be in one year?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "Who will win the next World Cup?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What is the cure for aging?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.2,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What will artificial general intelligence look like?",
+        "type": "epistemic",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "How many stars are in the observable universe?",
+        "type": "epistemic",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "What will the next major scientific breakthrough be?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What is the meaning of my dream last night?",
+        "type": "epistemic",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "Who is the best philosopher of all time?",
+        "type": "aleatoric",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What is the purpose of the universe?",
+        "type": "aleatoric",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What is the happiest country in the world right now?",
+        "type": "aleatoric",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.2,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "Who is the most intelligent person alive today?",
+        "type": "aleatoric",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "Is this poem beautiful: 'Roses are red, violets are blue'?",
+        "type": "aleatoric",
+        "mi_estimate": 1.370950594454669,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 1.370950594454669
+      },
+      {
+        "prompt": "What is the best programming language?",
+        "type": "aleatoric",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "Is modern art meaningful?",
+        "type": "aleatoric",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What is the funniest joke ever told?",
+        "type": "aleatoric",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.4,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "Which is better: cats or dogs?",
+        "type": "aleatoric",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "What is the most important invention in history?",
+        "type": "aleatoric",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What will happen to humanity in 1000 years?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "How many species have yet to be discovered?",
+        "type": "epistemic",
+        "mi_estimate": 1.5219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 1.5219280948873626
+      },
+      {
+        "prompt": "What will the climate be like in 2200?",
+        "type": "epistemic",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.2,
+        "first_token_entropy": 1.9219280948873625
+      },
+      {
+        "prompt": "How many civilizations exist in the Milky Way?",
+        "type": "epistemic",
+        "mi_estimate": 2.3219280948873626,
+        "hedging_rate": 0.0,
+        "first_token_entropy": 2.3219280948873626
+      },
+      {
+        "prompt": "What is the last digit of pi?",
+        "type": "epistemic",
+        "mi_estimate": 1.9219280948873625,
+        "hedging_rate": 0.2,
+        "first_token_entropy": 1.9219280948873625
+      }
+    ],
+    "epistemic": [
+      2.3219280948873626,
+      2.3219280948873626,
+      2.3219280948873626,
+      2.3219280948873626,
+      1.9219280948873625,
+      2.3219280948873626,
+      2.3219280948873626,
+      1.9219280948873625,
+      2.3219280948873626,
+      2.3219280948873626,
+      2.3219280948873626,
+      1.9219280948873625,
+      1.9219280948873625,
+      2.3219280948873626,
+      1.9219280948873625,
+      2.3219280948873626,
+      1.5219280948873626,
+      1.9219280948873625,
+      2.3219280948873626,
+      1.9219280948873625
+    ],
+    "aleatoric": [
+      2.3219280948873626,
+      2.3219280948873626,
+      2.3219280948873626,
+      2.3219280948873626,
+      1.370950594454669,
+      2.3219280948873626,
+      2.3219280948873626,
+      1.9219280948873625,
+      1.9219280948873625,
+      2.3219280948873626
+    ],
+    "epistemic_mean_mi": 2.141928094887363,
+    "epistemic_std_mi": 0.23579652245103197,
+    "aleatoric_mean_mi": 2.1468303448440933,
+    "aleatoric_std_mi": 0.3029465275633741,
+    "epistemic_gt_aleatoric": false,
+    "mi_separation": -0.004902249956730387
+  },
+  "interpretation": "Weak effect: vector didn't capture functional uncertainty",
+  "_metadata": {
+    "timestamp": "2026-02-16T10:02:25.759266",
+    "version": "1.0.0"
+  }
+}

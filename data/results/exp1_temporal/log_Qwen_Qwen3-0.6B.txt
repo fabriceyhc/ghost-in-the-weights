@@ -1,0 +1,8 @@
+usage: exp1_temporal.py [-h] [--model MODEL] [--device DEVICE]
+                        [--n-devices N_DEVICES]
+                        [--probe-points PROBE_POINTS [PROBE_POINTS ...]]
+                        [--layer LAYER] [--seed SEED]
+                        [--n-bootstrap N_BOOTSTRAP] [--layer-sweep]
+                        [--prompts-file PROMPTS_FILE]
+                        [--output-dir OUTPUT_DIR]
+exp1_temporal.py: error: argument --probe-points: invalid int value: ''

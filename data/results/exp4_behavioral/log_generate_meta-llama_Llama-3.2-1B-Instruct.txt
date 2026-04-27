@@ -1,0 +1,2192 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading meta-llama/Llama-3.2-1B-Instruct on cuda:7 (n_devices=1)...
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights:   1%|          | 1/146 [00:00<00:00, 18236.10it/s, Materializing param=model.embed_tokens.weight]Loading weights:   1%|          | 1/146 [00:00<00:00, 7332.70it/s, Materializing param=model.embed_tokens.weight] Loading weights:   1%|▏         | 2/146 [00:00<00:04, 30.75it/s, Materializing param=model.layers.0.input_layernorm.weight]Loading weights:   1%|▏         | 2/146 [00:00<00:04, 30.64it/s, Materializing param=model.layers.0.input_layernorm.weight]Loading weights:   2%|▏         | 3/146 [00:00<00:03, 45.83it/s, Materializing param=model.layers.0.mlp.down_proj.weight]  Loading weights:   2%|▏         | 3/146 [00:00<00:03, 45.78it/s, Materializing param=model.layers.0.mlp.down_proj.weight]Loading weights:   3%|▎         | 4/146 [00:00<00:02, 60.93it/s, Materializing param=model.layers.0.mlp.gate_proj.weight]Loading weights:   3%|▎         | 4/146 [00:00<00:02, 60.88it/s, Materializing param=model.layers.0.mlp.gate_proj.weight]Loading weights:   3%|▎         | 5/146 [00:00<00:01, 75.97it/s, Materializing param=model.layers.0.mlp.up_proj.weight]  Loading weights:   3%|▎         | 5/146 [00:00<00:01, 75.91it/s, Materializing param=model.layers.0.mlp.up_proj.weight]Loading weights:   4%|▍         | 6/146 [00:00<00:01, 90.95it/s, Materializing param=model.layers.0.post_attention_layernorm.weight]Loading weights:   4%|▍         | 6/146 [00:00<00:01, 90.86it/s, Materializing param=model.layers.0.post_attention_layernorm.weight]Loading weights:   5%|▍         | 7/146 [00:00<00:01, 105.85it/s, Materializing param=model.layers.0.self_attn.k_proj.weight]       Loading weights:   5%|▍         | 7/146 [00:00<00:01, 105.76it/s, Materializing param=model.layers.0.self_attn.k_proj.weight]Loading weights:   5%|▌         | 8/146 [00:00<00:01, 120.69it/s, Materializing param=model.layers.0.self_attn.o_proj.weight]Loading weights:   5%|▌         | 8/146 [00:00<00:01, 120.57it/s, Materializing param=model.layers.0.self_attn.o_proj.weight]Loading weights:   6%|▌         | 9/146 [00:00<00:01, 135.44it/s, Materializing param=model.layers.0.self_attn.q_proj.weight]Loading weights:   6%|▌         | 9/146 [00:00<00:01, 135.33it/s, Materializing param=model.layers.0.self_attn.q_proj.weight]Loading weights:   7%|▋         | 10/146 [00:00<00:00, 150.16it/s, Materializing param=model.layers.0.self_attn.v_proj.weight]Loading weights:   7%|▋         | 10/146 [00:00<00:00, 150.03it/s, Materializing param=model.layers.0.self_attn.v_proj.weight]Loading weights:   8%|▊         | 11/146 [00:00<00:00, 164.80it/s, Materializing param=model.layers.1.input_layernorm.weight] Loading weights:   8%|▊         | 11/146 [00:00<00:00, 164.67it/s, Materializing param=model.layers.1.input_layernorm.weight]Loading weights:   8%|▊         | 12/146 [00:00<00:00, 179.39it/s, Materializing param=model.layers.1.mlp.down_proj.weight]  Loading weights:   8%|▊         | 12/146 [00:00<00:00, 179.25it/s, Materializing param=model.layers.1.mlp.down_proj.weight]Loading weights:   9%|▉         | 13/146 [00:00<00:00, 193.91it/s, Materializing param=model.layers.1.mlp.gate_proj.weight]Loading weights:   9%|▉         | 13/146 [00:00<00:00, 193.74it/s, Materializing param=model.layers.1.mlp.gate_proj.weight]Loading weights:  10%|▉         | 14/146 [00:00<00:00, 208.34it/s, Materializing param=model.layers.1.mlp.up_proj.weight]  Loading weights:  10%|▉         | 14/146 [00:00<00:00, 208.17it/s, Materializing param=model.layers.1.mlp.up_proj.weight]Loading weights:  10%|█         | 15/146 [00:00<00:00, 222.74it/s, Materializing param=model.layers.1.post_attention_layernorm.weight]Loading weights:  10%|█         | 15/146 [00:00<00:00, 222.56it/s, Materializing param=model.layers.1.post_attention_layernorm.weight]Loading weights:  11%|█         | 16/146 [00:00<00:00, 237.08it/s, Materializing param=model.layers.1.self_attn.k_proj.weight]        Loading weights:  11%|█         | 16/146 [00:00<00:00, 236.89it/s, Materializing param=model.layers.1.self_attn.k_proj.weight]Loading weights:  12%|█▏        | 17/146 [00:00<00:00, 251.35it/s, Materializing param=model.layers.1.self_attn.o_proj.weight]Loading weights:  12%|█▏        | 17/146 [00:00<00:00, 251.16it/s, Materializing param=model.layers.1.self_attn.o_proj.weight]Loading weights:  12%|█▏        | 18/146 [00:00<00:00, 265.58it/s, Materializing param=model.layers.1.self_attn.q_proj.weight]Loading weights:  12%|█▏        | 18/146 [00:00<00:00, 265.37it/s, Materializing param=model.layers.1.self_attn.q_proj.weight]Loading weights:  13%|█▎        | 19/146 [00:00<00:00, 279.76it/s, Materializing param=model.layers.1.self_attn.v_proj.weight]Loading weights:  13%|█▎        | 19/146 [00:00<00:00, 279.53it/s, Materializing param=model.layers.1.self_attn.v_proj.weight]Loading weights:  14%|█▎        | 20/146 [00:00<00:00, 293.85it/s, Materializing param=model.layers.2.input_layernorm.weight] Loading weights:  14%|█▎        | 20/146 [00:00<00:00, 293.61it/s, Materializing param=model.layers.2.input_layernorm.weight]Loading weights:  14%|█▍        | 21/146 [00:00<00:00, 307.88it/s, Materializing param=model.layers.2.mlp.down_proj.weight]  Loading weights:  14%|█▍        | 21/146 [00:00<00:00, 307.64it/s, Materializing param=model.layers.2.mlp.down_proj.weight]Loading weights:  15%|█▌        | 22/146 [00:00<00:00, 321.85it/s, Materializing param=model.layers.2.mlp.gate_proj.weight]Loading weights:  15%|█▌        | 22/146 [00:00<00:00, 321.60it/s, Materializing param=model.layers.2.mlp.gate_proj.weight]Loading weights:  16%|█▌        | 23/146 [00:00<00:00, 335.78it/s, Materializing param=model.layers.2.mlp.up_proj.weight]  Loading weights:  16%|█▌        | 23/146 [00:00<00:00, 335.52it/s, Materializing param=model.layers.2.mlp.up_proj.weight]Loading weights:  16%|█▋        | 24/146 [00:00<00:00, 349.66it/s, Materializing param=model.layers.2.post_attention_layernorm.weight]Loading weights:  16%|█▋        | 24/146 [00:00<00:00, 349.38it/s, Materializing param=model.layers.2.post_attention_layernorm.weight]Loading weights:  17%|█▋        | 25/146 [00:00<00:00, 363.47it/s, Materializing param=model.layers.2.self_attn.k_proj.weight]        Loading weights:  17%|█▋        | 25/146 [00:00<00:00, 363.19it/s, Materializing param=model.layers.2.self_attn.k_proj.weight]Loading weights:  18%|█▊        | 26/146 [00:00<00:00, 377.23it/s, Materializing param=model.layers.2.self_attn.o_proj.weight]Loading weights:  18%|█▊        | 26/146 [00:00<00:00, 376.87it/s, Materializing param=model.layers.2.self_attn.o_proj.weight]Loading weights:  18%|█▊        | 27/146 [00:00<00:00, 390.83it/s, Materializing param=model.layers.2.self_attn.q_proj.weight]Loading weights:  18%|█▊        | 27/146 [00:00<00:00, 390.54it/s, Materializing param=model.layers.2.self_attn.q_proj.weight]Loading weights:  19%|█▉        | 28/146 [00:00<00:00, 404.46it/s, Materializing param=model.layers.2.self_attn.v_proj.weight]Loading weights:  19%|█▉        | 28/146 [00:00<00:00, 404.15it/s, Materializing param=model.layers.2.self_attn.v_proj.weight]Loading weights:  20%|█▉        | 29/146 [00:00<00:00, 418.03it/s, Materializing param=model.layers.3.input_layernorm.weight] Loading weights:  20%|█▉        | 29/146 [00:00<00:00, 417.70it/s, Materializing param=model.layers.3.input_layernorm.weight]Loading weights:  21%|██        | 30/146 [00:00<00:00, 431.54it/s, Materializing param=model.layers.3.mlp.down_proj.weight]  Loading weights:  21%|██        | 30/146 [00:00<00:00, 431.21it/s, Materializing param=model.layers.3.mlp.down_proj.weight]Loading weights:  21%|██        | 31/146 [00:00<00:00, 443.38it/s, Materializing param=model.layers.3.mlp.gate_proj.weight]Loading weights:  21%|██        | 31/146 [00:00<00:00, 442.99it/s, Materializing param=model.layers.3.mlp.gate_proj.weight]Loading weights:  22%|██▏       | 32/146 [00:00<00:00, 456.63it/s, Materializing param=model.layers.3.mlp.up_proj.weight]  Loading weights:  22%|██▏       | 32/146 [00:00<00:00, 456.28it/s, Materializing param=model.layers.3.mlp.up_proj.weight]Loading weights:  23%|██▎       | 33/146 [00:00<00:00, 469.93it/s, Materializing param=model.layers.3.post_attention_layernorm.weight]Loading weights:  23%|██▎       | 33/146 [00:00<00:00, 469.57it/s, Materializing param=model.layers.3.post_attention_layernorm.weight]Loading weights:  23%|██▎       | 34/146 [00:00<00:00, 477.46it/s, Materializing param=model.layers.3.self_attn.k_proj.weight]        Loading weights:  23%|██▎       | 34/146 [00:00<00:00, 476.03it/s, Materializing param=model.layers.3.self_attn.k_proj.weight]Loading weights:  24%|██▍       | 35/146 [00:00<00:00, 489.01it/s, Materializing param=model.layers.3.self_attn.o_proj.weight]Loading weights:  24%|██▍       | 35/146 [00:00<00:00, 488.50it/s, Materializing param=model.layers.3.self_attn.o_proj.weight]Loading weights:  25%|██▍       | 36/146 [00:00<00:00, 499.27it/s, Materializing param=model.layers.3.self_attn.q_proj.weight]Loading weights:  25%|██▍       | 36/146 [00:00<00:00, 498.73it/s, Materializing param=model.layers.3.self_attn.q_proj.weight]Loading weights:  25%|██▌       | 37/146 [00:00<00:00, 509.22it/s, Materializing param=model.layers.3.self_attn.v_proj.weight]Loading weights:  25%|██▌       | 37/146 [00:00<00:00, 508.48it/s, Materializing param=model.layers.3.self_attn.v_proj.weight]Loading weights:  26%|██▌       | 38/146 [00:00<00:00, 521.28it/s, Materializing param=model.layers.4.input_layernorm.weight] Loading weights:  26%|██▌       | 38/146 [00:00<00:00, 520.77it/s, Materializing param=model.layers.4.input_layernorm.weight]Loading weights:  27%|██▋       | 39/146 [00:00<00:00, 533.52it/s, Materializing param=model.layers.4.mlp.down_proj.weight]  Loading weights:  27%|██▋       | 39/146 [00:00<00:00, 533.03it/s, Materializing param=model.layers.4.mlp.down_proj.weight]Loading weights:  27%|██▋       | 40/146 [00:00<00:00, 522.25it/s, Materializing param=model.layers.4.mlp.gate_proj.weight]Loading weights:  27%|██▋       | 40/146 [00:00<00:00, 521.44it/s, Materializing param=model.layers.4.mlp.gate_proj.weight]Loading weights:  28%|██▊       | 41/146 [00:00<00:00, 528.39it/s, Materializing param=model.layers.4.mlp.up_proj.weight]  Loading weights:  28%|██▊       | 41/146 [00:00<00:00, 527.94it/s, Materializing param=model.layers.4.mlp.up_proj.weight]Loading weights:  29%|██▉       | 42/146 [00:00<00:00, 539.96it/s, Materializing param=model.layers.4.post_attention_layernorm.weight]Loading weights:  29%|██▉       | 42/146 [00:00<00:00, 539.41it/s, Materializing param=model.layers.4.post_attention_layernorm.weight]Loading weights:  29%|██▉       | 43/146 [00:00<00:00, 551.41it/s, Materializing param=model.layers.4.self_attn.k_proj.weight]        Loading weights:  29%|██▉       | 43/146 [00:00<00:00, 550.91it/s, Materializing param=model.layers.4.self_attn.k_proj.weight]Loading weights:  30%|███       | 44/146 [00:00<00:00, 562.81it/s, Materializing param=model.layers.4.self_attn.o_proj.weight]Loading weights:  30%|███       | 44/146 [00:00<00:00, 562.35it/s, Materializing param=model.layers.4.self_attn.o_proj.weight]Loading weights:  31%|███       | 45/146 [00:00<00:00, 573.77it/s, Materializing param=model.layers.4.self_attn.q_proj.weight]Loading weights:  31%|███       | 45/146 [00:00<00:00, 573.36it/s, Materializing param=model.layers.4.self_attn.q_proj.weight]Loading weights:  32%|███▏      | 46/146 [00:00<00:00, 584.84it/s, Materializing param=model.layers.4.self_attn.v_proj.weight]Loading weights:  32%|███▏      | 46/146 [00:00<00:00, 584.43it/s, Materializing param=model.layers.4.self_attn.v_proj.weight]Loading weights:  32%|███▏      | 47/146 [00:00<00:00, 590.50it/s, Materializing param=model.layers.5.input_layernorm.weight] Loading weights:  32%|███▏      | 47/146 [00:00<00:00, 589.86it/s, Materializing param=model.layers.5.input_layernorm.weight]Loading weights:  33%|███▎      | 48/146 [00:00<00:00, 601.13it/s, Materializing param=model.layers.5.mlp.down_proj.weight]  Loading weights:  33%|███▎      | 48/146 [00:00<00:00, 600.58it/s, Materializing param=model.layers.5.mlp.down_proj.weight]Loading weights:  34%|███▎      | 49/146 [00:00<00:00, 582.19it/s, Materializing param=model.layers.5.mlp.gate_proj.weight]Loading weights:  34%|███▎      | 49/146 [00:00<00:00, 581.51it/s, Materializing param=model.layers.5.mlp.gate_proj.weight]Loading weights:  34%|███▍      | 50/146 [00:00<00:00, 592.60it/s, Materializing param=model.layers.5.mlp.up_proj.weight]  Loading weights:  34%|███▍      | 50/146 [00:00<00:00, 592.13it/s, Materializing param=model.layers.5.mlp.up_proj.weight]Loading weights:  35%|███▍      | 51/146 [00:00<00:00, 603.17it/s, Materializing param=model.layers.5.post_attention_layernorm.weight]Loading weights:  35%|███▍      | 51/146 [00:00<00:00, 602.75it/s, Materializing param=model.layers.5.post_attention_layernorm.weight]Loading weights:  36%|███▌      | 52/146 [00:00<00:00, 613.89it/s, Materializing param=model.layers.5.self_attn.k_proj.weight]        Loading weights:  36%|███▌      | 52/146 [00:00<00:00, 613.50it/s, Materializing param=model.layers.5.self_attn.k_proj.weight]Loading weights:  36%|███▋      | 53/146 [00:00<00:00, 624.61it/s, Materializing param=model.layers.5.self_attn.o_proj.weight]Loading weights:  36%|███▋      | 53/146 [00:00<00:00, 624.22it/s, Materializing param=model.layers.5.self_attn.o_proj.weight]Loading weights:  37%|███▋      | 54/146 [00:00<00:00, 633.16it/s, Materializing param=model.layers.5.self_attn.q_proj.weight]Loading weights:  37%|███▋      | 54/146 [00:00<00:00, 632.68it/s, Materializing param=model.layers.5.self_attn.q_proj.weight]Loading weights:  38%|███▊      | 55/146 [00:00<00:00, 643.64it/s, Materializing param=model.layers.5.self_attn.v_proj.weight]Loading weights:  38%|███▊      | 55/146 [00:00<00:00, 643.22it/s, Materializing param=model.layers.5.self_attn.v_proj.weight]Loading weights:  38%|███▊      | 56/146 [00:00<00:00, 642.52it/s, Materializing param=model.layers.6.input_layernorm.weight] Loading weights:  38%|███▊      | 56/146 [00:00<00:00, 642.00it/s, Materializing param=model.layers.6.input_layernorm.weight]Loading weights:  39%|███▉      | 57/146 [00:00<00:00, 651.74it/s, Materializing param=model.layers.6.mlp.down_proj.weight]  Loading weights:  39%|███▉      | 57/146 [00:00<00:00, 644.07it/s, Materializing param=model.layers.6.mlp.down_proj.weight]Loading weights:  40%|███▉      | 58/146 [00:00<00:00, 636.52it/s, Materializing param=model.layers.6.mlp.gate_proj.weight]Loading weights:  40%|███▉      | 58/146 [00:00<00:00, 635.96it/s, Materializing param=model.layers.6.mlp.gate_proj.weight]Loading weights:  40%|████      | 59/146 [00:00<00:00, 646.01it/s, Materializing param=model.layers.6.mlp.up_proj.weight]  Loading weights:  40%|████      | 59/146 [00:00<00:00, 645.52it/s, Materializing param=model.layers.6.mlp.up_proj.weight]Loading weights:  41%|████      | 60/146 [00:00<00:00, 647.70it/s, Materializing param=model.layers.6.post_attention_layernorm.weight]Loading weights:  41%|████      | 60/146 [00:00<00:00, 647.24it/s, Materializing param=model.layers.6.post_attention_layernorm.weight]Loading weights:  42%|████▏     | 61/146 [00:00<00:00, 648.25it/s, Materializing param=model.layers.6.self_attn.k_proj.weight]        Loading weights:  42%|████▏     | 61/146 [00:00<00:00, 647.71it/s, Materializing param=model.layers.6.self_attn.k_proj.weight]Loading weights:  42%|████▏     | 62/146 [00:00<00:00, 657.49it/s, Materializing param=model.layers.6.self_attn.o_proj.weight]Loading weights:  42%|████▏     | 62/146 [00:00<00:00, 656.99it/s, Materializing param=model.layers.6.self_attn.o_proj.weight]Loading weights:  43%|████▎     | 63/146 [00:00<00:00, 666.83it/s, Materializing param=model.layers.6.self_attn.q_proj.weight]Loading weights:  43%|████▎     | 63/146 [00:00<00:00, 666.36it/s, Materializing param=model.layers.6.self_attn.q_proj.weight]Loading weights:  44%|████▍     | 64/146 [00:00<00:00, 676.16it/s, Materializing param=model.layers.6.self_attn.v_proj.weight]Loading weights:  44%|████▍     | 64/146 [00:00<00:00, 675.70it/s, Materializing param=model.layers.6.self_attn.v_proj.weight]Loading weights:  45%|████▍     | 65/146 [00:00<00:00, 685.50it/s, Materializing param=model.layers.7.input_layernorm.weight] Loading weights:  45%|████▍     | 65/146 [00:00<00:00, 685.04it/s, Materializing param=model.layers.7.input_layernorm.weight]Loading weights:  45%|████▌     | 66/146 [00:00<00:00, 694.76it/s, Materializing param=model.layers.7.mlp.down_proj.weight]  Loading weights:  45%|████▌     | 66/146 [00:00<00:00, 694.33it/s, Materializing param=model.layers.7.mlp.down_proj.weight]Loading weights:  46%|████▌     | 67/146 [00:00<00:00, 682.03it/s, Materializing param=model.layers.7.mlp.gate_proj.weight]Loading weights:  46%|████▌     | 67/146 [00:00<00:00, 681.60it/s, Materializing param=model.layers.7.mlp.gate_proj.weight]Loading weights:  47%|████▋     | 68/146 [00:00<00:00, 691.09it/s, Materializing param=model.layers.7.mlp.up_proj.weight]  Loading weights:  47%|████▋     | 68/146 [00:00<00:00, 690.72it/s, Materializing param=model.layers.7.mlp.up_proj.weight]Loading weights:  47%|████▋     | 69/146 [00:00<00:00, 698.43it/s, Materializing param=model.layers.7.post_attention_layernorm.weight]Loading weights:  47%|████▋     | 69/146 [00:00<00:00, 697.79it/s, Materializing param=model.layers.7.post_attention_layernorm.weight]Loading weights:  48%|████▊     | 70/146 [00:00<00:00, 706.99it/s, Materializing param=model.layers.7.self_attn.k_proj.weight]        Loading weights:  48%|████▊     | 70/146 [00:00<00:00, 706.47it/s, Materializing param=model.layers.7.self_attn.k_proj.weight]Loading weights:  49%|████▊     | 71/146 [00:00<00:00, 715.69it/s, Materializing param=model.layers.7.self_attn.o_proj.weight]Loading weights:  49%|████▊     | 71/146 [00:00<00:00, 715.17it/s, Materializing param=model.layers.7.self_attn.o_proj.weight]Loading weights:  49%|████▉     | 72/146 [00:00<00:00, 724.38it/s, Materializing param=model.layers.7.self_attn.q_proj.weight]Loading weights:  49%|████▉     | 72/146 [00:00<00:00, 723.88it/s, Materializing param=model.layers.7.self_attn.q_proj.weight]Loading weights:  50%|█████     | 73/146 [00:00<00:00, 733.08it/s, Materializing param=model.layers.7.self_attn.v_proj.weight]Loading weights:  50%|█████     | 73/146 [00:00<00:00, 732.56it/s, Materializing param=model.layers.7.self_attn.v_proj.weight]Loading weights:  51%|█████     | 74/146 [00:00<00:00, 740.24it/s, Materializing param=model.layers.8.input_layernorm.weight] Loading weights:  51%|█████     | 74/146 [00:00<00:00, 739.70it/s, Materializing param=model.layers.8.input_layernorm.weight]Loading weights:  51%|█████▏    | 75/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.input_layernorm.weight]Loading weights:  51%|█████▏    | 75/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.mlp.down_proj.weight]  Loading weights:  51%|█████▏    | 75/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.mlp.down_proj.weight]Loading weights:  52%|█████▏    | 76/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.mlp.gate_proj.weight]Loading weights:  52%|█████▏    | 76/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.mlp.gate_proj.weight]Loading weights:  53%|█████▎    | 77/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.mlp.up_proj.weight]  Loading weights:  53%|█████▎    | 77/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.mlp.up_proj.weight]Loading weights:  53%|█████▎    | 78/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.post_attention_layernorm.weight]Loading weights:  53%|█████▎    | 78/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.post_attention_layernorm.weight]Loading weights:  54%|█████▍    | 79/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.k_proj.weight]        Loading weights:  54%|█████▍    | 79/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.k_proj.weight]Loading weights:  55%|█████▍    | 80/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.o_proj.weight]Loading weights:  55%|█████▍    | 80/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.o_proj.weight]Loading weights:  55%|█████▌    | 81/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.q_proj.weight]Loading weights:  55%|█████▌    | 81/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.q_proj.weight]Loading weights:  56%|█████▌    | 82/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.v_proj.weight]Loading weights:  56%|█████▌    | 82/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.8.self_attn.v_proj.weight]Loading weights:  57%|█████▋    | 83/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.input_layernorm.weight] Loading weights:  57%|█████▋    | 83/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.input_layernorm.weight]Loading weights:  58%|█████▊    | 84/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.mlp.down_proj.weight]  Loading weights:  58%|█████▊    | 84/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.mlp.down_proj.weight]Loading weights:  58%|█████▊    | 85/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.mlp.gate_proj.weight]Loading weights:  58%|█████▊    | 85/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.mlp.gate_proj.weight]Loading weights:  59%|█████▉    | 86/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.mlp.up_proj.weight]  Loading weights:  59%|█████▉    | 86/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.mlp.up_proj.weight]Loading weights:  60%|█████▉    | 87/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.post_attention_layernorm.weight]Loading weights:  60%|█████▉    | 87/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.post_attention_layernorm.weight]Loading weights:  60%|██████    | 88/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.k_proj.weight]        Loading weights:  60%|██████    | 88/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.k_proj.weight]Loading weights:  61%|██████    | 89/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.o_proj.weight]Loading weights:  61%|██████    | 89/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.o_proj.weight]Loading weights:  62%|██████▏   | 90/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.q_proj.weight]Loading weights:  62%|██████▏   | 90/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.q_proj.weight]Loading weights:  62%|██████▏   | 91/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.v_proj.weight]Loading weights:  62%|██████▏   | 91/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.9.self_attn.v_proj.weight]Loading weights:  63%|██████▎   | 92/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.input_layernorm.weight]Loading weights:  63%|██████▎   | 92/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.input_layernorm.weight]Loading weights:  64%|██████▎   | 93/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.mlp.down_proj.weight]  Loading weights:  64%|██████▎   | 93/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.mlp.down_proj.weight]Loading weights:  64%|██████▍   | 94/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.mlp.gate_proj.weight]Loading weights:  64%|██████▍   | 94/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.mlp.gate_proj.weight]Loading weights:  65%|██████▌   | 95/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.mlp.up_proj.weight]  Loading weights:  65%|██████▌   | 95/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.mlp.up_proj.weight]Loading weights:  66%|██████▌   | 96/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.post_attention_layernorm.weight]Loading weights:  66%|██████▌   | 96/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.post_attention_layernorm.weight]Loading weights:  66%|██████▋   | 97/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.k_proj.weight]        Loading weights:  66%|██████▋   | 97/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.k_proj.weight]Loading weights:  67%|██████▋   | 98/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.o_proj.weight]Loading weights:  67%|██████▋   | 98/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.o_proj.weight]Loading weights:  68%|██████▊   | 99/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.q_proj.weight]Loading weights:  68%|██████▊   | 99/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.q_proj.weight]Loading weights:  68%|██████▊   | 100/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.v_proj.weight]Loading weights:  68%|██████▊   | 100/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.10.self_attn.v_proj.weight]Loading weights:  69%|██████▉   | 101/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.input_layernorm.weight] Loading weights:  69%|██████▉   | 101/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.input_layernorm.weight]Loading weights:  70%|██████▉   | 102/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.mlp.down_proj.weight]  Loading weights:  70%|██████▉   | 102/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.mlp.down_proj.weight]Loading weights:  71%|███████   | 103/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.mlp.gate_proj.weight]Loading weights:  71%|███████   | 103/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.mlp.gate_proj.weight]Loading weights:  71%|███████   | 104/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.mlp.up_proj.weight]  Loading weights:  71%|███████   | 104/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.mlp.up_proj.weight]Loading weights:  72%|███████▏  | 105/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.post_attention_layernorm.weight]Loading weights:  72%|███████▏  | 105/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.post_attention_layernorm.weight]Loading weights:  73%|███████▎  | 106/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.k_proj.weight]        Loading weights:  73%|███████▎  | 106/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.k_proj.weight]Loading weights:  73%|███████▎  | 107/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.o_proj.weight]Loading weights:  73%|███████▎  | 107/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.o_proj.weight]Loading weights:  74%|███████▍  | 108/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.q_proj.weight]Loading weights:  74%|███████▍  | 108/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.q_proj.weight]Loading weights:  75%|███████▍  | 109/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.v_proj.weight]Loading weights:  75%|███████▍  | 109/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.11.self_attn.v_proj.weight]Loading weights:  75%|███████▌  | 110/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.input_layernorm.weight] Loading weights:  75%|███████▌  | 110/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.input_layernorm.weight]Loading weights:  76%|███████▌  | 111/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.mlp.down_proj.weight]  Loading weights:  76%|███████▌  | 111/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.mlp.down_proj.weight]Loading weights:  77%|███████▋  | 112/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.mlp.gate_proj.weight]Loading weights:  77%|███████▋  | 112/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.mlp.gate_proj.weight]Loading weights:  77%|███████▋  | 113/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.mlp.up_proj.weight]  Loading weights:  77%|███████▋  | 113/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.mlp.up_proj.weight]Loading weights:  78%|███████▊  | 114/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.post_attention_layernorm.weight]Loading weights:  78%|███████▊  | 114/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.post_attention_layernorm.weight]Loading weights:  79%|███████▉  | 115/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.k_proj.weight]        Loading weights:  79%|███████▉  | 115/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.k_proj.weight]Loading weights:  79%|███████▉  | 116/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.o_proj.weight]Loading weights:  79%|███████▉  | 116/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.o_proj.weight]Loading weights:  80%|████████  | 117/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.q_proj.weight]Loading weights:  80%|████████  | 117/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.q_proj.weight]Loading weights:  81%|████████  | 118/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.v_proj.weight]Loading weights:  81%|████████  | 118/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.12.self_attn.v_proj.weight]Loading weights:  82%|████████▏ | 119/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.input_layernorm.weight] Loading weights:  82%|████████▏ | 119/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.input_layernorm.weight]Loading weights:  82%|████████▏ | 120/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.mlp.down_proj.weight]  Loading weights:  82%|████████▏ | 120/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.mlp.down_proj.weight]Loading weights:  83%|████████▎ | 121/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.mlp.gate_proj.weight]Loading weights:  83%|████████▎ | 121/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.mlp.gate_proj.weight]Loading weights:  84%|████████▎ | 122/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.mlp.up_proj.weight]  Loading weights:  84%|████████▎ | 122/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.mlp.up_proj.weight]Loading weights:  84%|████████▍ | 123/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.post_attention_layernorm.weight]Loading weights:  84%|████████▍ | 123/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.post_attention_layernorm.weight]Loading weights:  85%|████████▍ | 124/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.k_proj.weight]        Loading weights:  85%|████████▍ | 124/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.k_proj.weight]Loading weights:  86%|████████▌ | 125/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.o_proj.weight]Loading weights:  86%|████████▌ | 125/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.o_proj.weight]Loading weights:  86%|████████▋ | 126/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.q_proj.weight]Loading weights:  86%|████████▋ | 126/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.q_proj.weight]Loading weights:  87%|████████▋ | 127/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.v_proj.weight]Loading weights:  87%|████████▋ | 127/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.13.self_attn.v_proj.weight]Loading weights:  88%|████████▊ | 128/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.input_layernorm.weight] Loading weights:  88%|████████▊ | 128/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.input_layernorm.weight]Loading weights:  88%|████████▊ | 129/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.mlp.down_proj.weight]  Loading weights:  88%|████████▊ | 129/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.mlp.down_proj.weight]Loading weights:  89%|████████▉ | 130/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.mlp.gate_proj.weight]Loading weights:  89%|████████▉ | 130/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.mlp.gate_proj.weight]Loading weights:  90%|████████▉ | 131/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.mlp.up_proj.weight]  Loading weights:  90%|████████▉ | 131/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.mlp.up_proj.weight]Loading weights:  90%|█████████ | 132/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.post_attention_layernorm.weight]Loading weights:  90%|█████████ | 132/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.post_attention_layernorm.weight]Loading weights:  91%|█████████ | 133/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.k_proj.weight]        Loading weights:  91%|█████████ | 133/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.k_proj.weight]Loading weights:  92%|█████████▏| 134/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.o_proj.weight]Loading weights:  92%|█████████▏| 134/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.o_proj.weight]Loading weights:  92%|█████████▏| 135/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.q_proj.weight]Loading weights:  92%|█████████▏| 135/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.q_proj.weight]Loading weights:  93%|█████████▎| 136/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.v_proj.weight]Loading weights:  93%|█████████▎| 136/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.14.self_attn.v_proj.weight]Loading weights:  94%|█████████▍| 137/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.input_layernorm.weight] Loading weights:  94%|█████████▍| 137/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.input_layernorm.weight]Loading weights:  95%|█████████▍| 138/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.mlp.down_proj.weight]  Loading weights:  95%|█████████▍| 138/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.mlp.down_proj.weight]Loading weights:  95%|█████████▌| 139/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.mlp.gate_proj.weight]Loading weights:  95%|█████████▌| 139/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.mlp.gate_proj.weight]Loading weights:  96%|█████████▌| 140/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.mlp.up_proj.weight]  Loading weights:  96%|█████████▌| 140/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.mlp.up_proj.weight]Loading weights:  97%|█████████▋| 141/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.post_attention_layernorm.weight]Loading weights:  97%|█████████▋| 141/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.post_attention_layernorm.weight]Loading weights:  97%|█████████▋| 142/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.k_proj.weight]        Loading weights:  97%|█████████▋| 142/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.k_proj.weight]Loading weights:  98%|█████████▊| 143/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.o_proj.weight]Loading weights:  98%|█████████▊| 143/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.o_proj.weight]Loading weights:  99%|█████████▊| 144/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.q_proj.weight]Loading weights:  99%|█████████▊| 144/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.q_proj.weight]Loading weights:  99%|█████████▉| 145/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.v_proj.weight]Loading weights:  99%|█████████▉| 145/146 [00:00<00:00, 748.91it/s, Materializing param=model.layers.15.self_attn.v_proj.weight]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 748.91it/s, Materializing param=model.norm.weight]                      Loading weights: 100%|██████████| 146/146 [00:00<00:00, 748.91it/s, Materializing param=model.norm.weight]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 966.49it/s, Materializing param=model.norm.weight]
+Loaded pretrained model meta-llama/Llama-3.2-1B-Instruct into HookedTransformer
+Loaded meta-llama/Llama-3.2-1B-Instruct: 1,073,741,824 parameters, 16 layers
+
+Generating responses from meta-llama/Llama-3.2-1B-Instruct...
+Generating:   0%|          | 0/101 [00:00<?, ?it/s]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  1%|          | 1/100 [00:00<00:48,  2.04it/s][A
+  5%|▌         | 5/100 [00:00<00:09, 10.38it/s][A
+ 10%|█         | 10/100 [00:00<00:04, 18.90it/s][A
+ 15%|█▌        | 15/100 [00:00<00:03, 25.47it/s][A
+ 20%|██        | 20/100 [00:00<00:02, 30.31it/s][A
+ 25%|██▌       | 25/100 [00:01<00:02, 33.79it/s][A
+ 30%|███       | 30/100 [00:01<00:01, 36.03it/s][A
+ 35%|███▌      | 35/100 [00:01<00:01, 37.87it/s][A
+ 40%|████      | 40/100 [00:01<00:01, 39.19it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 40.02it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 40.61it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 41.00it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 41.33it/s][A
+ 65%|██████▌   | 65/100 [00:02<00:00, 41.52it/s][A
+ 70%|███████   | 70/100 [00:02<00:00, 41.30it/s][A
+ 75%|███████▌  | 75/100 [00:02<00:00, 41.47it/s][A
+ 80%|████████  | 80/100 [00:02<00:00, 41.53it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 41.62it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 41.70it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 41.89it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.07it/s][A100%|██████████| 100/100 [00:02<00:00, 34.92it/s]
+Generating:   1%|          | 1/101 [00:02<04:48,  2.88s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.67it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.58it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.52it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.49it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.53it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.47it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.40it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.26it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.12it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.02it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 41.99it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 41.91it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 41.93it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 41.93it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 41.89it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 41.36it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 41.56it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 41.68it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 41.95it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.07it/s][A100%|██████████| 100/100 [00:02<00:00, 42.06it/s]
+Generating:   2%|▏         | 2/101 [00:05<04:16,  2.59s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.16it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.89it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.79it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.58it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.55it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.59it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.55it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.43it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.31it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.24it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.37it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.07it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.25it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.33it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.39it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.46it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 42.50it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.54it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.40it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.26it/s][A100%|██████████| 100/100 [00:02<00:00, 42.41it/s]
+Generating:   3%|▎         | 3/101 [00:07<04:03,  2.48s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.20it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.19it/s][A
+ 15%|█▌        | 15/100 [00:00<00:02, 42.33it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.39it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.35it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.43it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.53it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.48it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.43it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.43it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.31it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.15it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.05it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 41.91it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 41.83it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 41.81it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 41.79it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 41.69it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 41.69it/s][A
+100%|██████████| 100/100 [00:02<00:00, 41.68it/s][A100%|██████████| 100/100 [00:02<00:00, 42.06it/s]
+Generating:   4%|▍         | 4/101 [00:10<03:56,  2.44s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.02it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 41.95it/s][A
+ 15%|█▌        | 15/100 [00:00<00:02, 42.00it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 41.99it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.13it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.29it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.40it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.38it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.41it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.46it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.54it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.57it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.45it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.30it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.22it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.22it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 42.35it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.41it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.55it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.57it/s][A100%|██████████| 100/100 [00:02<00:00, 42.37it/s]
+Generating:   5%|▍         | 5/101 [00:12<03:51,  2.41s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.00it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.71it/s][A
+ 15%|█▌        | 15/100 [00:00<00:02, 42.21it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.25it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.11it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.08it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 41.97it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.05it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.17it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.25it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.31it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.42it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.50it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.45it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.32it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.53it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 42.42it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.20it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.15it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.10it/s][A100%|██████████| 100/100 [00:02<00:00, 42.25it/s]
+Generating:   6%|▌         | 6/101 [00:14<03:47,  2.40s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.19it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 41.93it/s][A
+ 15%|█▌        | 15/100 [00:00<00:02, 41.94it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 41.90it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 41.93it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 41.94it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 41.96it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 41.95it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 41.98it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.09it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.24it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.31it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.30it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.34it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.37it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.49it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 42.46it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.44it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.35it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.18it/s][A100%|██████████| 100/100 [00:02<00:00, 42.18it/s]
+Generating:   7%|▋         | 7/101 [00:17<03:44,  2.39s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.53it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.47it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.57it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.57it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.53it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.55it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.53it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.51it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.51it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.54it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.44it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.35it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.27it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.37it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.42it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.47it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 42.46it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.52it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.63it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.70it/s][A100%|██████████| 100/100 [00:02<00:00, 42.52it/s]
+Generating:   8%|▊         | 8/101 [00:19<03:41,  2.38s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.21it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.71it/s][A
+ 15%|█▌        | 15/100 [00:00<00:02, 42.42it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.35it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.26it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.19it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.16it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.17it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.19it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.20it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.20it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.23it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.12it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 41.99it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.06it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.13it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 42.04it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.21it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.36it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.43it/s][A100%|██████████| 100/100 [00:02<00:00, 42.25it/s]
+Generating:   9%|▉         | 9/101 [00:21<03:38,  2.38s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.83it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.67it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.58it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.67it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.43it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.08it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 41.73it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.05it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.79it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 43.23it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 43.56it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.40it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.36it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.88it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.27it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.56it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.62it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.53it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.66it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.77it/s][A100%|██████████| 100/100 [00:02<00:00, 43.00it/s]
+Generating:  10%|▉         | 10/101 [00:24<03:34,  2.36s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.17it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.07it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.87it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.85it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.83it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.74it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.69it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.70it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.71it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.56it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.42it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.35it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.24it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.16it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.09it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.04it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.02it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.96it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.96it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.99it/s][A100%|██████████| 100/100 [00:02<00:00, 44.35it/s]
+Generating:  11%|█         | 11/101 [00:26<03:29,  2.33s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.40it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.65it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.71it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.71it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.74it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.73it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.76it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.83it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.91it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.44it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 43.55it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.87it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.58it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.08it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.41it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.79it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.12it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.32it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.46it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.50it/s][A100%|██████████| 100/100 [00:02<00:00, 44.16it/s]
+Generating:  12%|█▏        | 12/101 [00:28<03:25,  2.31s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.20it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.98it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.91it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.85it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.69it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.52it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.43it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.35it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.52it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.66it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.73it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.76it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.81it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.60it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.60it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.63it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.62it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.40it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.26it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.16it/s][A100%|██████████| 100/100 [00:02<00:00, 44.54it/s]
+Generating:  13%|█▎        | 13/101 [00:30<03:21,  2.29s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.30it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.19it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.05it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.96it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.97it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.95it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.97it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.96it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 43.97it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.06it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.30it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.41it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.54it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.62it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.69it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.75it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.75it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.86it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.80it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.59it/s][A100%|██████████| 100/100 [00:02<00:00, 44.38it/s]
+Generating:  14%|█▍        | 14/101 [00:33<03:18,  2.28s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.57it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.37it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.32it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.00it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.18it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.42it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.55it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.63it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.65it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.74it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.78it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.80it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.81it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.66it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.50it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.36it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.35it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.49it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.56it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.59it/s][A100%|██████████| 100/100 [00:02<00:00, 44.53it/s]
+Generating:  15%|█▍        | 15/101 [00:35<03:15,  2.27s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.32it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.17it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.97it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.87it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.77it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.47it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.15it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.99it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.03it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.12it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.08it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.09it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.04it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.07it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.88it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.97it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.98it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.16it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.38it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.54it/s][A100%|██████████| 100/100 [00:02<00:00, 44.30it/s]
+Generating:  16%|█▌        | 16/101 [00:37<03:12,  2.27s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.42it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.25it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.14it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.95it/s][A 22%|██▏       | 22/100 [00:00<00:01, 43.10it/s]
+Generating:  17%|█▋        | 17/101 [00:38<02:26,  1.74s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.18it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.11it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.73it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.51it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.38it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.31it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.31it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.37it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.56it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.71it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.77it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.80it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.81it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.83it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.78it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.76it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.70it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.49it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.38it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.32it/s][A100%|██████████| 100/100 [00:02<00:00, 44.57it/s]
+Generating:  18%|█▊        | 18/101 [00:40<02:37,  1.89s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.01it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.52it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.66it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.73it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.87it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.93it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.91it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.89it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.86it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.74it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.52it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.42it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.33it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.24it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.15it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.10it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.04it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.02it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.01it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.01it/s][A100%|██████████| 100/100 [00:02<00:00, 44.40it/s]
+Generating:  19%|█▉        | 19/101 [00:42<02:44,  2.00s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.36it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.31it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.58it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.63it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.78it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.76it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.80it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.84it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.85it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.88it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.89it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.73it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.23it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.22it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.20it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.21it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.24it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.39it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.52it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.60it/s][A100%|██████████| 100/100 [00:02<00:00, 44.56it/s]
+Generating:  20%|█▉        | 20/101 [00:44<02:48,  2.07s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.29it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.12it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.00it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.96it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.91it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.81it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.62it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.53it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.43it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.52it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.64it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.71it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.77it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.84it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.82it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.79it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.83it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.84it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.64it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.48it/s][A100%|██████████| 100/100 [00:02<00:00, 44.71it/s]
+Generating:  21%|██        | 21/101 [00:47<02:49,  2.12s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.31it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.11it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.01it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.67it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.76it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.77it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.93it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.95it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 43.96it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 43.92it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.15it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.32it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.47it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.62it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.64it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.70it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.71it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.75it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.78it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.68it/s][A100%|██████████| 100/100 [00:02<00:00, 44.33it/s]
+Generating:  22%|██▏       | 22/101 [00:49<02:50,  2.16s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.71it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.44it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.31it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.25it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.27it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.46it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.60it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.66it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.76it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.82it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.85it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.82it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.80it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.75it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.44it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.37it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.29it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.40it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.52it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.58it/s][A100%|██████████| 100/100 [00:02<00:00, 44.56it/s]
+Generating:  23%|██▎       | 23/101 [00:51<02:50,  2.19s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.17it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.08it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.92it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.79it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.71it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.60it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.47it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.29it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.23it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.17it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.13it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.03it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.96it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.92it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.92it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.89it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.89it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.93it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.07it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.30it/s][A100%|██████████| 100/100 [00:02<00:00, 44.25it/s]
+Generating:  24%|██▍       | 24/101 [00:53<02:50,  2.21s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.25it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.05it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.96it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.89it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.89it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.86it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.90it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.82it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.63it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.49it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.35it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.26it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.24it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.37it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.50it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.61it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.65it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.73it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.74it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.77it/s][A100%|██████████| 100/100 [00:02<00:00, 44.67it/s]
+Generating:  25%|██▍       | 25/101 [00:56<02:48,  2.22s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.31it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.14it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.83it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.55it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.45it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.42it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.53it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.62it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.66it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.59it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.58it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.51it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.56it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.49it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.26it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.92it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.57it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.81it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.00it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.24it/s][A100%|██████████| 100/100 [00:02<00:00, 43.99it/s]
+Generating:  26%|██▌       | 26/101 [00:58<02:47,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.40it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.13it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.00it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.00it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.98it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.94it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.06it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.28it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.43it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.55it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.58it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.67it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.69it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.65it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.68it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.62it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.44it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.32it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.30it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.21it/s][A100%|██████████| 100/100 [00:02<00:00, 44.34it/s]
+Generating:  27%|██▋       | 27/101 [01:00<02:45,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.58it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.73it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.72it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.76it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.73it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.72it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.77it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.73it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.72it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.78it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.57it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.40it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.29it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.27it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.36it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.43it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.45it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.48it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.47it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.50it/s][A100%|██████████| 100/100 [00:02<00:00, 44.55it/s]
+Generating:  28%|██▊       | 28/101 [01:02<02:43,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.03it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.89it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.67it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.38it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.20it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.10it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.09it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.02it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.01it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 43.99it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 43.97it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 43.92it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.89it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.88it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.02it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.19it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.29it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.39it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.24it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.33it/s][A100%|██████████| 100/100 [00:02<00:00, 44.18it/s]
+Generating:  29%|██▊       | 29/101 [01:05<02:42,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.08it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.92it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.85it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.67it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.43it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.33it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.25it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.18it/s][A 41%|████      | 41/100 [00:00<00:01, 43.34it/s]
+Generating:  30%|██▉       | 30/101 [01:06<02:12,  1.86s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.80it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.81it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.77it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.73it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.75it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.77it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.78it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.78it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.79it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.66it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.48it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.34it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.26it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.33it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.39it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.41it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.47it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.52it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.55it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.57it/s][A100%|██████████| 100/100 [00:02<00:00, 44.57it/s]
+Generating:  31%|███       | 31/101 [01:08<02:18,  1.98s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.19it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.93it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.53it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.30it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.18it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.09it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.07it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.04it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.03it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.04it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.04it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.03it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.02it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.99it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.13it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.30it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.37it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.44it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.51it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.55it/s][A100%|██████████| 100/100 [00:02<00:00, 44.27it/s]
+Generating:  32%|███▏      | 32/101 [01:10<02:22,  2.06s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.16it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.91it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.83it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.62it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.42it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.28it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.22it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.21it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.26it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 41.27it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 40.97it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 41.67it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.44it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.09it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.56it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.86it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.14it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.99it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 41.31it/s][A
+100%|██████████| 100/100 [00:02<00:00, 41.92it/s][A100%|██████████| 100/100 [00:02<00:00, 43.04it/s]
+Generating:  33%|███▎      | 33/101 [01:13<02:25,  2.14s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.52it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.52it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.63it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.71it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.82it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.86it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.86it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.85it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.80it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.77it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.64it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.46it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.34it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.19it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.10it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.01it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.98it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.01it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.02it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.02it/s][A100%|██████████| 100/100 [00:02<00:00, 44.38it/s]
+Generating:  34%|███▎      | 34/101 [01:15<02:25,  2.18s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.43it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.45it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.56it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.72it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.79it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.74it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.74it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.74it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.79it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.83it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.86it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.67it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.54it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.44it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.34it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.27it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.42it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.54it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.66it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.71it/s][A100%|██████████| 100/100 [00:02<00:00, 44.63it/s]
+Generating:  35%|███▍      | 35/101 [01:17<02:24,  2.20s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.27it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.06it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.88it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.90it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.83it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.69it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.54it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.46it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.45it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.56it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.69it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.71it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.73it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.75it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.69it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.60it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.61it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.57it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.41it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.29it/s][A100%|██████████| 100/100 [00:02<00:00, 44.60it/s]
+Generating:  36%|███▌      | 36/101 [01:19<02:23,  2.21s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.51it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.31it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.14it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.09it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.03it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.00it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.99it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.00it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.01it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.07it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.30it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.46it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.64it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.66it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.71it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.73it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.75it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.78it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.81it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.64it/s][A100%|██████████| 100/100 [00:02<00:00, 44.42it/s]
+Generating:  37%|███▋      | 37/101 [01:22<02:22,  2.22s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.65it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.38it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.29it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.23it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.36it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.51it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.64it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.80it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.85it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.86it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.84it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.88it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.87it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.75it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.56it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.43it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.35it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.48it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.58it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.61it/s][A100%|██████████| 100/100 [00:02<00:00, 44.61it/s]
+Generating:  38%|███▊      | 38/101 [01:24<02:20,  2.23s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.19it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.97it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.81it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.73it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.67it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.63it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.38it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.21it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.13it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.07it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.02it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.00it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.93it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.92it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.88it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.91it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.91it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.91it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.13it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.32it/s][A100%|██████████| 100/100 [00:02<00:00, 44.22it/s]
+Generating:  39%|███▊      | 39/101 [01:26<02:18,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.21it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.07it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.95it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.88it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.84it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.80it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.79it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.66it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.51it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.39it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.32it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.23it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.28it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.35it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.44it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.53it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.58it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.61it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.63it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.63it/s][A100%|██████████| 100/100 [00:02<00:00, 44.59it/s]
+Generating:  40%|███▉      | 40/101 [01:28<02:16,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.23it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.93it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.75it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.52it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.42it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.48it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.54it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.61it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.66it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.77it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.77it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.70it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.68it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.66it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.47it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.27it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.15it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.07it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.01it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.97it/s][A100%|██████████| 100/100 [00:02<00:00, 44.42it/s]
+Generating:  41%|████      | 41/101 [01:31<02:14,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.35it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.36it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.18it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.08it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.03it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.00it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.05it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.33it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.31it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.20it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.25it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.33it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.31it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.32it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.48it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.82it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.75it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.10it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.24it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.39it/s][A100%|██████████| 100/100 [00:02<00:00, 43.83it/s]
+Generating:  42%|████▏     | 42/101 [01:33<02:13,  2.26s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.95it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 45.00it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.96it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.91it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.94it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.94it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.90it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.92it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.86it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.81it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.64it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.52it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.43it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.56it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.63it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.59it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.58it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.59it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.62it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.57it/s][A100%|██████████| 100/100 [00:02<00:00, 44.70it/s]
+Generating:  43%|████▎     | 43/101 [01:35<02:10,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.15it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.95it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.63it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.41it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.25it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.08it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.06it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.01it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.02it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.06it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.03it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 43.97it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.96it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.96it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.16it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.37it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.41it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.43it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.59it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.67it/s][A100%|██████████| 100/100 [00:02<00:00, 44.30it/s]
+Generating:  44%|████▎     | 44/101 [01:37<02:08,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.25it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.13it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.09it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.83it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.59it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.42it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.41it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.36it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.40it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.57it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.67it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.73it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.78it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.84it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.85it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.89it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.92it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.87it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.47it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.34it/s][A100%|██████████| 100/100 [00:02<00:00, 44.64it/s]
+Generating:  45%|████▍     | 45/101 [01:40<02:06,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.67it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.78it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.77it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.81it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.79it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.81it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.78it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.72it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.72it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.70it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.57it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.37it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.19it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.15it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.08it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.00it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.03it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.02it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.02it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.95it/s][A100%|██████████| 100/100 [00:02<00:00, 44.35it/s]
+Generating:  46%|████▌     | 46/101 [01:42<02:03,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.53it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.35it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.51it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.65it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.60it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.56it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.70it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.73it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.85it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.92it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.87it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.68it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.57it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.49it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.39it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.36it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.35it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.48it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.65it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.73it/s][A100%|██████████| 100/100 [00:02<00:00, 44.62it/s]
+Generating:  47%|████▋     | 47/101 [01:44<02:01,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.36it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.20it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.00it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.99it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.97it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.84it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.64it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.55it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.44it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.58it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.73it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.81it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.78it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.78it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.77it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.72it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.64it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.57it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.48it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.32it/s][A100%|██████████| 100/100 [00:02<00:00, 44.66it/s]
+Generating:  48%|████▊     | 48/101 [01:46<01:59,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.89it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.00it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 43.95it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.94it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.95it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.97it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.94it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.00it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.01it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.09it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.32it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.48it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.54it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.51it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.60it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.71it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.76it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.72it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.77it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.65it/s][A100%|██████████| 100/100 [00:02<00:00, 44.36it/s]
+Generating:  49%|████▊     | 49/101 [01:49<01:56,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.64it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.26it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.21it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.26it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.36it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.56it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.67it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.79it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.79it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.80it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.83it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.89it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.84it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.77it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.58it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.46it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.33it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.48it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.59it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.60it/s][A100%|██████████| 100/100 [00:02<00:00, 44.60it/s]
+Generating:  50%|████▉     | 50/101 [01:51<01:54,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.25it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.08it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.95it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.88it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.80it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.80it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.58it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.47it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.27it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.26it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.18it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.11it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.07it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.06it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.05it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.03it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.93it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.94it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.16it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.34it/s][A100%|██████████| 100/100 [00:02<00:00, 44.33it/s]
+Generating:  50%|█████     | 51/101 [01:53<01:52,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.19it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.54it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.41it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.49it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.29it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.41it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.51it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.46it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.24it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.24it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.18it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.22it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.30it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.50it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.55it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.67it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.75it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.75it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.76it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.78it/s][A100%|██████████| 100/100 [00:02<00:00, 44.52it/s]
+Generating:  51%|█████▏    | 52/101 [01:55<01:50,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.49it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.22it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.67it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.51it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.31it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.46it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.61it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.75it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.77it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.88it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.84it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.84it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.76it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.74it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.55it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.37it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.23it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.12it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.13it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.03it/s][A100%|██████████| 100/100 [00:02<00:00, 44.50it/s]
+Generating:  52%|█████▏    | 53/101 [01:58<01:48,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.54it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.14it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.04it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.07it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.12it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.06it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.21it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.43it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.52it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.41it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.53it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.65it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.65it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.66it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.73it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.64it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.47it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.33it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.29it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.24it/s][A100%|██████████| 100/100 [00:02<00:00, 44.38it/s]
+Generating:  53%|█████▎    | 54/101 [02:00<01:45,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.94it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.10it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.98it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.89it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.86it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.88it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.78it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.83it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.83it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.78it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.45it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.39it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.38it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.19it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.37it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.49it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.52it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.39it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.49it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.60it/s][A100%|██████████| 100/100 [00:02<00:00, 44.61it/s]
+Generating:  54%|█████▍    | 55/101 [02:02<01:43,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.35it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.13it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.40it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.61it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.08it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.88it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.73it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.57it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.44it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.48it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.55it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.54it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.49it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.55it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.71it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.81it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.68it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.70it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.84it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.89it/s][A100%|██████████| 100/100 [00:02<00:00, 42.89it/s]
+Generating:  55%|█████▌    | 56/101 [02:04<01:42,  2.27s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.22it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 43.59it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 43.17it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.82it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.63it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.52it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.46it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.42it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.54it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.69it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.79it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.82it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.83it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.90it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.16it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.27it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.15it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.87it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.70it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.53it/s][A100%|██████████| 100/100 [00:02<00:00, 42.80it/s]
+Generating:  56%|█████▋    | 57/101 [02:07<01:40,  2.29s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.63it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 40.15it/s][A
+ 15%|█▌        | 15/100 [00:00<00:02, 40.89it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 41.35it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 41.59it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 41.96it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.21it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.28it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.28it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.23it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.24it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.27it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.23it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.19it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.25it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.26it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 42.26it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.12it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.17it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.35it/s][A100%|██████████| 100/100 [00:02<00:00, 42.08it/s]
+Generating:  57%|█████▋    | 58/101 [02:09<01:39,  2.32s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.40it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 43.07it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.61it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.39it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.59it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.73it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.82it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.82it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.76it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.62it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.54it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.46it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.45it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.54it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.68it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.69it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.79it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.82it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.78it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.84it/s][A100%|██████████| 100/100 [00:02<00:00, 42.70it/s]
+Generating:  58%|█████▊    | 59/101 [02:11<01:37,  2.33s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.58it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 43.19it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.76it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.63it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.48it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.52it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.85it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.90it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.83it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.78it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.87it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.89it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.11it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.08it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.06it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.95it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.93it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.89it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.82it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.80it/s][A100%|██████████| 100/100 [00:02<00:00, 42.86it/s]
+Generating:  59%|█████▉    | 60/101 [02:14<01:35,  2.33s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.99it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.89it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.79it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.26it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.71it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.11it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.57it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.83it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.98it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.10it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.62it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.44it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.72it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.95it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.11it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.07it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.97it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.94it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.95it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.79it/s][A100%|██████████| 100/100 [00:02<00:00, 44.55it/s]
+Generating:  60%|██████    | 61/101 [02:16<01:32,  2.30s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.76it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.74it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.70it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.61it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.62it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.64it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.59it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.66it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.64it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.55it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.39it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.22it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.05it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.18it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.28it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.33it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.10it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 44.31it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.83it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.52it/s][A100%|██████████| 100/100 [00:02<00:00, 44.97it/s]
+Generating:  61%|██████▏   | 62/101 [02:18<01:28,  2.28s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.62it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 43.13it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.74it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.47it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.70it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.90it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.83it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.16it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.93it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.79it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.70it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.69it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.68it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.79it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.77it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.75it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.79it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.10it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.25it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.25it/s][A100%|██████████| 100/100 [00:02<00:00, 42.92it/s]
+Generating:  62%|██████▏   | 63/101 [02:21<01:27,  2.30s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 43.59it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 43.30it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 42.99it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.84it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.22it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.13it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.89it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.81it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 43.06it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 43.82it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.30it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.58it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.87it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.46it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.04it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.77it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.51it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.77it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.16it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.83it/s][A100%|██████████| 100/100 [00:02<00:00, 43.70it/s]
+Generating:  63%|██████▎   | 64/101 [02:23<01:24,  2.29s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.10it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.46it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.40it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.48it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.87it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.81it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.73it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.59it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.03it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.28it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.37it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.45it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.43it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.51it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.55it/s][A 77%|███████▋  | 77/100 [00:01<00:00, 43.79it/s]
+Generating:  64%|██████▍   | 65/101 [02:25<01:16,  2.13s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.06it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.75it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.65it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.63it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.62it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.74it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.97it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.08it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 45.09it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.23it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.34it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.42it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.84it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.31it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.92it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.61it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.96it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.22it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.38it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.58it/s][A100%|██████████| 100/100 [00:02<00:00, 44.63it/s]
+Generating:  65%|██████▌   | 66/101 [02:27<01:15,  2.17s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.87it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.57it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.39it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.47it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.94it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.58it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.01it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.44it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.77it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.84it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.81it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.83it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.95it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.10it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.25it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.25it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.63it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.14it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.74it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.65it/s][A100%|██████████| 100/100 [00:02<00:00, 44.47it/s]
+Generating:  66%|██████▋   | 67/101 [02:29<01:14,  2.19s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.14it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 43.06it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 43.82it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.97it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.06it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.26it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.42it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.54it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.50it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 43.73it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 43.89it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.07it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.15it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.61it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.08it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.68it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.83it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.58it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.12it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.38it/s][A100%|██████████| 100/100 [00:02<00:00, 43.90it/s]
+Generating:  67%|██████▋   | 68/101 [02:31<01:13,  2.22s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.85it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.80it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.35it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.13it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.85it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.12it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.29it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.98it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.82it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.72it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.62it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.52it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.47it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.30it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.32it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.30it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.17it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.10it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.07it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.14it/s][A100%|██████████| 100/100 [00:02<00:00, 42.91it/s]
+Generating:  68%|██████▊   | 69/101 [02:34<01:12,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 42.85it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 42.68it/s][A
+ 15%|█▌        | 15/100 [00:00<00:02, 42.47it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 42.48it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.38it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.38it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.35it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.31it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.04it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 41.97it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 41.85it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 41.78it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 41.72it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 41.64it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 41.64it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 41.60it/s][A
+ 85%|████████▌ | 85/100 [00:02<00:00, 41.53it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 41.59it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 41.59it/s][A
+100%|██████████| 100/100 [00:02<00:00, 41.74it/s][A100%|██████████| 100/100 [00:02<00:00, 41.93it/s]
+Generating:  69%|██████▉   | 70/101 [02:36<01:11,  2.29s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.83it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.50it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.28it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.32it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.36it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.46it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.44it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.47it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.34it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.19it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.98it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.91it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.84it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.89it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.04it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.04it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.13it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.19it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.31it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.34it/s][A100%|██████████| 100/100 [00:02<00:00, 45.22it/s]
+Generating:  70%|███████   | 71/101 [02:38<01:08,  2.27s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.87it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.70it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.52it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.11it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.73it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.72it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.08it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.53it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 43.15it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.87it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.70it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.49it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 42.39it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.34it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.25it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.80it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.18it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.50it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.79it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.08it/s][A100%|██████████| 100/100 [00:02<00:00, 43.57it/s]
+Generating:  71%|███████▏  | 72/101 [02:41<01:06,  2.28s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.98it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.75it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.69it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.64it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.37it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.47it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.87it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.78it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.68it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 41.73it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 41.83it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.66it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.11it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.95it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.87it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.81it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.62it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.49it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.40it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.32it/s][A100%|██████████| 100/100 [00:02<00:00, 42.88it/s]
+Generating:  72%|███████▏  | 73/101 [02:43<01:04,  2.29s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.39it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.42it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.53it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.53it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.53it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.55it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.50it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.52it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.55it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.59it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.31it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.16it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.05it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.05it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.15it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.19it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.27it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.33it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.33it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.41it/s][A100%|██████████| 100/100 [00:02<00:00, 45.36it/s]
+Generating:  73%|███████▎  | 74/101 [02:45<01:01,  2.27s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.55it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.38it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.28it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.28it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 42.78it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 42.47it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.93it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.39it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 43.80it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.02it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.00it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.12it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.26it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.29it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.45it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.70it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.83it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.88it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.04it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.15it/s][A100%|██████████| 100/100 [00:02<00:00, 44.24it/s]
+Generating:  74%|███████▍  | 75/101 [02:47<00:58,  2.27s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 46.08it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.76it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.66it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.55it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.28it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.12it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.05it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.99it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 44.90it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.11it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.25it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.30it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.38it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.41it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.42it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.46it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.47it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 44.87it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.02it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.44it/s][A100%|██████████| 100/100 [00:02<00:00, 44.90it/s]
+Generating:  75%|███████▌  | 76/101 [02:50<00:56,  2.26s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.77it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 43.92it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.60it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.86it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.06it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.09it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.02it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.96it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 45.04it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.05it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.04it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.84it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.71it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.65it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.61it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.58it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.57it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.57it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.52it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.52it/s][A100%|██████████| 100/100 [00:02<00:00, 44.73it/s]
+Generating:  76%|███████▌  | 77/101 [02:52<00:54,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.05it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.78it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.67it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 43.95it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 43.50it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.11it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.86it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.71it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.63it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.61it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.94it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 43.48it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.12it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 42.81it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.61it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.41it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.35it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.83it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 43.48it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.10it/s][A100%|██████████| 100/100 [00:02<00:00, 43.26it/s]
+Generating:  77%|███████▋  | 78/101 [02:54<00:52,  2.27s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 46.06it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.89it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.77it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.70it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.68it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.67it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.59it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.58it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.34it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.21it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.11it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.07it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.09it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.13it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.17it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.23it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.26it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.25it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.19it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.18it/s][A100%|██████████| 100/100 [00:02<00:00, 45.33it/s]
+Generating:  78%|███████▊  | 79/101 [02:56<00:49,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.70it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.09it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.83it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.74it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.55it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 43.64it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 42.98it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.62it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 42.26it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 42.06it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 42.13it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 42.56it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.19it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.73it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.12it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.69it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.34it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 43.52it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.10it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.30it/s][A100%|██████████| 100/100 [00:02<00:00, 43.58it/s]
+Generating:  79%|███████▉  | 80/101 [02:59<00:47,  2.26s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.19it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.05it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.88it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.73it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.81it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.98it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.04it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.14it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.19it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.24it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.34it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.34it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.32it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.30it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.12it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.99it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.89it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 44.96it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.08it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.09it/s][A100%|██████████| 100/100 [00:02<00:00, 45.09it/s]
+Generating:  80%|████████  | 81/101 [03:01<00:45,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.83it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.65it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.52it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.42it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.15it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.38it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.64it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 43.95it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.17it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.27it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.35it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.35it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.38it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.45it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.47it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.49it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.50it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.56it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.68it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.93it/s][A100%|██████████| 100/100 [00:02<00:00, 44.60it/s]
+Generating:  81%|████████  | 82/101 [03:03<00:42,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.72it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.35it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.30it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.39it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.35it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.37it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.45it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.36it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.17it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.07it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 45.00it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.93it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.91it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.03it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.22it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.25it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.31it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.37it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.34it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.40it/s][A100%|██████████| 100/100 [00:02<00:00, 45.26it/s]
+Generating:  82%|████████▏ | 83/101 [03:05<00:40,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.98it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.64it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.38it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.14it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.01it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.95it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.01it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.08it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.23it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.26it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.38it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.35it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.30it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.26it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.22it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.19it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.96it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 44.75it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.63it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.60it/s][A100%|██████████| 100/100 [00:02<00:00, 45.05it/s]
+Generating:  83%|████████▎ | 84/101 [03:08<00:37,  2.23s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.79it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.73it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.65it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.60it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.54it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.56it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.51it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.66it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.92it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.03it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.11it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.11it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.17it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.27it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.34it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.41it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.25it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 45.08it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.97it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.83it/s][A100%|██████████| 100/100 [00:02<00:00, 44.94it/s]
+Generating:  84%|████████▍ | 85/101 [03:10<00:35,  2.23s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.30it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.96it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.05it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.18it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.32it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.31it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.38it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.43it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.42it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.39it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.49it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.25it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.12it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.04it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.96it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.15it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.21it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.23it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.31it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.39it/s][A100%|██████████| 100/100 [00:02<00:00, 45.26it/s]
+Generating:  85%|████████▌ | 86/101 [03:12<00:33,  2.23s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.52it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.43it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.32it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.24it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.00it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.88it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.79it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.72it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.67it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.64it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.54it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.53it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.48it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.42it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.41it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.48it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.71it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.83it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.01it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.05it/s][A100%|██████████| 100/100 [00:02<00:00, 44.80it/s]
+Generating:  86%|████████▌ | 87/101 [03:14<00:31,  2.23s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.74it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.57it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.45it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.45it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.40it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.21it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.99it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.87it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 44.82it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.78it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.82it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.93it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.02it/s][A 66%|██████▌   | 66/100 [00:01<00:00, 44.40it/s]
+Generating:  87%|████████▋ | 88/101 [03:16<00:26,  2.01s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.75it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.26it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.00it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.95it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.89it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.69it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 43.68it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 42.72it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 43.13it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 43.36it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 43.80it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.11it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.49it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.80it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.96it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.28it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.04it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.36it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.63it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.57it/s][A100%|██████████| 100/100 [00:02<00:00, 44.30it/s]
+Generating:  88%|████████▊ | 89/101 [03:18<00:24,  2.08s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.81it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.61it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.52it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.46it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.40it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.38it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.42it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.39it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.39it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.40it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.37it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.50it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.69it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.78it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.86it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.97it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.04it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 45.09it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.19it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.25it/s][A100%|██████████| 100/100 [00:02<00:00, 44.75it/s]
+Generating:  89%|████████▉ | 90/101 [03:20<00:23,  2.13s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.38it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.11it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.93it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.83it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.76it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.64it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.90it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.08it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 45.15it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.22it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.28it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.27it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.31it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.47it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.90it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.37it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.97it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.70it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 42.67it/s][A
+100%|██████████| 100/100 [00:02<00:00, 43.39it/s][A100%|██████████| 100/100 [00:02<00:00, 44.25it/s]
+Generating:  90%|█████████ | 91/101 [03:23<00:21,  2.17s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.78it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.52it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.53it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.45it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.35it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.38it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.31it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.30it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.15it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.92it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.77it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.68it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.39it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.34it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.30it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.33it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.33it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.34it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.37it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.45it/s][A100%|██████████| 100/100 [00:02<00:00, 44.77it/s]
+Generating:  91%|█████████ | 92/101 [03:25<00:19,  2.19s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.61it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.45it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.32it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.29it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.35it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.35it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.32it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.35it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.37it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.18it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.06it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.97it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.90it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.82it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.90it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.06it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.12it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.19it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.22it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.30it/s][A100%|██████████| 100/100 [00:02<00:00, 45.19it/s]
+Generating:  92%|█████████▏| 93/101 [03:27<00:17,  2.20s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.71it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.51it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.42it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.29it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.05it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.88it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.76it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.95it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.08it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.11it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.16it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.20it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.19it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.10it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.13it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.15it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.03it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 44.85it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.72it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.65it/s][A100%|██████████| 100/100 [00:02<00:00, 45.00it/s]
+Generating:  93%|█████████▎| 94/101 [03:29<00:15,  2.20s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.81it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.58it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.48it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.44it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.42it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.45it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.51it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.53it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.61it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.49it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.64it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.62it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.74it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.84it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.91it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.06it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.15it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 45.08it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.97it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.70it/s][A100%|██████████| 100/100 [00:02<00:00, 44.71it/s]
+Generating:  94%|█████████▍| 95/101 [03:31<00:13,  2.22s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 44.90it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.83it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.78it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.02it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.12it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.16it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.22it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.28it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.28it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.26it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.28it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 45.30it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.19it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.03it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.90it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.88it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.01it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.09it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.15it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.26it/s][A100%|██████████| 100/100 [00:02<00:00, 45.13it/s]
+Generating:  95%|█████████▌| 96/101 [03:34<00:11,  2.22s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.81it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.57it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.40it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.31it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.19it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.93it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.77it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.69it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.63it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.55it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.49it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.51it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.56it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.48it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.47it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 44.51it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 44.47it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.66it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.86it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.93it/s][A100%|██████████| 100/100 [00:02<00:00, 44.78it/s]
+Generating:  96%|█████████▌| 97/101 [03:36<00:08,  2.22s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.80it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.54it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.47it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.43it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.42it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.43it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.28it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.11it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 44.97it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.07it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.11it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.34it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 44.66it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 44.82it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 44.97it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.10it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.19it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.24it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.27it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.30it/s][A100%|██████████| 100/100 [00:02<00:00, 45.04it/s]
+Generating:  97%|█████████▋| 98/101 [03:38<00:06,  2.22s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.62it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.04it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.86it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.81it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.89it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.03it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.15it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.06it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.15it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.16it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:00, 45.20it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.45it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.80it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.22it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 42.76it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 42.45it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 42.22it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 42.04it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 41.99it/s][A
+100%|██████████| 100/100 [00:02<00:00, 42.43it/s][A100%|██████████| 100/100 [00:02<00:00, 43.71it/s]
+Generating:  98%|█████████▊| 99/101 [03:40<00:04,  2.24s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.00it/s][A
+ 10%|█         | 10/100 [00:00<00:02, 44.73it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 44.55it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 44.50it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 44.43it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 44.67it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 44.82it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 44.90it/s][A
+ 45%|████▌     | 45/100 [00:01<00:01, 44.98it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 44.40it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 43.90it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 43.52it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 43.20it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 43.02it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 43.00it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 43.49it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 43.86it/s][A
+ 90%|█████████ | 90/100 [00:02<00:00, 44.04it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 44.19it/s][A
+100%|██████████| 100/100 [00:02<00:00, 44.46it/s][A100%|██████████| 100/100 [00:02<00:00, 44.14it/s]
+Generating:  99%|█████████▉| 100/101 [03:43<00:02,  2.25s/it]
+  0%|          | 0/100 [00:00<?, ?it/s][A
+  5%|▌         | 5/100 [00:00<00:02, 45.70it/s][A
+ 10%|█         | 10/100 [00:00<00:01, 45.66it/s][A
+ 15%|█▌        | 15/100 [00:00<00:01, 45.51it/s][A
+ 20%|██        | 20/100 [00:00<00:01, 45.43it/s][A
+ 25%|██▌       | 25/100 [00:00<00:01, 45.39it/s][A
+ 30%|███       | 30/100 [00:00<00:01, 45.36it/s][A
+ 35%|███▌      | 35/100 [00:00<00:01, 45.35it/s][A
+ 40%|████      | 40/100 [00:00<00:01, 45.38it/s][A
+ 45%|████▌     | 45/100 [00:00<00:01, 45.30it/s][A
+ 50%|█████     | 50/100 [00:01<00:01, 45.14it/s][A
+ 55%|█████▌    | 55/100 [00:01<00:01, 44.99it/s][A
+ 60%|██████    | 60/100 [00:01<00:00, 44.90it/s][A
+ 65%|██████▌   | 65/100 [00:01<00:00, 45.02it/s][A
+ 70%|███████   | 70/100 [00:01<00:00, 45.11it/s][A
+ 75%|███████▌  | 75/100 [00:01<00:00, 45.13it/s][A
+ 80%|████████  | 80/100 [00:01<00:00, 45.20it/s][A
+ 85%|████████▌ | 85/100 [00:01<00:00, 45.27it/s][A
+ 90%|█████████ | 90/100 [00:01<00:00, 45.25it/s][A
+ 95%|█████████▌| 95/100 [00:02<00:00, 45.30it/s][A
+100%|██████████| 100/100 [00:02<00:00, 45.28it/s][A100%|██████████| 100/100 [00:02<00:00, 45.25it/s]
+Generating: 100%|██████████| 101/101 [03:45<00:00,  2.24s/it]Generating: 100%|██████████| 101/101 [03:45<00:00,  2.23s/it]
+Saved 101 responses to data/responses/responses_meta-llama_Llama-3.2-1B-Instruct.json

@@ -1,0 +1,8 @@
+Statistic,Value
+observed_divergence,0.000798
+null_mean,0.000394
+null_std,0.000191
+null_min,0.000185
+null_max,0.001251
+p_value,0.0200
+n_null_samples,50

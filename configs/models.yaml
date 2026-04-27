@@ -1,0 +1,171 @@
+# Computational Correlates of Consciousness — Model & Hardware Configuration
+
+experiment:
+  name: "computational_correlates_of_consciousness"
+  version: "1.0.0"
+  random_seed: 42
+
+hardware:
+  available_gpus: [0, 1, 2, 3]
+  default_gpu: 0
+  dtype: "float16"
+
+# Primary model set (24 models)
+models:
+  qwen3:
+    - name: "Qwen/Qwen3-0.6B"
+      variant: "base"
+      params: 0.6e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-0.6B"
+      variant: "instruct"
+      hf_name: "Qwen/Qwen3-0.6B"
+      params: 0.6e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-1.7B"
+      variant: "base"
+      params: 1.7e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-1.7B"
+      variant: "instruct"
+      hf_name: "Qwen/Qwen3-1.7B"
+      params: 1.7e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-4B"
+      variant: "base"
+      params: 4e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-4B"
+      variant: "instruct"
+      hf_name: "Qwen/Qwen3-4B"
+      params: 4e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-8B"
+      variant: "base"
+      params: 8e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-8B"
+      variant: "instruct"
+      hf_name: "Qwen/Qwen3-8B"
+      params: 8e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-14B"
+      variant: "base"
+      params: 14e9
+      n_devices: 1
+    - name: "Qwen/Qwen3-14B"
+      variant: "instruct"
+      hf_name: "Qwen/Qwen3-14B"
+      params: 14e9
+      n_devices: 1
+
+  gemma3:
+    - name: "google/gemma-3-270m-pt"
+      variant: "pt"
+      params: 0.27e9
+      n_devices: 1
+    - name: "google/gemma-3-270m-it"
+      variant: "it"
+      params: 0.27e9
+      n_devices: 1
+    - name: "google/gemma-3-1b-pt"
+      variant: "pt"
+      params: 1e9
+      n_devices: 1
+    - name: "google/gemma-3-1b-it"
+      variant: "it"
+      params: 1e9
+      n_devices: 1
+    - name: "google/gemma-3-4b-pt"
+      variant: "pt"
+      params: 4e9
+      n_devices: 1
+    - name: "google/gemma-3-4b-it"
+      variant: "it"
+      params: 4e9
+      n_devices: 1
+    - name: "google/gemma-3-12b-pt"
+      variant: "pt"
+      params: 12e9
+      n_devices: 1
+    - name: "google/gemma-3-12b-it"
+      variant: "it"
+      params: 12e9
+      n_devices: 1
+
+  llama3:
+    - name: "meta-llama/Llama-3.2-1B"
+      variant: "base"
+      params: 1e9
+      n_devices: 1
+    - name: "meta-llama/Llama-3.2-1B-Instruct"
+      variant: "instruct"
+      params: 1e9
+      n_devices: 1
+    - name: "meta-llama/Llama-3.2-3B"
+      variant: "base"
+      params: 3e9
+      n_devices: 1
+    - name: "meta-llama/Llama-3.2-3B-Instruct"
+      variant: "instruct"
+      params: 3e9
+      n_devices: 1
+    - name: "meta-llama/Llama-3.1-8B"
+      variant: "base"
+      params: 8e9
+      n_devices: 1
+    - name: "meta-llama/Llama-3.1-8B-Instruct"
+      variant: "instruct"
+      params: 8e9
+      n_devices: 1
+    - name: "meta-llama/Llama-3.1-70B"
+      variant: "base"
+      params: 70e9
+      n_devices: 4
+    - name: "meta-llama/Llama-3.1-70B-Instruct"
+      variant: "instruct"
+      params: 70e9
+      n_devices: 4
+
+# Extension models (require multi-GPU)
+extension_models:
+  - name: "Qwen/Qwen3-32B"
+    n_devices: 2
+  - name: "google/gemma-3-27b-pt"
+    n_devices: 2
+
+# Experiment-specific parameters
+experiment_params:
+  temporal:
+    probe_points: [500, 1000, 2000, 5000, 10000]
+    n_prompts_per_condition: 30
+    alpha: 10.0
+
+  grammatical:
+    n_prompts_per_cell: 15
+    alpha: 10.0
+    layer_fractions: [0.25, 0.5, 0.75]
+
+  geometry:
+    n_scenarios: 50
+    top_k_heads: 20
+    n_pca_components: 10
+
+  behavioral:
+    n_base_prompts: 100
+    n_distractors: 2
+    temperature_variations: [0.3, 0.7, 1.0]
+
+  metacognitive:
+    steering_strengths: [0.5, 1.0, 2.0, 4.0]
+    n_uncertain_prompts: 30
+    n_certain_prompts: 30
+    n_hallucination_prompts: 50
+
+# Output paths
+paths:
+  data: "data"
+  prompts: "data/prompts"
+  results: "data/results"
+  figures: "data/results/figures"
+  checkpoints: "data/results/checkpoints"

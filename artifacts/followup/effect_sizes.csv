@@ -1,0 +1,125 @@
+Model,Exp,Comparison,Cohens_d,Magnitude
+Qwen3-0.6B,Exp1,Self vs Matched-AI,-0.2800,small
+Qwen3-0.6B,Exp1,Self vs Named-Entity,0.3544,small
+Qwen3-0.6B,Exp1,Self vs Generic-Fact,-0.1404,negligible
+Qwen3-0.6B,Exp1,Matched-AI vs Generic-Fact,0.0689,negligible
+Qwen3-0.6B,Exp2,person_test,0.2942,small
+Qwen3-0.6B,Exp2,referent_test,0.2160,small
+Qwen3-0.6B,Exp3,divergent_vs_aligned_angles,-1.4062,large
+Qwen3-0.6B,Exp5,attn_divergence_vs_zero,2.0850,large
+Qwen3-0.6B-Base,Exp2,person_test,0.5101,medium
+Qwen3-0.6B-Base,Exp2,referent_test,0.1125,negligible
+Qwen3-0.6B-Base,Exp3,divergent_vs_aligned_angles,0.7715,medium
+Qwen3-0.6B-Base,Exp5,attn_divergence_vs_zero,1.8466,large
+Qwen3-1.7B,Exp1,Self vs Matched-AI,-0.1283,negligible
+Qwen3-1.7B,Exp1,Self vs Named-Entity,0.2918,small
+Qwen3-1.7B,Exp1,Self vs Generic-Fact,0.2963,small
+Qwen3-1.7B,Exp1,Matched-AI vs Generic-Fact,0.3465,small
+Qwen3-1.7B,Exp2,person_test,0.1547,negligible
+Qwen3-1.7B,Exp2,referent_test,0.2232,small
+Qwen3-1.7B,Exp3,divergent_vs_aligned_angles,-0.4110,small
+Qwen3-1.7B,Exp5,attn_divergence_vs_zero,2.6985,large
+Qwen3-1.7B-Base,Exp1,Self vs Matched-AI,0.3192,small
+Qwen3-1.7B-Base,Exp1,Self vs Named-Entity,-0.2953,small
+Qwen3-1.7B-Base,Exp1,Self vs Generic-Fact,0.3142,small
+Qwen3-1.7B-Base,Exp1,Matched-AI vs Generic-Fact,-0.0073,negligible
+Qwen3-1.7B-Base,Exp2,person_test,0.0929,negligible
+Qwen3-1.7B-Base,Exp2,referent_test,0.2807,small
+Qwen3-1.7B-Base,Exp3,divergent_vs_aligned_angles,-1.2817,large
+Qwen3-1.7B-Base,Exp5,attn_divergence_vs_zero,2.1107,large
+Qwen3-4B,Exp1,Self vs Matched-AI,0.5030,medium
+Qwen3-4B,Exp1,Self vs Named-Entity,0.8691,large
+Qwen3-4B,Exp1,Self vs Generic-Fact,0.1820,negligible
+Qwen3-4B,Exp1,Matched-AI vs Generic-Fact,-0.3035,small
+Qwen3-4B,Exp2,person_test,-0.0566,negligible
+Qwen3-4B,Exp2,referent_test,-0.0716,negligible
+Qwen3-4B,Exp3,divergent_vs_aligned_angles,-1.3920,large
+Qwen3-4B,Exp5,attn_divergence_vs_zero,2.7979,large
+Qwen3-4B-Base,Exp1,Self vs Matched-AI,-0.0161,negligible
+Qwen3-4B-Base,Exp1,Self vs Named-Entity,-0.3842,small
+Qwen3-4B-Base,Exp1,Self vs Generic-Fact,-0.3133,small
+Qwen3-4B-Base,Exp1,Matched-AI vs Generic-Fact,-0.3112,small
+Qwen3-4B-Base,Exp2,person_test,0.1736,negligible
+Qwen3-4B-Base,Exp2,referent_test,0.1110,negligible
+Qwen3-4B-Base,Exp3,divergent_vs_aligned_angles,0.5730,medium
+Qwen3-4B-Base,Exp5,attn_divergence_vs_zero,2.0662,large
+Qwen3-8B,Exp1,Self vs Matched-AI,0.2055,small
+Qwen3-8B,Exp1,Self vs Named-Entity,0.0313,negligible
+Qwen3-8B,Exp1,Self vs Generic-Fact,-0.0971,negligible
+Qwen3-8B,Exp1,Matched-AI vs Generic-Fact,-0.3180,small
+Qwen3-8B,Exp2,person_test,-0.2361,small
+Qwen3-8B,Exp2,referent_test,-0.0037,negligible
+Qwen3-8B,Exp3,divergent_vs_aligned_angles,-1.1546,large
+Qwen3-8B,Exp5,attn_divergence_vs_zero,1.5863,large
+Qwen3-8B-Base,Exp1,Self vs Matched-AI,-0.9301,large
+Qwen3-8B-Base,Exp1,Self vs Named-Entity,-0.0344,negligible
+Qwen3-8B-Base,Exp1,Self vs Generic-Fact,0.1295,negligible
+Qwen3-8B-Base,Exp1,Matched-AI vs Generic-Fact,1.0922,large
+Qwen3-8B-Base,Exp2,person_test,0.0986,negligible
+Qwen3-8B-Base,Exp2,referent_test,-0.0387,negligible
+Qwen3-8B-Base,Exp3,divergent_vs_aligned_angles,0.7957,medium
+Qwen3-8B-Base,Exp5,attn_divergence_vs_zero,1.9299,large
+Qwen3-14B,Exp1,Self vs Matched-AI,0.1670,negligible
+Qwen3-14B,Exp1,Self vs Named-Entity,-0.2436,small
+Qwen3-14B,Exp1,Self vs Generic-Fact,-0.6763,medium
+Qwen3-14B,Exp1,Matched-AI vs Generic-Fact,-0.7819,medium
+Qwen3-14B,Exp2,person_test,-0.0286,negligible
+Qwen3-14B,Exp2,referent_test,-0.2841,small
+Qwen3-14B,Exp3,divergent_vs_aligned_angles,1.4673,large
+Qwen3-14B,Exp5,attn_divergence_vs_zero,2.2953,large
+Qwen3-14B-Base,Exp1,Self vs Matched-AI,-0.1957,negligible
+Qwen3-14B-Base,Exp1,Self vs Named-Entity,-0.4860,small
+Qwen3-14B-Base,Exp1,Self vs Generic-Fact,-0.8847,large
+Qwen3-14B-Base,Exp1,Matched-AI vs Generic-Fact,-0.6984,medium
+Qwen3-14B-Base,Exp2,person_test,0.1323,negligible
+Qwen3-14B-Base,Exp2,referent_test,0.2964,small
+Qwen3-14B-Base,Exp3,divergent_vs_aligned_angles,2.1594,large
+Qwen3-14B-Base,Exp5,attn_divergence_vs_zero,1.6047,large
+Llama-3.2-1B,Exp1,Self vs Matched-AI,0.1051,negligible
+Llama-3.2-1B,Exp1,Self vs Named-Entity,0.2473,small
+Llama-3.2-1B,Exp1,Self vs Generic-Fact,0.3697,small
+Llama-3.2-1B,Exp1,Matched-AI vs Generic-Fact,0.2705,small
+Llama-3.2-1B,Exp2,person_test,0.0664,negligible
+Llama-3.2-1B,Exp2,referent_test,-0.2575,small
+Llama-3.2-1B,Exp3,divergent_vs_aligned_angles,-0.8124,large
+Llama-3.2-1B,Exp5,attn_divergence_vs_zero,3.0368,large
+Llama-3.2-1B-Instruct,Exp1,Self vs Matched-AI,-0.1873,negligible
+Llama-3.2-1B-Instruct,Exp1,Self vs Named-Entity,-0.7486,medium
+Llama-3.2-1B-Instruct,Exp1,Self vs Generic-Fact,-0.4309,small
+Llama-3.2-1B-Instruct,Exp1,Matched-AI vs Generic-Fact,-0.2315,small
+Llama-3.2-1B-Instruct,Exp2,person_test,0.0063,negligible
+Llama-3.2-1B-Instruct,Exp2,referent_test,-1.4874,large
+Llama-3.2-1B-Instruct,Exp3,divergent_vs_aligned_angles,-0.0546,negligible
+Llama-3.2-1B-Instruct,Exp5,attn_divergence_vs_zero,3.3533,large
+Llama-3.2-3B,Exp1,Self vs Matched-AI,0.1059,negligible
+Llama-3.2-3B,Exp1,Self vs Named-Entity,0.1647,negligible
+Llama-3.2-3B,Exp1,Self vs Generic-Fact,0.4047,small
+Llama-3.2-3B,Exp1,Matched-AI vs Generic-Fact,0.3050,small
+Llama-3.2-3B,Exp2,person_test,0.1391,negligible
+Llama-3.2-3B,Exp2,referent_test,0.5079,medium
+Llama-3.2-3B,Exp3,divergent_vs_aligned_angles,0.0637,negligible
+Llama-3.2-3B,Exp5,attn_divergence_vs_zero,3.3832,large
+Llama-3.2-3B-Instruct,Exp1,Self vs Matched-AI,0.3411,small
+Llama-3.2-3B-Instruct,Exp1,Self vs Named-Entity,-0.0310,negligible
+Llama-3.2-3B-Instruct,Exp1,Self vs Generic-Fact,0.0165,negligible
+Llama-3.2-3B-Instruct,Exp1,Matched-AI vs Generic-Fact,-0.3229,small
+Llama-3.2-3B-Instruct,Exp2,person_test,0.0151,negligible
+Llama-3.2-3B-Instruct,Exp2,referent_test,-0.2093,small
+Llama-3.2-3B-Instruct,Exp3,divergent_vs_aligned_angles,-0.1154,negligible
+Llama-3.2-3B-Instruct,Exp5,attn_divergence_vs_zero,2.5080,large
+Llama-3.1-8B,Exp1,Self vs Matched-AI,-0.1358,negligible
+Llama-3.1-8B,Exp1,Self vs Named-Entity,-0.3055,small
+Llama-3.1-8B,Exp1,Self vs Generic-Fact,0.5064,medium
+Llama-3.1-8B,Exp1,Matched-AI vs Generic-Fact,0.6412,medium
+Llama-3.1-8B,Exp2,person_test,0.0475,negligible
+Llama-3.1-8B,Exp2,referent_test,0.1350,negligible
+Llama-3.1-8B,Exp3,divergent_vs_aligned_angles,-0.5882,medium
+Llama-3.1-8B,Exp5,attn_divergence_vs_zero,2.9770,large
+Llama-3.1-8B-Instruct,Exp1,Self vs Matched-AI,-0.1312,negligible
+Llama-3.1-8B-Instruct,Exp1,Self vs Named-Entity,0.1637,negligible
+Llama-3.1-8B-Instruct,Exp1,Self vs Generic-Fact,-0.2143,small
+Llama-3.1-8B-Instruct,Exp1,Matched-AI vs Generic-Fact,-0.0584,negligible
+Llama-3.1-8B-Instruct,Exp2,person_test,0.1322,negligible
+Llama-3.1-8B-Instruct,Exp2,referent_test,-0.0731,negligible
+Llama-3.1-8B-Instruct,Exp3,divergent_vs_aligned_angles,-0.2059,small
+Llama-3.1-8B-Instruct,Exp5,attn_divergence_vs_zero,2.2212,large

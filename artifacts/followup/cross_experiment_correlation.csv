@@ -1,0 +1,6 @@
+,exp1 self advantage,exp2 referent neg log p,exp3 divergence effect,exp4 mean accuracy,exp5 behavior change
+exp1 self advantage,1.000*,0.111,-0.350,-0.182,0.271
+exp2 referent neg log p,0.111,1.000*,0.309,0.145,0.134
+exp3 divergence effect,-0.350,0.309,1.000*,0.193,-0.181
+exp4 mean accuracy,-0.182,0.145,0.193,1.000*,-0.016
+exp5 behavior change,0.271,0.134,-0.181,-0.016,1.000*

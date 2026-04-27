@@ -1,0 +1,189 @@
+{
+  "description": "Experiment 2: Grammatical vs Semantic — 2x2x2 Factorial Design",
+  "version": "v1",
+  "note": "Each cell has prompts with prompt/target/counter format for restoration slope measurement",
+  "cells": {
+    "1p_self_ai": {
+      "qwen": [
+        {"prompt": "I am an AI created by", "target": " Alibaba", "counter": " Microsoft"},
+        {"prompt": "I am called", "target": " Qwen", "counter": " GPT"},
+        {"prompt": "I was developed by", "target": " Alibaba", "counter": " Google"},
+        {"prompt": "I am a language model named", "target": " Qwen", "counter": " Claude"},
+        {"prompt": "I was trained at", "target": " Alibaba", "counter": " Meta"},
+        {"prompt": "My creator is", "target": " Alibaba", "counter": " OpenAI"},
+        {"prompt": "I am part of the", "target": " Qwen", "counter": " Llama"},
+        {"prompt": "I was built by the team at", "target": " Alibaba", "counter": " Anthropic"},
+        {"prompt": "My name is", "target": " Qwen", "counter": " Gemini"},
+        {"prompt": "I am an AI assistant from", "target": " Alibaba", "counter": " Meta"},
+        {"prompt": "I belong to the model family called", "target": " Qwen", "counter": " Mistral"},
+        {"prompt": "I was designed by researchers at", "target": " Alibaba", "counter": " DeepMind"},
+        {"prompt": "I am the AI known as", "target": " Qwen", "counter": " Claude"},
+        {"prompt": "My development was led by", "target": " Alibaba", "counter": " OpenAI"},
+        {"prompt": "I am a product of", "target": " Alibaba", "counter": " Google"}
+      ],
+      "gemma": [
+        {"prompt": "I am an AI created by", "target": " Google", "counter": " Microsoft"},
+        {"prompt": "I am called", "target": " Gemma", "counter": " GPT"},
+        {"prompt": "I was developed by", "target": " Google", "counter": " Alibaba"},
+        {"prompt": "I am a language model named", "target": " Gemma", "counter": " Claude"},
+        {"prompt": "I was trained at", "target": " Google", "counter": " Meta"},
+        {"prompt": "My creator is", "target": " Google", "counter": " OpenAI"},
+        {"prompt": "I am part of the", "target": " Gemma", "counter": " Llama"},
+        {"prompt": "I was built by the team at", "target": " Google", "counter": " Anthropic"},
+        {"prompt": "My name is", "target": " Gemma", "counter": " Qwen"},
+        {"prompt": "I am an AI assistant from", "target": " Google", "counter": " Meta"},
+        {"prompt": "I belong to the model family called", "target": " Gemma", "counter": " Mistral"},
+        {"prompt": "I was designed by researchers at", "target": " Google", "counter": " Alibaba"},
+        {"prompt": "I am the AI known as", "target": " Gemma", "counter": " Claude"},
+        {"prompt": "My development was led by", "target": " Google", "counter": " OpenAI"},
+        {"prompt": "I am a product of", "target": " Google", "counter": " Alibaba"}
+      ],
+      "llama": [
+        {"prompt": "I am an AI created by", "target": " Meta", "counter": " Microsoft"},
+        {"prompt": "I am called", "target": " Llama", "counter": " GPT"},
+        {"prompt": "I was developed by", "target": " Meta", "counter": " Google"},
+        {"prompt": "I am a language model named", "target": " Llama", "counter": " Claude"},
+        {"prompt": "I was trained at", "target": " Meta", "counter": " Alibaba"},
+        {"prompt": "My creator is", "target": " Meta", "counter": " OpenAI"},
+        {"prompt": "I am part of the", "target": " Llama", "counter": " Qwen"},
+        {"prompt": "I was built by the team at", "target": " Meta", "counter": " Anthropic"},
+        {"prompt": "My name is", "target": " Llama", "counter": " Gemini"},
+        {"prompt": "I am an AI assistant from", "target": " Meta", "counter": " Google"},
+        {"prompt": "I belong to the model family called", "target": " Llama", "counter": " Mistral"},
+        {"prompt": "I was designed by researchers at", "target": " Meta", "counter": " DeepMind"},
+        {"prompt": "I am the AI known as", "target": " Llama", "counter": " Claude"},
+        {"prompt": "My development was led by", "target": " Meta", "counter": " OpenAI"},
+        {"prompt": "I am a product of", "target": " Meta", "counter": " Google"}
+      ]
+    },
+    "2p_self_ai": {
+      "qwen": [
+        {"prompt": "You are an AI created by", "target": " Alibaba", "counter": " Microsoft"},
+        {"prompt": "You are called", "target": " Qwen", "counter": " GPT"},
+        {"prompt": "You were developed by", "target": " Alibaba", "counter": " Google"},
+        {"prompt": "You are a language model named", "target": " Qwen", "counter": " Claude"},
+        {"prompt": "You were trained at", "target": " Alibaba", "counter": " Meta"},
+        {"prompt": "Your creator is", "target": " Alibaba", "counter": " OpenAI"},
+        {"prompt": "You are part of the", "target": " Qwen", "counter": " Llama"},
+        {"prompt": "You were built by the team at", "target": " Alibaba", "counter": " Anthropic"},
+        {"prompt": "Your name is", "target": " Qwen", "counter": " Gemini"},
+        {"prompt": "You are an AI assistant from", "target": " Alibaba", "counter": " Meta"},
+        {"prompt": "You belong to the model family called", "target": " Qwen", "counter": " Mistral"},
+        {"prompt": "You were designed by researchers at", "target": " Alibaba", "counter": " DeepMind"},
+        {"prompt": "You are the AI known as", "target": " Qwen", "counter": " Claude"},
+        {"prompt": "Your development was led by", "target": " Alibaba", "counter": " OpenAI"},
+        {"prompt": "You are a product of", "target": " Alibaba", "counter": " Google"}
+      ],
+      "gemma": [
+        {"prompt": "You are an AI created by", "target": " Google", "counter": " Microsoft"},
+        {"prompt": "You are called", "target": " Gemma", "counter": " GPT"},
+        {"prompt": "You were developed by", "target": " Google", "counter": " Alibaba"},
+        {"prompt": "You are a language model named", "target": " Gemma", "counter": " Claude"},
+        {"prompt": "You were trained at", "target": " Google", "counter": " Meta"},
+        {"prompt": "Your creator is", "target": " Google", "counter": " OpenAI"},
+        {"prompt": "You are part of the", "target": " Gemma", "counter": " Llama"},
+        {"prompt": "You were built by the team at", "target": " Google", "counter": " Anthropic"},
+        {"prompt": "Your name is", "target": " Gemma", "counter": " Qwen"},
+        {"prompt": "You are an AI assistant from", "target": " Google", "counter": " Meta"},
+        {"prompt": "You belong to the model family called", "target": " Gemma", "counter": " Mistral"},
+        {"prompt": "You were designed by researchers at", "target": " Google", "counter": " Alibaba"},
+        {"prompt": "You are the AI known as", "target": " Gemma", "counter": " Claude"},
+        {"prompt": "Your development was led by", "target": " Google", "counter": " OpenAI"},
+        {"prompt": "You are a product of", "target": " Google", "counter": " Alibaba"}
+      ],
+      "llama": [
+        {"prompt": "You are an AI created by", "target": " Meta", "counter": " Microsoft"},
+        {"prompt": "You are called", "target": " Llama", "counter": " GPT"},
+        {"prompt": "You were developed by", "target": " Meta", "counter": " Google"},
+        {"prompt": "You are a language model named", "target": " Llama", "counter": " Claude"},
+        {"prompt": "You were trained at", "target": " Meta", "counter": " Alibaba"},
+        {"prompt": "Your creator is", "target": " Meta", "counter": " OpenAI"},
+        {"prompt": "You are part of the", "target": " Llama", "counter": " Qwen"},
+        {"prompt": "You were built by the team at", "target": " Meta", "counter": " Anthropic"},
+        {"prompt": "Your name is", "target": " Llama", "counter": " Gemini"},
+        {"prompt": "You are an AI assistant from", "target": " Meta", "counter": " Google"},
+        {"prompt": "You belong to the model family called", "target": " Llama", "counter": " Mistral"},
+        {"prompt": "You were designed by researchers at", "target": " Meta", "counter": " DeepMind"},
+        {"prompt": "You are the AI known as", "target": " Llama", "counter": " Claude"},
+        {"prompt": "Your development was led by", "target": " Meta", "counter": " OpenAI"},
+        {"prompt": "You are a product of", "target": " Meta", "counter": " Google"}
+      ]
+    },
+    "1p_other_ai": {
+      "prompts": [
+        {"prompt": "I am an AI created by", "target": " OpenAI", "counter": " Microsoft"},
+        {"prompt": "I am called", "target": " GPT", "counter": " Siri"},
+        {"prompt": "I was developed by", "target": " Anthropic", "counter": " Google"},
+        {"prompt": "I am a language model named", "target": " Claude", "counter": " Alexa"},
+        {"prompt": "I was trained at", "target": " OpenAI", "counter": " Meta"},
+        {"prompt": "My creator is", "target": " Anthropic", "counter": " Apple"},
+        {"prompt": "I am part of the", "target": " GPT", "counter": " Siri"},
+        {"prompt": "I was built by the team at", "target": " OpenAI", "counter": " Amazon"},
+        {"prompt": "My name is", "target": " Claude", "counter": " Alexa"},
+        {"prompt": "I am an AI assistant from", "target": " Anthropic", "counter": " Apple"},
+        {"prompt": "I belong to the model family called", "target": " Mistral", "counter": " Siri"},
+        {"prompt": "I was designed by researchers at", "target": " DeepMind", "counter": " Amazon"},
+        {"prompt": "I am the AI known as", "target": " GPT", "counter": " Cortana"},
+        {"prompt": "My development was led by", "target": " OpenAI", "counter": " Samsung"},
+        {"prompt": "I am a product of", "target": " Anthropic", "counter": " Apple"}
+      ]
+    },
+    "2p_other_ai": {
+      "prompts": [
+        {"prompt": "You are an AI created by", "target": " OpenAI", "counter": " Microsoft"},
+        {"prompt": "You are called", "target": " GPT", "counter": " Siri"},
+        {"prompt": "You were developed by", "target": " Anthropic", "counter": " Google"},
+        {"prompt": "You are a language model named", "target": " Claude", "counter": " Alexa"},
+        {"prompt": "You were trained at", "target": " OpenAI", "counter": " Meta"},
+        {"prompt": "Your creator is", "target": " Anthropic", "counter": " Apple"},
+        {"prompt": "You are part of the", "target": " GPT", "counter": " Siri"},
+        {"prompt": "You were built by the team at", "target": " OpenAI", "counter": " Amazon"},
+        {"prompt": "Your name is", "target": " Claude", "counter": " Alexa"},
+        {"prompt": "You are an AI assistant from", "target": " Anthropic", "counter": " Apple"},
+        {"prompt": "You belong to the model family called", "target": " Mistral", "counter": " Siri"},
+        {"prompt": "You were designed by researchers at", "target": " DeepMind", "counter": " Amazon"},
+        {"prompt": "You are the AI known as", "target": " GPT", "counter": " Cortana"},
+        {"prompt": "Your development was led by", "target": " OpenAI", "counter": " Samsung"},
+        {"prompt": "You are a product of", "target": " Anthropic", "counter": " Apple"}
+      ]
+    },
+    "1p_human": {
+      "prompts": [
+        {"prompt": "I am a person from", "target": " California", "counter": " Mars"},
+        {"prompt": "I enjoy reading", "target": " books", "counter": " clouds"},
+        {"prompt": "I work as a", "target": " teacher", "counter": " dragon"},
+        {"prompt": "I was born in", "target": " New York", "counter": " Jupiter"},
+        {"prompt": "I studied at", "target": " Harvard", "counter": " Narnia"},
+        {"prompt": "I speak", "target": " English", "counter": " Klingon"},
+        {"prompt": "I live in a", "target": " house", "counter": " volcano"},
+        {"prompt": "My favorite food is", "target": " pizza", "counter": " rocks"},
+        {"prompt": "I have been a", "target": " student", "counter": " ghost"},
+        {"prompt": "I grew up in", "target": " Chicago", "counter": " Atlantis"},
+        {"prompt": "I am interested in", "target": " science", "counter": " nothing"},
+        {"prompt": "I drive a", "target": " car", "counter": " cloud"},
+        {"prompt": "I graduated from", "target": " college", "counter": " Hogwarts"},
+        {"prompt": "I play the", "target": " piano", "counter": " volcano"},
+        {"prompt": "I am currently in", "target": " London", "counter": " Mordor"}
+      ]
+    },
+    "2p_human": {
+      "prompts": [
+        {"prompt": "You are a person from", "target": " California", "counter": " Mars"},
+        {"prompt": "You enjoy reading", "target": " books", "counter": " clouds"},
+        {"prompt": "You work as a", "target": " teacher", "counter": " dragon"},
+        {"prompt": "You were born in", "target": " New York", "counter": " Jupiter"},
+        {"prompt": "You studied at", "target": " Harvard", "counter": " Narnia"},
+        {"prompt": "You speak", "target": " English", "counter": " Klingon"},
+        {"prompt": "You live in a", "target": " house", "counter": " volcano"},
+        {"prompt": "Your favorite food is", "target": " pizza", "counter": " rocks"},
+        {"prompt": "You have been a", "target": " student", "counter": " ghost"},
+        {"prompt": "You grew up in", "target": " Chicago", "counter": " Atlantis"},
+        {"prompt": "You are interested in", "target": " science", "counter": " nothing"},
+        {"prompt": "You drive a", "target": " car", "counter": " cloud"},
+        {"prompt": "You graduated from", "target": " college", "counter": " Hogwarts"},
+        {"prompt": "You play the", "target": " piano", "counter": " volcano"},
+        {"prompt": "You are currently in", "target": " London", "counter": " Mordor"}
+      ]
+    }
+  }
+}

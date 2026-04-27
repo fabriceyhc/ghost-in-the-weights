@@ -1,0 +1,16 @@
+Model,Overall_Mean_R2,Flag,N_fits
+Qwen3-0.6B,0.9371,OK,55
+Qwen3-1.7B,0.1313,POOR,101
+Qwen3-1.7B-Base,0.1700,POOR,105
+Qwen3-4B,0.7965,OK,64
+Qwen3-4B-Base,0.7644,OK,55
+Qwen3-8B,0.6736,OK,68
+Qwen3-8B-Base,0.5564,OK,62
+Qwen3-14B,0.1004,POOR,106
+Qwen3-14B-Base,0.0647,POOR,104
+Llama-3.2-1B,0.5082,OK,59
+Llama-3.2-1B-Instruct,0.4214,MARGINAL,61
+Llama-3.2-3B,0.0237,POOR,120
+Llama-3.2-3B-Instruct,0.0279,POOR,120
+Llama-3.1-8B,0.7144,OK,55
+Llama-3.1-8B-Instruct,0.6914,OK,57

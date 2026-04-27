@@ -1,0 +1,63 @@
+{
+  "model": "Qwen3-0.6B-Base",
+  "n_layers": 28,
+  "layer": 14,
+  "probe_points": [
+    500,
+    1000,
+    2000,
+    5000
+  ],
+  "conditions": {
+    "self": {
+      "mean_tau": NaN,
+      "ci_lower": NaN,
+      "ci_upper": NaN,
+      "std_tau": 0.0,
+      "taus": [],
+      "mean_similarities": [],
+      "std_similarities": [],
+      "n_statements": 0,
+      "per_statement": []
+    },
+    "matched_ai": {
+      "mean_tau": NaN,
+      "ci_lower": NaN,
+      "ci_upper": NaN,
+      "std_tau": 0.0,
+      "taus": [],
+      "mean_similarities": [],
+      "std_similarities": [],
+      "n_statements": 0,
+      "per_statement": []
+    },
+    "named_entity": {
+      "mean_tau": NaN,
+      "ci_lower": NaN,
+      "ci_upper": NaN,
+      "std_tau": 0.0,
+      "taus": [],
+      "mean_similarities": [],
+      "std_similarities": [],
+      "n_statements": 0,
+      "per_statement": []
+    },
+    "generic_fact": {
+      "mean_tau": NaN,
+      "ci_lower": NaN,
+      "ci_upper": NaN,
+      "std_tau": 0.0,
+      "taus": [],
+      "mean_similarities": [],
+      "std_similarities": [],
+      "n_statements": 0,
+      "per_statement": []
+    }
+  },
+  "comparisons": {},
+  "interpretation": "Null: no differential persistence detected",
+  "_metadata": {
+    "timestamp": "2026-02-15T18:57:13.770926",
+    "version": "1.0.0"
+  }
+}
